@@ -19,13 +19,12 @@ final class TaskData
 {
     private TaskData() { }
 
-    static Map<SlayerMaster, List<SlayerTask>> load()
+    static Map<SlayerMaster, List<SlayerTask>> load(Gson gson)
     {
         InputStream stream = TaskData.class.getResourceAsStream("/slayertaskodds/wiki-tasks.json");
         if (stream == null) throw new IllegalStateException("Missing Slayer task data");
         try (InputStreamReader reader = new InputStreamReader(stream, StandardCharsets.UTF_8))
         {
-            Gson gson = new Gson();
             JsonObject root = new JsonParser().parse(reader).getAsJsonObject();
             Map<SlayerMaster, List<SlayerTask>> tasks = new EnumMap<>(SlayerMaster.class);
             for (Map.Entry<String, JsonElement> entry : root.entrySet())

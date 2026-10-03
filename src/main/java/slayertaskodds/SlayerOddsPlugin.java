@@ -1,5 +1,6 @@
 package slayertaskodds;
 
+import com.google.gson.Gson;
 import com.google.inject.Provides;
 import java.awt.Color;
 import java.awt.image.BufferedImage;
@@ -36,6 +37,7 @@ public class SlayerOddsPlugin extends Plugin
     @Inject private ClientToolbar toolbar;
     @Inject private ConfigManager configManager;
     @Inject private SlayerOddsConfig config;
+    @Inject private Gson gson;
     private volatile SlayerOddsPanel panel;
     private NavigationButton navigation;
     private Map<SlayerMaster, List<SlayerTask>> tasks;
@@ -51,7 +53,7 @@ public class SlayerOddsPlugin extends Plugin
     @Override
     protected void startUp()
     {
-        tasks = TaskData.load();
+        tasks = TaskData.load(gson);
         running = true;
         lastRender = null;
         migrateBlockSettings();

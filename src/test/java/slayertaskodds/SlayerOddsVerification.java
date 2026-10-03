@@ -21,7 +21,7 @@ public final class SlayerOddsVerification
 {
     public static void main(String[] args) throws Exception
     {
-        Map<SlayerMaster, List<SlayerTask>> tables = TaskData.load();
+        Map<SlayerMaster, List<SlayerTask>> tables = TaskData.load(new Gson());
         List<Fixture> fixtures;
         try (InputStreamReader reader = new InputStreamReader(
             SlayerOddsVerification.class.getResourceAsStream("/slayertaskodds/wiki-fixtures.json"), StandardCharsets.UTF_8))
