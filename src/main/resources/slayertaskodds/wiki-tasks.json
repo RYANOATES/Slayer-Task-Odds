@@ -1,0 +1,3589 @@
+{
+  "TURAEL": [
+    {
+      "name": "Banshees",
+      "weight": 8,
+      "stats": {
+        "Slayer": 15,
+        "Combat": 20
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Bats",
+      "weight": 7,
+      "stats": {
+        "Combat": 5
+      },
+      "quests": []
+    },
+    {
+      "name": "Bears",
+      "weight": 7,
+      "stats": {
+        "Combat": 13
+      },
+      "quests": []
+    },
+    {
+      "name": "Birds",
+      "weight": 6,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Cave bugs",
+      "weight": 8,
+      "stats": {
+        "Slayer": 7
+      },
+      "quests": []
+    },
+    {
+      "name": "Cave crawlers",
+      "weight": 8,
+      "stats": {
+        "Slayer": 10,
+        "Combat": 10
+      },
+      "quests": []
+    },
+    {
+      "name": "Cave slime",
+      "weight": 8,
+      "stats": {
+        "Slayer": 17,
+        "Combat": 15
+      },
+      "quests": []
+    },
+    {
+      "name": "Cows",
+      "weight": 8,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Crawling Hands",
+      "weight": 8,
+      "stats": {
+        "Slayer": 5
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Dogs",
+      "weight": 7,
+      "stats": {
+        "Combat": 15
+      },
+      "quests": []
+    },
+    {
+      "name": "Dwarves",
+      "weight": 7,
+      "stats": {
+        "Combat": 6
+      },
+      "quests": []
+    },
+    {
+      "name": "Ghosts",
+      "weight": 7,
+      "stats": {
+        "Combat": 13
+      },
+      "quests": []
+    },
+    {
+      "name": "Goblins",
+      "weight": 7,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Icefiends",
+      "weight": 8,
+      "stats": {
+        "Combat": 20
+      },
+      "quests": []
+    },
+    {
+      "name": "Kalphites",
+      "weight": 6,
+      "stats": {
+        "Combat": 15
+      },
+      "quests": []
+    },
+    {
+      "name": "Lizards",
+      "weight": 8,
+      "stats": {
+        "Slayer": 22
+      },
+      "quests": []
+    },
+    {
+      "name": "Minotaurs",
+      "weight": 7,
+      "stats": {
+        "Combat": 7
+      },
+      "quests": []
+    },
+    {
+      "name": "Monkey",
+      "weight": 6,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Rats",
+      "weight": 7,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Scorpions",
+      "weight": 7,
+      "stats": {
+        "Combat": 7
+      },
+      "quests": []
+    },
+    {
+      "name": "Skeletons",
+      "weight": 7,
+      "stats": {
+        "Combat": 15
+      },
+      "quests": []
+    },
+    {
+      "name": "Spiders",
+      "weight": 6,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Wolves",
+      "weight": 7,
+      "stats": {
+        "Combat": 20
+      },
+      "quests": []
+    },
+    {
+      "name": "Zombies",
+      "weight": 7,
+      "stats": {
+        "Combat": 10
+      },
+      "quests": []
+    }
+  ],
+  "KRYSTILIA": [
+    {
+      "name": "Abyssal demons",
+      "weight": 5,
+      "stats": {
+        "Slayer": 85
+      },
+      "quests": [
+        "Priest in Peril"
+      ],
+      "unlock": "I Wildy More Slayer"
+    },
+    {
+      "name": "Ankou",
+      "weight": 6,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Aviansie",
+      "weight": 7,
+      "stats": {},
+      "quests": [],
+      "unlock": "Watch the birdie",
+      "other": "Access GWD"
+    },
+    {
+      "name": "Bandits",
+      "weight": 4,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Bears",
+      "weight": 6,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Black demons",
+      "weight": 7,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Black dragons",
+      "weight": 4,
+      "stats": {},
+      "quests": [
+        "Dragon Slayer"
+      ]
+    },
+    {
+      "name": "Black knights",
+      "weight": 3,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Bloodveld",
+      "weight": 4,
+      "stats": {
+        "Slayer": 50
+      },
+      "quests": [],
+      "other": "Access GWD"
+    },
+    {
+      "name": "Boss",
+      "weight": 8,
+      "stats": {},
+      "quests": [],
+      "unlock": "Like a boss",
+      "subtasks": [
+        {
+          "name": "Callisto",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Chaos Elemental",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Chaos Fanatic",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Crazy Archaeologist",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Scorpia",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Venenatis",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Vetion",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        }
+      ]
+    },
+    {
+      "name": "Chaos druids",
+      "weight": 5,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Dark warriors",
+      "weight": 4,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Dust devils",
+      "weight": 5,
+      "stats": {
+        "Slayer": 65
+      },
+      "quests": [
+        "Desert Treasure"
+      ],
+      "unlock": "I Wildy More Slayer"
+    },
+    {
+      "name": "Earth warriors",
+      "weight": 6,
+      "stats": {
+        "Agility": 15
+      },
+      "quests": []
+    },
+    {
+      "name": "Ents",
+      "weight": 5,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Fire giants",
+      "weight": 7,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Greater demons",
+      "weight": 8,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Green dragons",
+      "weight": 4,
+      "stats": {},
+      "quests": [
+        "Dragon Slayer"
+      ]
+    },
+    {
+      "name": "Hellhounds",
+      "weight": 7,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Hill Giants",
+      "weight": 3,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Ice giants",
+      "weight": 6,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Ice warriors",
+      "weight": 7,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Jellies",
+      "weight": 5,
+      "stats": {
+        "Slayer": 52
+      },
+      "quests": [],
+      "unlock": "I Wildy More Slayer"
+    },
+    {
+      "name": "Lava dragons",
+      "weight": 3,
+      "stats": {},
+      "quests": [
+        "Dragon Slayer"
+      ]
+    },
+    {
+      "name": "Lesser demons",
+      "weight": 6,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Magic axes",
+      "weight": 7,
+      "stats": {
+        "Thieving": 23
+      },
+      "quests": []
+    },
+    {
+      "name": "Mammoths",
+      "weight": 6,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Moss giants",
+      "weight": 4,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Nechryael",
+      "weight": 5,
+      "stats": {
+        "Slayer": 80
+      },
+      "quests": [
+        "Priest in Peril"
+      ],
+      "unlock": "I Wildy More Slayer"
+    },
+    {
+      "name": "Pirates",
+      "weight": 3,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Revenants",
+      "weight": 5,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Rogues",
+      "weight": 5,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Scorpions",
+      "weight": 6,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Skeletons",
+      "weight": 5,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Spiders",
+      "weight": 6,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Spiritual creatures",
+      "weight": 6,
+      "stats": {
+        "Slayer": 63
+      },
+      "quests": [
+        "Death Plateau"
+      ],
+      "other": "Access GWD"
+    },
+    {
+      "name": "Zombies",
+      "weight": 3,
+      "stats": {},
+      "quests": []
+    }
+  ],
+  "MAZCHNA": [
+    {
+      "name": "Banshees",
+      "weight": 8,
+      "stats": {
+        "Slayer": 15,
+        "Combat": 20
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Bats",
+      "weight": 7,
+      "stats": {
+        "Combat": 5
+      },
+      "quests": []
+    },
+    {
+      "name": "Bears",
+      "weight": 6,
+      "stats": {
+        "Combat": 13
+      },
+      "quests": []
+    },
+    {
+      "name": "Catablepon",
+      "weight": 8,
+      "stats": {
+        "Combat": 35
+      },
+      "quests": []
+    },
+    {
+      "name": "Cave bugs",
+      "weight": 8,
+      "stats": {
+        "Slayer": 7
+      },
+      "quests": []
+    },
+    {
+      "name": "Cave crawlers",
+      "weight": 8,
+      "stats": {
+        "Slayer": 10,
+        "Combat": 10
+      },
+      "quests": []
+    },
+    {
+      "name": "Cave slime",
+      "weight": 8,
+      "stats": {
+        "Slayer": 17,
+        "Combat": 15
+      },
+      "quests": []
+    },
+    {
+      "name": "Cockatrice",
+      "weight": 8,
+      "stats": {
+        "Slayer": 25,
+        "Defence": 20,
+        "Combat": 25
+      },
+      "quests": []
+    },
+    {
+      "name": "Crabs",
+      "weight": 8,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Crawling Hands",
+      "weight": 8,
+      "stats": {
+        "Slayer": 5
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Dogs",
+      "weight": 7,
+      "stats": {
+        "Combat": 15
+      },
+      "quests": []
+    },
+    {
+      "name": "Flesh Crawlers",
+      "weight": 7,
+      "stats": {
+        "Combat": 15
+      },
+      "quests": []
+    },
+    {
+      "name": "Ghosts",
+      "weight": 7,
+      "stats": {
+        "Combat": 13
+      },
+      "quests": []
+    },
+    {
+      "name": "Ghouls",
+      "weight": 7,
+      "stats": {
+        "Combat": 25
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Hill Giants",
+      "weight": 7,
+      "stats": {
+        "Combat": 25
+      },
+      "quests": []
+    },
+    {
+      "name": "Hobgoblins",
+      "weight": 7,
+      "stats": {
+        "Combat": 20
+      },
+      "quests": []
+    },
+    {
+      "name": "Ice warriors",
+      "weight": 7,
+      "stats": {
+        "Combat": 45
+      },
+      "quests": []
+    },
+    {
+      "name": "Kalphites",
+      "weight": 6,
+      "stats": {
+        "Combat": 15
+      },
+      "quests": []
+    },
+    {
+      "name": "Killerwatts",
+      "weight": 6,
+      "stats": {
+        "Slayer": 37,
+        "Combat": 50
+      },
+      "quests": [
+        "Ernest the Chicken"
+      ]
+    },
+    {
+      "name": "Lizards",
+      "weight": 8,
+      "stats": {
+        "Slayer": 22
+      },
+      "quests": []
+    },
+    {
+      "name": "Mogres",
+      "weight": 8,
+      "stats": {
+        "Slayer": 32,
+        "Combat": 30
+      },
+      "quests": [
+        "Skippy and the Mogres"
+      ]
+    },
+    {
+      "name": "Pyrefiends",
+      "weight": 8,
+      "stats": {
+        "Slayer": 30,
+        "Combat": 25
+      },
+      "quests": []
+    },
+    {
+      "name": "Rockslugs",
+      "weight": 8,
+      "stats": {
+        "Slayer": 20,
+        "Combat": 20
+      },
+      "quests": []
+    },
+    {
+      "name": "Scorpions",
+      "weight": 7,
+      "stats": {
+        "Combat": 7
+      },
+      "quests": []
+    },
+    {
+      "name": "Shades",
+      "weight": 8,
+      "stats": {
+        "Combat": 30
+      },
+      "quests": []
+    },
+    {
+      "name": "Skeletons",
+      "weight": 7,
+      "stats": {
+        "Combat": 15
+      },
+      "quests": []
+    },
+    {
+      "name": "Vampyres",
+      "weight": 6,
+      "stats": {
+        "Combat": 35
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Wall beasts",
+      "weight": 7,
+      "stats": {
+        "Slayer": 35,
+        "Defence": 5,
+        "Combat": 30
+      },
+      "quests": []
+    },
+    {
+      "name": "Wolves",
+      "weight": 7,
+      "stats": {
+        "Combat": 20
+      },
+      "quests": []
+    },
+    {
+      "name": "Zombies",
+      "weight": 7,
+      "stats": {
+        "Combat": 10
+      },
+      "quests": []
+    }
+  ],
+  "VANNAKA": [
+    {
+      "name": "Aberrant spectres",
+      "weight": 8,
+      "stats": {
+        "Slayer": 60,
+        "Combat": 65
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Abyssal demons",
+      "weight": 5,
+      "stats": {
+        "Slayer": 85,
+        "Combat": 85
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Ankou",
+      "weight": 7,
+      "stats": {
+        "Combat": 40
+      },
+      "quests": []
+    },
+    {
+      "name": "Basilisk",
+      "weight": 8,
+      "stats": {
+        "Slayer": 40,
+        "Defence": 20,
+        "Combat": 40
+      },
+      "quests": []
+    },
+    {
+      "name": "Bloodveld",
+      "weight": 8,
+      "stats": {
+        "Slayer": 50,
+        "Combat": 50
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Blue dragons",
+      "weight": 7,
+      "stats": {
+        "Combat": 65
+      },
+      "quests": [
+        "Dragon Slayer"
+      ]
+    },
+    {
+      "name": "Brine rats",
+      "weight": 7,
+      "stats": {
+        "Slayer": 47,
+        "Combat": 45
+      },
+      "quests": [
+        "Olafs Quest"
+      ]
+    },
+    {
+      "name": "Cockatrice",
+      "weight": 8,
+      "stats": {
+        "Slayer": 25,
+        "Defence": 20,
+        "Combat": 25
+      },
+      "quests": []
+    },
+    {
+      "name": "Crabs",
+      "weight": 8,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Crocodiles",
+      "weight": 6,
+      "stats": {
+        "Combat": 50
+      },
+      "quests": []
+    },
+    {
+      "name": "Dagannoth",
+      "weight": 7,
+      "stats": {
+        "Combat": 75
+      },
+      "quests": [
+        "Horror from the Deep"
+      ]
+    },
+    {
+      "name": "Dust devils",
+      "weight": 8,
+      "stats": {
+        "Slayer": 65,
+        "Combat": 70
+      },
+      "quests": [
+        "Desert Treasure"
+      ]
+    },
+    {
+      "name": "Elves",
+      "weight": 7,
+      "stats": {
+        "Combat": 70
+      },
+      "quests": [
+        "Regicide"
+      ]
+    },
+    {
+      "name": "Fever spiders",
+      "weight": 7,
+      "stats": {
+        "Slayer": 42,
+        "Combat": 40
+      },
+      "quests": [
+        "Rum Deal"
+      ]
+    },
+    {
+      "name": "Fire giants",
+      "weight": 7,
+      "stats": {
+        "Combat": 65
+      },
+      "quests": []
+    },
+    {
+      "name": "Gargoyles",
+      "weight": 5,
+      "stats": {
+        "Slayer": 75,
+        "Combat": 80
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Ghouls",
+      "weight": 7,
+      "stats": {
+        "Combat": 25
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Gryphons",
+      "weight": 10,
+      "stats": {
+        "Slayer": 51,
+        "Sailing": 45
+      },
+      "quests": [
+        "Troubled Tortugans"
+      ]
+    },
+    {
+      "name": "Harpie Bug Swarms",
+      "weight": 8,
+      "stats": {
+        "Slayer": 33,
+        "Firemaking": 33,
+        "Combat": 45
+      },
+      "quests": []
+    },
+    {
+      "name": "Hellhounds",
+      "weight": 7,
+      "stats": {
+        "Combat": 75
+      },
+      "quests": []
+    },
+    {
+      "name": "Hill Giants",
+      "weight": 7,
+      "stats": {
+        "Combat": 25
+      },
+      "quests": []
+    },
+    {
+      "name": "Hobgoblins",
+      "weight": 7,
+      "stats": {
+        "Combat": 20
+      },
+      "quests": []
+    },
+    {
+      "name": "Ice giants",
+      "weight": 7,
+      "stats": {
+        "Combat": 50
+      },
+      "quests": []
+    },
+    {
+      "name": "Ice warriors",
+      "weight": 7,
+      "stats": {
+        "Combat": 45
+      },
+      "quests": []
+    },
+    {
+      "name": "Infernal Mages",
+      "weight": 8,
+      "stats": {
+        "Slayer": 45,
+        "Combat": 40
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Jellies",
+      "weight": 8,
+      "stats": {
+        "Slayer": 52,
+        "Combat": 57
+      },
+      "quests": []
+    },
+    {
+      "name": "Jungle horrors",
+      "weight": 8,
+      "stats": {
+        "Combat": 65
+      },
+      "quests": [
+        "Cabin Fever"
+      ]
+    },
+    {
+      "name": "Kalphites",
+      "weight": 7,
+      "stats": {
+        "Combat": 15
+      },
+      "quests": []
+    },
+    {
+      "name": "Kurask",
+      "weight": 7,
+      "stats": {
+        "Slayer": 70,
+        "Combat": 65
+      },
+      "quests": []
+    },
+    {
+      "name": "Lesser demons",
+      "weight": 7,
+      "stats": {
+        "Combat": 60
+      },
+      "quests": []
+    },
+    {
+      "name": "Mogres",
+      "weight": 7,
+      "stats": {
+        "Slayer": 32,
+        "Combat": 30
+      },
+      "quests": [
+        "Skippy and the Mogres"
+      ]
+    },
+    {
+      "name": "Molanisk",
+      "weight": 7,
+      "stats": {
+        "Slayer": 39,
+        "Combat": 50
+      },
+      "quests": [
+        "Death to the Dorgeshuun"
+      ]
+    },
+    {
+      "name": "Moss giants",
+      "weight": 7,
+      "stats": {
+        "Combat": 40
+      },
+      "quests": []
+    },
+    {
+      "name": "Nechryael",
+      "weight": 5,
+      "stats": {
+        "Slayer": 80,
+        "Combat": 85
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Ogres",
+      "weight": 7,
+      "stats": {
+        "Combat": 40
+      },
+      "quests": []
+    },
+    {
+      "name": "Otherworldly beings",
+      "weight": 8,
+      "stats": {
+        "Combat": 40
+      },
+      "quests": [
+        "Lost City"
+      ]
+    },
+    {
+      "name": "Pyrefiends",
+      "weight": 8,
+      "stats": {
+        "Slayer": 30,
+        "Combat": 25
+      },
+      "quests": []
+    },
+    {
+      "name": "Sea snakes",
+      "weight": 6,
+      "stats": {
+        "Slayer": 40,
+        "Combat": 50
+      },
+      "quests": [
+        "Royal Trouble"
+      ]
+    },
+    {
+      "name": "Shades",
+      "weight": 8,
+      "stats": {
+        "Combat": 30
+      },
+      "quests": []
+    },
+    {
+      "name": "Shadow warriors",
+      "weight": 8,
+      "stats": {
+        "Combat": 60
+      },
+      "quests": [
+        "Legends Quest"
+      ]
+    },
+    {
+      "name": "Spiritual creatures",
+      "weight": 8,
+      "stats": {
+        "Slayer": 63,
+        "Combat": 60
+      },
+      "quests": [
+        "Death Plateau"
+      ],
+      "other": "Access GWD"
+    },
+    {
+      "name": "Terror dogs",
+      "weight": 6,
+      "stats": {
+        "Slayer": 40,
+        "Combat": 60
+      },
+      "quests": [
+        "Haunted Mine"
+      ]
+    },
+    {
+      "name": "Trolls",
+      "weight": 7,
+      "stats": {
+        "Combat": 60
+      },
+      "quests": []
+    },
+    {
+      "name": "Turoth",
+      "weight": 8,
+      "stats": {
+        "Slayer": 55,
+        "Combat": 60
+      },
+      "quests": []
+    },
+    {
+      "name": "Vampyres",
+      "weight": 7,
+      "stats": {
+        "Combat": 35
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Werewolves",
+      "weight": 7,
+      "stats": {
+        "Combat": 60
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    }
+  ],
+  "CHAELDAR": [
+    {
+      "name": "Aberrant spectres",
+      "weight": 8,
+      "stats": {
+        "Slayer": 60,
+        "Combat": 65
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Abyssal demons",
+      "weight": 12,
+      "stats": {
+        "Slayer": 85,
+        "Combat": 85
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Aviansie",
+      "weight": 9,
+      "stats": {},
+      "quests": [],
+      "unlock": "Watch the birdie",
+      "other": "Access GWD"
+    },
+    {
+      "name": "Basilisk",
+      "weight": 7,
+      "stats": {
+        "Slayer": 40,
+        "Defence": 20,
+        "Combat": 40
+      },
+      "quests": []
+    },
+    {
+      "name": "Black demons",
+      "weight": 10,
+      "stats": {
+        "Combat": 80
+      },
+      "quests": []
+    },
+    {
+      "name": "Bloodveld",
+      "weight": 8,
+      "stats": {
+        "Slayer": 50,
+        "Combat": 50
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Blue dragons",
+      "weight": 8,
+      "stats": {
+        "Combat": 65
+      },
+      "quests": [
+        "Dragon Slayer"
+      ]
+    },
+    {
+      "name": "Brine rats",
+      "weight": 7,
+      "stats": {
+        "Slayer": 47,
+        "Combat": 45
+      },
+      "quests": [
+        "Olafs Quest"
+      ]
+    },
+    {
+      "name": "Cave horrors",
+      "weight": 10,
+      "stats": {
+        "Slayer": 58,
+        "Combat": 85
+      },
+      "quests": [
+        "Cabin Fever"
+      ]
+    },
+    {
+      "name": "Cave kraken",
+      "weight": 12,
+      "stats": {
+        "Slayer": 87,
+        "Combat": 80,
+        "Magic": 50
+      },
+      "quests": []
+    },
+    {
+      "name": "Crabs",
+      "weight": 8,
+      "stats": {},
+      "quests": []
+    },
+    {
+      "name": "Custodian stalker",
+      "weight": 11,
+      "stats": {
+        "Slayer": 54
+      },
+      "quests": [
+        "Shadows of Custodia"
+      ]
+    },
+    {
+      "name": "Dagannoth",
+      "weight": 11,
+      "stats": {
+        "Combat": 75
+      },
+      "quests": [
+        "Horror from the Deep"
+      ]
+    },
+    {
+      "name": "Dust devils",
+      "weight": 9,
+      "stats": {
+        "Slayer": 65,
+        "Combat": 70
+      },
+      "quests": [
+        "Desert Treasure"
+      ]
+    },
+    {
+      "name": "Elves",
+      "weight": 8,
+      "stats": {
+        "Combat": 70
+      },
+      "quests": [
+        "Regicide"
+      ]
+    },
+    {
+      "name": "Fever spiders",
+      "weight": 7,
+      "stats": {
+        "Slayer": 42,
+        "Combat": 40
+      },
+      "quests": [
+        "Rum Deal"
+      ]
+    },
+    {
+      "name": "Fire giants",
+      "weight": 12,
+      "stats": {
+        "Combat": 65
+      },
+      "quests": []
+    },
+    {
+      "name": "Fossil Island Wyverns",
+      "weight": 7,
+      "stats": {
+        "Slayer": 66,
+        "Combat": 60
+      },
+      "quests": [
+        "Bone Voyage",
+        "Elemental Workshop I"
+      ],
+      "unlock": "Stop the Wyvern"
+    },
+    {
+      "name": "Gargoyles",
+      "weight": 11,
+      "stats": {
+        "Slayer": 75,
+        "Combat": 80
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Greater demons",
+      "weight": 9,
+      "stats": {
+        "Combat": 70
+      },
+      "quests": []
+    },
+    {
+      "name": "Gryphons",
+      "weight": 10,
+      "stats": {
+        "Slayer": 51,
+        "Sailing": 45
+      },
+      "quests": [
+        "Troubled Tortugans"
+      ]
+    },
+    {
+      "name": "Hellhounds",
+      "weight": 9,
+      "stats": {
+        "Combat": 75
+      },
+      "quests": []
+    },
+    {
+      "name": "Jellies",
+      "weight": 10,
+      "stats": {
+        "Slayer": 52,
+        "Combat": 57
+      },
+      "quests": []
+    },
+    {
+      "name": "Jungle horrors",
+      "weight": 10,
+      "stats": {
+        "Combat": 65
+      },
+      "quests": [
+        "Cabin Fever"
+      ]
+    },
+    {
+      "name": "Kalphites",
+      "weight": 11,
+      "stats": {
+        "Combat": 15
+      },
+      "quests": []
+    },
+    {
+      "name": "Kurask",
+      "weight": 12,
+      "stats": {
+        "Slayer": 70,
+        "Combat": 65
+      },
+      "quests": []
+    },
+    {
+      "name": "Lesser demons",
+      "weight": 9,
+      "stats": {
+        "Combat": 60
+      },
+      "quests": []
+    },
+    {
+      "name": "Lesser naguas",
+      "weight": 4,
+      "stats": {
+        "Slayer": 48
+      },
+      "quests": [
+        "Perilous Moons"
+      ]
+    },
+    {
+      "name": "Lizardmen",
+      "weight": 8,
+      "stats": {},
+      "quests": [],
+      "unlock": "Reptile got ripped"
+    },
+    {
+      "name": "Mutated Zygomites",
+      "weight": 7,
+      "stats": {
+        "Slayer": 57,
+        "Combat": 60
+      },
+      "quests": [
+        "Lost City"
+      ]
+    },
+    {
+      "name": "Nechryael",
+      "weight": 12,
+      "stats": {
+        "Slayer": 80,
+        "Combat": 85
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Shadow warriors",
+      "weight": 8,
+      "stats": {
+        "Combat": 60
+      },
+      "quests": [
+        "Legends Quest"
+      ]
+    },
+    {
+      "name": "Skeletal Wyverns",
+      "weight": 7,
+      "stats": {
+        "Slayer": 72,
+        "Combat": 70
+      },
+      "quests": [
+        "Elemental Workshop I"
+      ]
+    },
+    {
+      "name": "Spiritual creatures",
+      "weight": 12,
+      "stats": {
+        "Slayer": 63,
+        "Combat": 60
+      },
+      "quests": [
+        "Death Plateau"
+      ],
+      "other": "Access GWD"
+    },
+    {
+      "name": "Trolls",
+      "weight": 11,
+      "stats": {
+        "Combat": 60
+      },
+      "quests": []
+    },
+    {
+      "name": "Turoth",
+      "weight": 10,
+      "stats": {
+        "Slayer": 55,
+        "Combat": 60
+      },
+      "quests": []
+    },
+    {
+      "name": "TzHaar",
+      "weight": 8,
+      "stats": {},
+      "quests": [],
+      "unlock": "Hot stuff"
+    },
+    {
+      "name": "Vampyres",
+      "weight": 6,
+      "stats": {
+        "Combat": 35
+      },
+      "quests": [
+        "Priest in Peril"
+      ],
+      "unlock": "Unlock vampyres"
+    },
+    {
+      "name": "Warped Creatures",
+      "weight": 6,
+      "stats": {},
+      "quests": [],
+      "unlock": "Warped Reality"
+    },
+    {
+      "name": "Wyrms",
+      "weight": 6,
+      "stats": {
+        "Slayer": 62
+      },
+      "quests": []
+    }
+  ],
+  "KONAR": [
+    {
+      "name": "Aberrant spectres",
+      "weight": 6,
+      "stats": {
+        "Slayer": 60,
+        "Combat": 65
+      },
+      "quests": []
+    },
+    {
+      "name": "Abyssal demons",
+      "weight": 9,
+      "stats": {
+        "Slayer": 85,
+        "Combat": 85
+      },
+      "quests": []
+    },
+    {
+      "name": "Ankou",
+      "weight": 5,
+      "stats": {
+        "Combat": 40
+      },
+      "quests": []
+    },
+    {
+      "name": "Aviansie",
+      "weight": 6,
+      "stats": {},
+      "quests": [],
+      "unlock": "Watch the birdie",
+      "other": "Access GWD"
+    },
+    {
+      "name": "Basilisk",
+      "weight": 5,
+      "stats": {
+        "Slayer": 40
+      },
+      "quests": [],
+      "unlock": "Basilocked"
+    },
+    {
+      "name": "Black demons",
+      "weight": 9,
+      "stats": {
+        "Combat": 80
+      },
+      "quests": []
+    },
+    {
+      "name": "Black dragons",
+      "weight": 6,
+      "stats": {
+        "Combat": 80
+      },
+      "quests": [
+        "Dragon Slayer"
+      ]
+    },
+    {
+      "name": "Bloodveld",
+      "weight": 9,
+      "stats": {
+        "Slayer": 50,
+        "Combat": 50
+      },
+      "quests": []
+    },
+    {
+      "name": "Blue dragons",
+      "weight": 4,
+      "stats": {
+        "Combat": 65
+      },
+      "quests": [
+        "Dragon Slayer"
+      ]
+    },
+    {
+      "name": "Boss",
+      "weight": 8,
+      "stats": {},
+      "quests": [],
+      "unlock": "Like a boss",
+      "subtasks": [
+        {
+          "name": "Abyssal Sire",
+          "weight": 1,
+          "stats": {
+            "Slayer": 85
+          },
+          "quests": [],
+          "other": "Access Abyss"
+        },
+        {
+          "name": "Alchemical Hydra",
+          "weight": 1,
+          "stats": {
+            "Slayer": 95
+          },
+          "quests": []
+        },
+        {
+          "name": "Barrows",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "Priest in Peril"
+          ]
+        },
+        {
+          "name": "Callisto",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Cerberus",
+          "weight": 1,
+          "stats": {
+            "Slayer": 91
+          },
+          "quests": []
+        },
+        {
+          "name": "Chaos Elemental",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Chaos Fanatic",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Commander Zilyana",
+          "weight": 1,
+          "stats": {
+            "Agility": 70
+          },
+          "quests": [
+            "Death Plateau"
+          ],
+          "other": "Access GWD"
+        },
+        {
+          "name": "Crazy Archaeologist",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Dagannoth Kings",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "General Graardor",
+          "weight": 1,
+          "stats": {
+            "Strength": 70
+          },
+          "quests": [
+            "Death Plateau"
+          ],
+          "other": "Access GWD"
+        },
+        {
+          "name": "Giant Mole",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Grotesque Guardians",
+          "weight": 1,
+          "stats": {
+            "Slayer": 75
+          },
+          "quests": [
+            "Priest in Peril"
+          ],
+          "other": "Brittle Key"
+        },
+        {
+          "name": "Kril Tsutsaroth",
+          "weight": 1,
+          "stats": {
+            "Hitpoints": 70
+          },
+          "quests": [
+            "Death Plateau"
+          ],
+          "other": "Access GWD"
+        },
+        {
+          "name": "Kalphite Queen",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "King Black Dragon",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "Dragon Slayer"
+          ]
+        },
+        {
+          "name": "Kraken",
+          "weight": 1,
+          "stats": {
+            "Slayer": 87
+          },
+          "quests": []
+        },
+        {
+          "name": "Kreearra",
+          "weight": 1,
+          "stats": {
+            "Ranged": 70
+          },
+          "quests": [
+            "Death Plateau"
+          ],
+          "other": "Access GWD"
+        },
+        {
+          "name": "Sarachnis",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Scorpia",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Thermonuclear Smoke Devil",
+          "weight": 1,
+          "stats": {
+            "Slayer": 93
+          },
+          "quests": []
+        },
+        {
+          "name": "Venenatis",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Vetion",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Vorkath",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "Dragon Slayer II"
+          ]
+        },
+        {
+          "name": "Zulrah",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "Regicide"
+          ]
+        },
+        {
+          "name": "Phantom Muspah",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "Secrets of the North"
+          ]
+        },
+        {
+          "name": "Vardorvis",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "Desert Treasure 2"
+          ]
+        },
+        {
+          "name": "Duke Sucellus",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "Desert Treasure 2"
+          ]
+        },
+        {
+          "name": "The Whisperer",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "Desert Treasure 2"
+          ]
+        },
+        {
+          "name": "The Leviathan",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "Desert Treasure 2"
+          ]
+        },
+        {
+          "name": "Araxxor",
+          "weight": 1,
+          "stats": {
+            "Slayer": 92
+          },
+          "quests": [
+            "Priest in Peril"
+          ]
+        },
+        {
+          "name": "Maggot King",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "The Blood Moon Rises"
+          ]
+        },
+        {
+          "name": "Shellbane gryphon",
+          "weight": 1,
+          "stats": {
+            "Slayer": 51
+          },
+          "quests": [
+            "Troubled Tortugans"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brine rats",
+      "weight": 2,
+      "stats": {
+        "Slayer": 47,
+        "Combat": 45
+      },
+      "quests": [
+        "Olafs Quest"
+      ]
+    },
+    {
+      "name": "Cave kraken",
+      "weight": 9,
+      "stats": {
+        "Slayer": 87,
+        "Combat": 80,
+        "Magic": 50
+      },
+      "quests": []
+    },
+    {
+      "name": "Dagannoth",
+      "weight": 8,
+      "stats": {
+        "Combat": 75
+      },
+      "quests": [
+        "Horror from the Deep"
+      ]
+    },
+    {
+      "name": "Dark beasts",
+      "weight": 5,
+      "stats": {
+        "Slayer": 90,
+        "Combat": 90
+      },
+      "quests": [
+        "Mournings End Part II"
+      ]
+    },
+    {
+      "name": "Drakes",
+      "weight": 10,
+      "stats": {
+        "Slayer": 84
+      },
+      "quests": []
+    },
+    {
+      "name": "Dust devils",
+      "weight": 6,
+      "stats": {
+        "Slayer": 65,
+        "Combat": 70
+      },
+      "quests": [
+        "Desert Treasure"
+      ]
+    },
+    {
+      "name": "Fire giants",
+      "weight": 9,
+      "stats": {
+        "Combat": 65
+      },
+      "quests": []
+    },
+    {
+      "name": "Fossil Island Wyverns",
+      "weight": 5,
+      "stats": {
+        "Slayer": 66,
+        "Combat": 60
+      },
+      "quests": [
+        "Bone Voyage",
+        "Elemental Workshop I"
+      ],
+      "unlock": "Stop the Wyvern"
+    },
+    {
+      "name": "Gargoyles",
+      "weight": 6,
+      "stats": {
+        "Slayer": 75,
+        "Combat": 80
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Greater demons",
+      "weight": 7,
+      "stats": {
+        "Combat": 75
+      },
+      "quests": []
+    },
+    {
+      "name": "Hellhounds",
+      "weight": 8,
+      "stats": {
+        "Combat": 75
+      },
+      "quests": []
+    },
+    {
+      "name": "Hydras",
+      "weight": 10,
+      "stats": {
+        "Slayer": 95
+      },
+      "quests": []
+    },
+    {
+      "name": "Jellies",
+      "weight": 6,
+      "stats": {
+        "Slayer": 52,
+        "Combat": 57
+      },
+      "quests": []
+    },
+    {
+      "name": "Kalphites",
+      "weight": 9,
+      "stats": {
+        "Combat": 15
+      },
+      "quests": []
+    },
+    {
+      "name": "Kurask",
+      "weight": 3,
+      "stats": {
+        "Slayer": 70,
+        "Combat": 65
+      },
+      "quests": []
+    },
+    {
+      "name": "Lesser naguas",
+      "weight": 2,
+      "stats": {
+        "Slayer": 48
+      },
+      "quests": [
+        "Perilous Moons"
+      ]
+    },
+    {
+      "name": "Lizardmen",
+      "weight": 8,
+      "stats": {},
+      "quests": [],
+      "unlock": "Reptile got ripped"
+    },
+    {
+      "name": "Metal dragons",
+      "weight": 15,
+      "stats": {
+        "Combat": 80
+      },
+      "quests": [
+        "Dragon Slayer"
+      ]
+    },
+    {
+      "name": "Mutated Zygomites",
+      "weight": 2,
+      "stats": {
+        "Slayer": 57,
+        "Combat": 60
+      },
+      "quests": [
+        "Lost City"
+      ]
+    },
+    {
+      "name": "Nechryael",
+      "weight": 7,
+      "stats": {
+        "Slayer": 80,
+        "Combat": 85
+      },
+      "quests": []
+    },
+    {
+      "name": "Red dragons",
+      "weight": 5,
+      "stats": {
+        "Combat": 68
+      },
+      "quests": [
+        "Dragon Slayer"
+      ],
+      "unlock": "Seeing red"
+    },
+    {
+      "name": "Skeletal Wyverns",
+      "weight": 5,
+      "stats": {
+        "Slayer": 72,
+        "Combat": 70
+      },
+      "quests": [
+        "Elemental Workshop I"
+      ]
+    },
+    {
+      "name": "Smoke devils",
+      "weight": 7,
+      "stats": {
+        "Slayer": 93,
+        "Combat": 85
+      },
+      "quests": []
+    },
+    {
+      "name": "Trolls",
+      "weight": 6,
+      "stats": {
+        "Combat": 60
+      },
+      "quests": []
+    },
+    {
+      "name": "Turoth",
+      "weight": 3,
+      "stats": {
+        "Slayer": 55,
+        "Combat": 60
+      },
+      "quests": []
+    },
+    {
+      "name": "Vampyres",
+      "weight": 4,
+      "stats": {
+        "Combat": 35
+      },
+      "quests": [
+        "Priest in Peril"
+      ],
+      "unlock": "Unlock vampyres"
+    },
+    {
+      "name": "Warped Creatures",
+      "weight": 4,
+      "stats": {},
+      "quests": [],
+      "unlock": "Warped Reality"
+    },
+    {
+      "name": "Waterfiend",
+      "weight": 2,
+      "stats": {
+        "Combat": 75
+      },
+      "quests": [],
+      "other": "Ancient Cavern"
+    },
+    {
+      "name": "Wyrms",
+      "weight": 10,
+      "stats": {
+        "Slayer": 62
+      },
+      "quests": []
+    }
+  ],
+  "NIEVE": [
+    {
+      "name": "Aberrant spectres",
+      "weight": 6,
+      "stats": {
+        "Slayer": 60,
+        "Combat": 65
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Abyssal demons",
+      "weight": 9,
+      "stats": {
+        "Slayer": 85,
+        "Combat": 85
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Ankou",
+      "weight": 5,
+      "stats": {
+        "Combat": 40
+      },
+      "quests": []
+    },
+    {
+      "name": "Aquanites",
+      "weight": 5,
+      "stats": {
+        "Slayer": 78,
+        "Sailing": 73
+      },
+      "quests": [],
+      "unlock": "Lured In"
+    },
+    {
+      "name": "Araxytes",
+      "weight": 8,
+      "stats": {
+        "Slayer": 92
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Aviansie",
+      "weight": 6,
+      "stats": {},
+      "quests": [],
+      "unlock": "Watch the birdie",
+      "other": "Access GWD"
+    },
+    {
+      "name": "Basilisk",
+      "weight": 6,
+      "stats": {
+        "Slayer": 40
+      },
+      "quests": [],
+      "unlock": "Basilocked"
+    },
+    {
+      "name": "Black demons",
+      "weight": 9,
+      "stats": {
+        "Combat": 80
+      },
+      "quests": []
+    },
+    {
+      "name": "Black dragons",
+      "weight": 6,
+      "stats": {
+        "Combat": 80
+      },
+      "quests": [
+        "Dragon Slayer"
+      ]
+    },
+    {
+      "name": "Bloodveld",
+      "weight": 9,
+      "stats": {
+        "Slayer": 50,
+        "Combat": 50
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Blue dragons",
+      "weight": 4,
+      "stats": {
+        "Combat": 65
+      },
+      "quests": [
+        "Dragon Slayer"
+      ]
+    },
+    {
+      "name": "Boss",
+      "weight": 8,
+      "stats": {},
+      "quests": [],
+      "unlock": "Like a boss",
+      "subtasks": [
+        {
+          "name": "Abyssal Sire",
+          "weight": 1,
+          "stats": {
+            "Slayer": 85
+          },
+          "quests": [],
+          "other": "Access Abyss"
+        },
+        {
+          "name": "Barrows",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "Priest in Peril"
+          ]
+        },
+        {
+          "name": "Callisto",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Cerberus",
+          "weight": 1,
+          "stats": {
+            "Slayer": 91
+          },
+          "quests": []
+        },
+        {
+          "name": "Chaos Elemental",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Chaos Fanatic",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Commander Zilyana",
+          "weight": 1,
+          "stats": {
+            "Agility": 70
+          },
+          "quests": [
+            "Death Plateau"
+          ],
+          "other": "Access GWD"
+        },
+        {
+          "name": "Crazy Archaeologist",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Dagannoth Kings",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "General Graardor",
+          "weight": 1,
+          "stats": {
+            "Strength": 70
+          },
+          "quests": [
+            "Death Plateau"
+          ],
+          "other": "Access GWD"
+        },
+        {
+          "name": "Giant Mole",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Grotesque Guardians",
+          "weight": 1,
+          "stats": {
+            "Slayer": 75
+          },
+          "quests": [
+            "Priest in Peril"
+          ],
+          "other": "Brittle Key"
+        },
+        {
+          "name": "Kril Tsutsaroth",
+          "weight": 1,
+          "stats": {
+            "Hitpoints": 70
+          },
+          "quests": [
+            "Death Plateau"
+          ],
+          "other": "Access GWD"
+        },
+        {
+          "name": "Kalphite Queen",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "King Black Dragon",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "Dragon Slayer"
+          ]
+        },
+        {
+          "name": "Kraken",
+          "weight": 1,
+          "stats": {
+            "Slayer": 87
+          },
+          "quests": []
+        },
+        {
+          "name": "Kreearra",
+          "weight": 1,
+          "stats": {
+            "Ranged": 70
+          },
+          "quests": [
+            "Death Plateau"
+          ],
+          "other": "Access GWD"
+        },
+        {
+          "name": "Sarachnis",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Scorpia",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Thermonuclear Smoke Devil",
+          "weight": 1,
+          "stats": {
+            "Slayer": 93
+          },
+          "quests": []
+        },
+        {
+          "name": "Venenatis",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Vetion",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Vorkath",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "Dragon Slayer II"
+          ]
+        },
+        {
+          "name": "Zulrah",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "Regicide"
+          ]
+        },
+        {
+          "name": "Phantom Muspah",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "Secrets of the North"
+          ]
+        },
+        {
+          "name": "Vardorvis",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "Desert Treasure 2"
+          ]
+        },
+        {
+          "name": "Duke Sucellus",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "Desert Treasure 2"
+          ]
+        },
+        {
+          "name": "The Whisperer",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "Desert Treasure 2"
+          ]
+        },
+        {
+          "name": "The Leviathan",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "Desert Treasure 2"
+          ]
+        },
+        {
+          "name": "Araxxor",
+          "weight": 1,
+          "stats": {
+            "Slayer": 92
+          },
+          "quests": [
+            "Priest in Peril"
+          ]
+        },
+        {
+          "name": "Maggot King",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "The Blood Moon Rises"
+          ]
+        },
+        {
+          "name": "Shellbane gryphon",
+          "weight": 1,
+          "stats": {
+            "Slayer": 51
+          },
+          "quests": [
+            "Troubled Tortugans"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brine rats",
+      "weight": 3,
+      "stats": {
+        "Slayer": 47,
+        "Combat": 45
+      },
+      "quests": [
+        "Olafs Quest"
+      ]
+    },
+    {
+      "name": "Cave horrors",
+      "weight": 5,
+      "stats": {
+        "Slayer": 58,
+        "Combat": 85
+      },
+      "quests": [
+        "Cabin Fever"
+      ]
+    },
+    {
+      "name": "Cave kraken",
+      "weight": 6,
+      "stats": {
+        "Slayer": 87,
+        "Combat": 80,
+        "Magic": 50
+      },
+      "quests": []
+    },
+    {
+      "name": "Custodian stalker",
+      "weight": 8,
+      "stats": {
+        "Slayer": 54
+      },
+      "quests": [
+        "Shadows of Custodia"
+      ]
+    },
+    {
+      "name": "Dagannoth",
+      "weight": 8,
+      "stats": {
+        "Combat": 75
+      },
+      "quests": [
+        "Horror from the Deep"
+      ]
+    },
+    {
+      "name": "Dark beasts",
+      "weight": 5,
+      "stats": {
+        "Slayer": 90,
+        "Combat": 90
+      },
+      "quests": [
+        "Mournings End Part II"
+      ]
+    },
+    {
+      "name": "Drakes",
+      "weight": 7,
+      "stats": {
+        "Slayer": 84
+      },
+      "quests": []
+    },
+    {
+      "name": "Dust devils",
+      "weight": 6,
+      "stats": {
+        "Slayer": 65,
+        "Combat": 70
+      },
+      "quests": [
+        "Desert Treasure"
+      ]
+    },
+    {
+      "name": "Elves",
+      "weight": 4,
+      "stats": {
+        "Combat": 70
+      },
+      "quests": [
+        "Regicide"
+      ]
+    },
+    {
+      "name": "Fire giants",
+      "weight": 9,
+      "stats": {
+        "Combat": 65
+      },
+      "quests": []
+    },
+    {
+      "name": "Fossil Island Wyverns",
+      "weight": 5,
+      "stats": {
+        "Slayer": 66,
+        "Combat": 60
+      },
+      "quests": [
+        "Bone Voyage",
+        "Elemental Workshop I"
+      ],
+      "unlock": "Stop the Wyvern"
+    },
+    {
+      "name": "Frost dragons",
+      "weight": 5,
+      "stats": {
+        "Combat": 85,
+        "Sailing": 87
+      },
+      "quests": [],
+      "bonusUnlock": "Chance of Heavy Frost",
+      "bonusWeight": 8
+    },
+    {
+      "name": "Gargoyles",
+      "weight": 6,
+      "stats": {
+        "Slayer": 75,
+        "Combat": 80
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Greater demons",
+      "weight": 7,
+      "stats": {
+        "Combat": 75
+      },
+      "quests": []
+    },
+    {
+      "name": "Gryphons",
+      "weight": 7,
+      "stats": {
+        "Slayer": 51,
+        "Sailing": 45
+      },
+      "quests": [
+        "Troubled Tortugans"
+      ],
+      "unlock": "Wings Spread"
+    },
+    {
+      "name": "Hellhounds",
+      "weight": 8,
+      "stats": {
+        "Combat": 75
+      },
+      "quests": []
+    },
+    {
+      "name": "Kalphites",
+      "weight": 9,
+      "stats": {
+        "Combat": 15
+      },
+      "quests": []
+    },
+    {
+      "name": "Kurask",
+      "weight": 3,
+      "stats": {
+        "Slayer": 70,
+        "Combat": 65
+      },
+      "quests": []
+    },
+    {
+      "name": "Lizardmen",
+      "weight": 8,
+      "stats": {},
+      "quests": [],
+      "unlock": "Reptile got ripped"
+    },
+    {
+      "name": "Metal dragons",
+      "weight": 12,
+      "stats": {
+        "Combat": 80
+      },
+      "quests": [
+        "Dragon Slayer"
+      ]
+    },
+    {
+      "name": "Minions of Scabaras",
+      "weight": 4,
+      "stats": {
+        "Combat": 85
+      },
+      "quests": [
+        "Contact!"
+      ]
+    },
+    {
+      "name": "Mutated Zygomites",
+      "weight": 2,
+      "stats": {
+        "Slayer": 57,
+        "Combat": 60
+      },
+      "quests": [
+        "Lost City"
+      ]
+    },
+    {
+      "name": "Nechryael",
+      "weight": 7,
+      "stats": {
+        "Slayer": 80,
+        "Combat": 85
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Red dragons",
+      "weight": 5,
+      "stats": {
+        "Combat": 68
+      },
+      "quests": [
+        "Dragon Slayer"
+      ],
+      "unlock": "Seeing red"
+    },
+    {
+      "name": "Skeletal Wyverns",
+      "weight": 5,
+      "stats": {
+        "Slayer": 72,
+        "Combat": 70
+      },
+      "quests": [
+        "Elemental Workshop I"
+      ]
+    },
+    {
+      "name": "Smoke devils",
+      "weight": 7,
+      "stats": {
+        "Slayer": 93,
+        "Combat": 85
+      },
+      "quests": []
+    },
+    {
+      "name": "Spiritual creatures",
+      "weight": 6,
+      "stats": {
+        "Slayer": 63,
+        "Combat": 60
+      },
+      "quests": [
+        "Death Plateau"
+      ],
+      "other": "Access GWD"
+    },
+    {
+      "name": "Suqah",
+      "weight": 8,
+      "stats": {
+        "Combat": 85
+      },
+      "quests": [
+        "Lunar Diplomacy"
+      ]
+    },
+    {
+      "name": "Trolls",
+      "weight": 6,
+      "stats": {
+        "Combat": 60
+      },
+      "quests": []
+    },
+    {
+      "name": "Turoth",
+      "weight": 3,
+      "stats": {
+        "Slayer": 55,
+        "Combat": 60
+      },
+      "quests": []
+    },
+    {
+      "name": "TzHaar",
+      "weight": 10,
+      "stats": {},
+      "quests": [],
+      "unlock": "Hot stuff"
+    },
+    {
+      "name": "Vampyres",
+      "weight": 6,
+      "stats": {
+        "Combat": 35
+      },
+      "quests": [
+        "Priest in Peril"
+      ],
+      "unlock": "Unlock vampyres"
+    },
+    {
+      "name": "Warped Creatures",
+      "weight": 6,
+      "stats": {},
+      "quests": [],
+      "unlock": "Warped Reality"
+    },
+    {
+      "name": "Wyrms",
+      "weight": 7,
+      "stats": {
+        "Slayer": 62
+      },
+      "quests": []
+    }
+  ],
+  "DURADEL": [
+    {
+      "name": "Aberrant spectres",
+      "weight": 7,
+      "stats": {
+        "Slayer": 60,
+        "Combat": 65
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Abyssal demons",
+      "weight": 12,
+      "stats": {
+        "Slayer": 85,
+        "Combat": 85
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Ankou",
+      "weight": 5,
+      "stats": {
+        "Combat": 40
+      },
+      "quests": []
+    },
+    {
+      "name": "Aquanites",
+      "weight": 5,
+      "stats": {
+        "Slayer": 78,
+        "Sailing": 73
+      },
+      "quests": [],
+      "unlock": "Lured In"
+    },
+    {
+      "name": "Araxytes",
+      "weight": 10,
+      "stats": {
+        "Slayer": 92
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Aviansie",
+      "weight": 8,
+      "stats": {},
+      "quests": [],
+      "unlock": "Watch the birdie",
+      "other": "Access GWD"
+    },
+    {
+      "name": "Basilisk",
+      "weight": 7,
+      "stats": {
+        "Slayer": 40
+      },
+      "quests": [],
+      "unlock": "Basilocked"
+    },
+    {
+      "name": "Black demons",
+      "weight": 8,
+      "stats": {
+        "Combat": 80
+      },
+      "quests": []
+    },
+    {
+      "name": "Black dragons",
+      "weight": 9,
+      "stats": {
+        "Combat": 80
+      },
+      "quests": [
+        "Dragon Slayer"
+      ]
+    },
+    {
+      "name": "Bloodveld",
+      "weight": 8,
+      "stats": {
+        "Slayer": 50,
+        "Combat": 50
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Blue dragons",
+      "weight": 4,
+      "stats": {
+        "Combat": 65
+      },
+      "quests": [
+        "Dragon Slayer"
+      ]
+    },
+    {
+      "name": "Boss",
+      "weight": 12,
+      "stats": {},
+      "quests": [],
+      "unlock": "Like a boss",
+      "subtasks": [
+        {
+          "name": "Abyssal Sire",
+          "weight": 1,
+          "stats": {
+            "Slayer": 85
+          },
+          "quests": [],
+          "other": "Access Abyss"
+        },
+        {
+          "name": "Barrows",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "Priest in Peril"
+          ]
+        },
+        {
+          "name": "Callisto",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Cerberus",
+          "weight": 1,
+          "stats": {
+            "Slayer": 91
+          },
+          "quests": []
+        },
+        {
+          "name": "Chaos Elemental",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Chaos Fanatic",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Commander Zilyana",
+          "weight": 1,
+          "stats": {
+            "Agility": 70
+          },
+          "quests": [
+            "Death Plateau"
+          ],
+          "other": "Access GWD"
+        },
+        {
+          "name": "Crazy Archaeologist",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Dagannoth Kings",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "General Graardor",
+          "weight": 1,
+          "stats": {
+            "Strength": 70
+          },
+          "quests": [
+            "Death Plateau"
+          ],
+          "other": "Access GWD"
+        },
+        {
+          "name": "Giant Mole",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Grotesque Guardians",
+          "weight": 1,
+          "stats": {
+            "Slayer": 75
+          },
+          "quests": [
+            "Priest in Peril"
+          ],
+          "other": "Brittle Key"
+        },
+        {
+          "name": "Kril Tsutsaroth",
+          "weight": 1,
+          "stats": {
+            "Hitpoints": 70
+          },
+          "quests": [
+            "Death Plateau"
+          ],
+          "other": "Access GWD"
+        },
+        {
+          "name": "Kalphite Queen",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "King Black Dragon",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "Dragon Slayer"
+          ]
+        },
+        {
+          "name": "Kraken",
+          "weight": 1,
+          "stats": {
+            "Slayer": 87
+          },
+          "quests": []
+        },
+        {
+          "name": "Kreearra",
+          "weight": 1,
+          "stats": {
+            "Ranged": 70
+          },
+          "quests": [
+            "Death Plateau"
+          ],
+          "other": "Access GWD"
+        },
+        {
+          "name": "Sarachnis",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Scorpia",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Thermonuclear Smoke Devil",
+          "weight": 1,
+          "stats": {
+            "Slayer": 93
+          },
+          "quests": []
+        },
+        {
+          "name": "Venenatis",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Vetion",
+          "weight": 1,
+          "stats": {},
+          "quests": []
+        },
+        {
+          "name": "Vorkath",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "Dragon Slayer II"
+          ]
+        },
+        {
+          "name": "Zulrah",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "Regicide"
+          ]
+        },
+        {
+          "name": "Phantom Muspah",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "Secrets of the North"
+          ]
+        },
+        {
+          "name": "Vardorvis",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "Desert Treasure 2"
+          ]
+        },
+        {
+          "name": "Duke Sucellus",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "Desert Treasure 2"
+          ]
+        },
+        {
+          "name": "The Whisperer",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "Desert Treasure 2"
+          ]
+        },
+        {
+          "name": "The Leviathan",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "Desert Treasure 2"
+          ]
+        },
+        {
+          "name": "Araxxor",
+          "weight": 1,
+          "stats": {
+            "Slayer": 92
+          },
+          "quests": [
+            "Priest in Peril"
+          ]
+        },
+        {
+          "name": "Maggot King",
+          "weight": 1,
+          "stats": {},
+          "quests": [
+            "The Blood Moon Rises"
+          ]
+        },
+        {
+          "name": "Shellbane gryphon",
+          "weight": 1,
+          "stats": {
+            "Slayer": 51
+          },
+          "quests": [
+            "Troubled Tortugans"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cave horrors",
+      "weight": 4,
+      "stats": {
+        "Slayer": 58,
+        "Combat": 85
+      },
+      "quests": [
+        "Cabin Fever"
+      ]
+    },
+    {
+      "name": "Cave kraken",
+      "weight": 9,
+      "stats": {
+        "Slayer": 87,
+        "Combat": 80,
+        "Magic": 50
+      },
+      "quests": []
+    },
+    {
+      "name": "Dagannoth",
+      "weight": 9,
+      "stats": {
+        "Combat": 75
+      },
+      "quests": [
+        "Horror from the Deep"
+      ]
+    },
+    {
+      "name": "Dark beasts",
+      "weight": 11,
+      "stats": {
+        "Slayer": 90,
+        "Combat": 90
+      },
+      "quests": [
+        "Mournings End Part II"
+      ]
+    },
+    {
+      "name": "Drakes",
+      "weight": 8,
+      "stats": {
+        "Slayer": 84
+      },
+      "quests": []
+    },
+    {
+      "name": "Dust devils",
+      "weight": 5,
+      "stats": {
+        "Slayer": 65,
+        "Combat": 70
+      },
+      "quests": [
+        "Desert Treasure"
+      ]
+    },
+    {
+      "name": "Elves",
+      "weight": 4,
+      "stats": {
+        "Combat": 70
+      },
+      "quests": [
+        "Regicide"
+      ]
+    },
+    {
+      "name": "Fire giants",
+      "weight": 7,
+      "stats": {
+        "Combat": 65
+      },
+      "quests": []
+    },
+    {
+      "name": "Fossil Island Wyverns",
+      "weight": 7,
+      "stats": {
+        "Slayer": 66,
+        "Combat": 60
+      },
+      "quests": [
+        "Bone Voyage",
+        "Elemental Workshop I"
+      ],
+      "unlock": "Stop the Wyvern"
+    },
+    {
+      "name": "Frost dragons",
+      "weight": 5,
+      "stats": {
+        "Sailing": 87
+      },
+      "quests": [],
+      "bonusUnlock": "Chance of Heavy Frost",
+      "bonusWeight": 8
+    },
+    {
+      "name": "Gargoyles",
+      "weight": 8,
+      "stats": {
+        "Slayer": 75,
+        "Combat": 80
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Greater demons",
+      "weight": 9,
+      "stats": {
+        "Combat": 75
+      },
+      "quests": []
+    },
+    {
+      "name": "Gryphons",
+      "weight": 7,
+      "stats": {
+        "Slayer": 51,
+        "Sailing": 45
+      },
+      "quests": [
+        "Troubled Tortugans"
+      ],
+      "unlock": "Wings Spread"
+    },
+    {
+      "name": "Hellhounds",
+      "weight": 10,
+      "stats": {
+        "Combat": 75
+      },
+      "quests": []
+    },
+    {
+      "name": "Kalphites",
+      "weight": 9,
+      "stats": {
+        "Combat": 15
+      },
+      "quests": []
+    },
+    {
+      "name": "Kurask",
+      "weight": 4,
+      "stats": {
+        "Slayer": 70,
+        "Combat": 65
+      },
+      "quests": []
+    },
+    {
+      "name": "Lizardmen",
+      "weight": 10,
+      "stats": {},
+      "quests": [],
+      "unlock": "Reptile got ripped"
+    },
+    {
+      "name": "Metal dragons",
+      "weight": 14,
+      "stats": {
+        "Combat": 80
+      },
+      "quests": [
+        "Dragon Slayer"
+      ]
+    },
+    {
+      "name": "Mutated Zygomites",
+      "weight": 2,
+      "stats": {
+        "Slayer": 57,
+        "Combat": 60
+      },
+      "quests": [
+        "Lost City"
+      ]
+    },
+    {
+      "name": "Nechryael",
+      "weight": 9,
+      "stats": {
+        "Slayer": 80,
+        "Combat": 85
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Red dragons",
+      "weight": 8,
+      "stats": {
+        "Combat": 68
+      },
+      "quests": [
+        "Dragon Slayer"
+      ],
+      "unlock": "Seeing red"
+    },
+    {
+      "name": "Skeletal Wyverns",
+      "weight": 7,
+      "stats": {
+        "Slayer": 72,
+        "Combat": 70
+      },
+      "quests": [
+        "Elemental Workshop I"
+      ]
+    },
+    {
+      "name": "Smoke devils",
+      "weight": 9,
+      "stats": {
+        "Slayer": 93,
+        "Combat": 85
+      },
+      "quests": []
+    },
+    {
+      "name": "Spiritual creatures",
+      "weight": 7,
+      "stats": {
+        "Slayer": 63,
+        "Combat": 60
+      },
+      "quests": [
+        "Death Plateau"
+      ],
+      "other": "Access GWD"
+    },
+    {
+      "name": "Suqah",
+      "weight": 8,
+      "stats": {
+        "Combat": 85
+      },
+      "quests": [
+        "Lunar Diplomacy"
+      ]
+    },
+    {
+      "name": "Trolls",
+      "weight": 6,
+      "stats": {
+        "Combat": 60
+      },
+      "quests": []
+    },
+    {
+      "name": "TzHaar",
+      "weight": 10,
+      "stats": {},
+      "quests": [],
+      "unlock": "Hot stuff"
+    },
+    {
+      "name": "Vampyres",
+      "weight": 8,
+      "stats": {
+        "Combat": 35
+      },
+      "quests": [
+        "Priest in Peril"
+      ],
+      "unlock": "Unlock vampyres"
+    },
+    {
+      "name": "Warped Creatures",
+      "weight": 8,
+      "stats": {},
+      "quests": [],
+      "unlock": "Warped Reality"
+    },
+    {
+      "name": "Waterfiend",
+      "weight": 2,
+      "stats": {
+        "Combat": 75
+      },
+      "quests": [],
+      "other": "Ancient Cavern"
+    },
+    {
+      "name": "Wyrms",
+      "weight": 8,
+      "stats": {
+        "Slayer": 62
+      },
+      "quests": []
+    }
+  ]
+}
