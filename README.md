@@ -1,50 +1,61 @@
 # Slayer Task Odds
 
-Select a Slayer task or boss in the sidebar to compare the eight supported
-masters. Calculations run locally from a bundled snapshot of the OSRS Wiki
-calculator's task tables and eligibility rules (3 October 2026).
+Compare your chance of receiving a Slayer task from each master. Slayer Task Odds
+uses your account’s levels, quest progress, unlocks, and saved block lists to rank
+the available masters for the task you select.
 
-## Automatic requirements
+## Install
 
-The plugin reads unboosted skill levels (including Sailing), combat level,
-quest progress, all task unlock flags, the active Fossil Island Wyvern block,
-and conditional Frost dragon weighting from the logged-in character. Dragon
-Slayer I and Desert Treasure I require being started, as specified by the Wiki
-calculator; the other listed quests require completion. God Wars access follows
-the calculator's Strength-or-Agility rule. Ancient Cavern access uses the
-Barbarian pyre-training flag, and Abyss access uses its miniquest state.
+In RuneLite, open the **Plugin Hub**, search for **Slayer Task Odds**, and install
+it. Open its red skull and odds icon in the sidebar to use the panel.
 
-Brittle-key access is detected from the unlocked roof or a key in inventory or
-bank, then remembered per RuneScape profile. If you obtained a key before using
-the plugin and have not unlocked the roof, open your bank once to make the key
-visible to the client. There are no manual eligibility checkboxes.
+## Use the panel
 
-Open **Account requirements** to see the automatic checks. Each result shows
-the eligible weight denominator; boss results multiply the main assignment
-chance by the eligible boss subtable chance. The included checks compare the
-Java engine against the original Wiki Lua over 210 account scenarios.
+1. Choose a monster from the **Slayer Task** dropdown.
+2. Compare the masters, ranked from the highest assignment chance to the lowest.
+3. Open **Account requirements** to see which levels, quests, unlocks, or access
+   checks affect your eligible task pool.
 
-## Block synchronization
+The percentage is the chance that a master assigns the selected task, based on
+the task weights that apply to your account and that master’s saved block list.
+Boss-task odds also account for the eligible boss subtable. The result is a
+probability, not a promise about the next assignment.
 
-Open **Slayer rewards > Tasks** or the task-list screen. The plugin reads
-`SLAYER_MASTER_IN_FOCUS` and the selected master's seven block varbits (six
-standard slots plus the diary slot), resolving task IDs through the live client
-DB table. All seven slots must resolve before saved block settings are changed.
-Success is confirmed only after saving and reading back the values. The **Post sync messages
-in chat** setting controls the success notice and per-slot messages; sync failures
-are always reported. Missing task data causes retries, unchanged screens do not
-repeatedly post success, and a changed block or selected master is synced again.
+## Keep your block lists current
 
-Saved dropdowns can also be used to compare planned block lists. Open each
-master's screen to replace that master's saved list with its current game list.
-The former eighth slot is no longer used because it is not an in-game block slot.
+Open **Slayer rewards > Tasks** or the Slayer task-list screen while logged in.
+The plugin detects the selected master and syncs its six regular block slots and
+diary slot. It only updates the saved list after it has read and verified all
+seven slots.
 
-## Build and verification
+Use **Saved block list** in the panel or the master sections in Plugin
+Configuration to review or edit saved blocks. This also lets you compare planned
+block lists. Lists are kept separately for each Slayer master.
 
-Use Java 11 or later. Run `gradlew.bat build` to compile and run the Wiki comparison
-and block-reader checks, or `gradlew.bat verifyWiki` for those checks alone.
-`gradlew.bat run` launches the development client.
+By default, a successful sync posts a confirmation and each slot in chat. To
+silence those success messages, turn off **Post sync messages in chat** under
+**Notifications** in Plugin Configuration. Sync failures are still reported.
 
-See [reference attribution and regeneration](tools/wiki-reference/README.md).
-Source data is CC BY-NC-SA 3.0; it retains those terms separately from plugin code.
-The reference calculator is https://oldschool.runescape.wiki/w/Calculator:Slayer/Slayer_task_weight.
+## Calculation and account data
+
+Task weights and eligibility rules are based on the [OSRS Wiki Slayer task weight
+calculator](https://oldschool.runescape.wiki/w/Calculator:Slayer/Slayer_task_weight).
+The plugin calculates locally from task data bundled with the plugin and account
+information already available in RuneLite. It does not send your account state to
+an external service.
+
+The **Account requirements** section shows the levels, quests, unlocks, and access
+checks used for the selected account. Some access checks depend on information
+RuneLite has observed; if an older item unlock is not detected, open your bank so
+the client can see the relevant item.
+
+## Credits and licensing
+
+The Java plugin code is licensed under the BSD 2-Clause License. The bundled
+Slayer task data is derived from OSRS Wiki content and is covered separately by
+CC BY-NC-SA 3.0. Source references, attribution, and data-generation notes are in
+[`tools/wiki-reference/README.md`](tools/wiki-reference/README.md).
+
+## Support
+
+Report a bug or suggest an improvement on the [GitHub issue tracker](https://github.com/RYANOATES/Slayer-Task-Odds/issues).
