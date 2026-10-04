@@ -2,13 +2,15 @@ package slayertaskodds;
 
 import com.google.gson.Gson;
 import com.google.inject.Provides;
-import java.awt.Color;
 import java.awt.image.BufferedImage;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
+import javax.imageio.ImageIO;
 import javax.inject.Inject;
 import javax.swing.SwingUtilities;
 import net.runelite.api.ChatMessageType;
@@ -60,14 +62,28 @@ public class SlayerOddsPlugin extends Plugin
         SwingUtilities.invokeLater(() -> {
             if (!running) return;
             panel = new SlayerOddsPanel(monster -> { selectedMonster = monster; refresh(); }, this::saveBlock);
-            BufferedImage icon = new BufferedImage(24, 24, BufferedImage.TYPE_INT_ARGB);
-            java.awt.Graphics2D g = icon.createGraphics();
-            g.setColor(new Color(255, 190, 80)); g.fillOval(3, 3, 18, 18);
-            g.setColor(Color.BLACK); g.drawString("S", 9, 17); g.dispose();
+            BufferedImage icon = loadIcon();
             navigation = NavigationButton.builder().tooltip("Slayer Task Odds").icon(icon).priority(8).panel(panel).build();
             toolbar.addNavigation(navigation);
             refresh();
         });
+    }
+
+    private BufferedImage loadIcon()
+    {
+        try (InputStream stream = SlayerOddsPlugin.class.getResourceAsStream("/slayertaskodds/icon.png"))
+        {
+            if (stream == null)
+                throw new IllegalStateException("Missing Slayer Task Odds sidebar icon");
+            BufferedImage icon = ImageIO.read(stream);
+            if (icon == null)
+                throw new IllegalStateException("Invalid Slayer Task Odds sidebar icon");
+            return icon;
+        }
+        catch (IOException ex)
+        {
+            throw new IllegalStateException("Unable to load Slayer Task Odds sidebar icon", ex);
+        }
     }
 
     @Override
