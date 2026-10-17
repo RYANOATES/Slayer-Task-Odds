@@ -172,6 +172,7 @@ public enum SlayerTaskChoice
 			case "kurask": return "kurasks";
 			case "molanisk": return "molanisks";
 			case "monkey": return "monkeys";
+			case "suqahs": return "suqah";
 			case "waterfiend": return "waterfiends";
 			default: return key;
 		}
