@@ -222,7 +222,7 @@ final class SlayerOddsPanel extends PluginPanel
             detail.setAlignmentX(CENTER_ALIGNMENT);
             row.add(detail);
 
-            JLabel chance = new JLabel(String.format("%.1f%%", result.chance() * 100.0), SwingConstants.CENTER);
+            JLabel chance = new JLabel(String.format("%.2f%%", result.chance() * 100.0), SwingConstants.CENTER);
             chance.setForeground(i == 0 ? ACCENT : new Color(220, 224, 230));
             chance.setFont(chance.getFont().deriveFont(Font.BOLD, 15f));
             chance.setAlignmentX(CENTER_ALIGNMENT);
