@@ -1,0 +1,2942 @@
+[
+  {
+    "task": "Aberrant spectres",
+    "key": "aberrantspectres",
+    "resource": "aberrantspectres.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Aberrant_spectre.png",
+    "original": "https://oldschool.runescape.wiki/images/Aberrant_spectre.png?65d6f",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Aberrant_spectre.png/38px-Aberrant_spectre.png?65d6f",
+    "sha256": "57d1fda7056e333d7d5c7bbaa42023042bc55cbe12f738f3ce58064e017335da",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-01-19T16:47:57Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Aberrant spectre",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Abyssal demons",
+    "key": "abyssaldemons",
+    "resource": "abyssaldemons.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Abyssal_demon.png",
+    "original": "https://oldschool.runescape.wiki/images/Abyssal_demon.png?5e1ed",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Abyssal_demon.png/69px-Abyssal_demon.png?5e1ed",
+    "sha256": "ece18ebffa3cc66892104b2ff89eb1fa232a75198316664c6baf76a8be4f857e",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-04T03:48:28Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Abyssal demon",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Abyssal Sire",
+    "key": "abyssalsire",
+    "resource": "abyssalsire.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Abyssal_Sire.png",
+    "original": "https://oldschool.runescape.wiki/images/Abyssal_Sire.png?d2205",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Abyssal_Sire.png/80px-Abyssal_Sire.png?d2205",
+    "sha256": "2916eda38d47d3628cfe4f1f219e9624a2ca0bceab9a8530c7d14bc6287a175b",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-04T03:49:19Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Abyssal Sire",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Alchemical Hydra",
+    "key": "alchemicalhydra",
+    "resource": "alchemicalhydra.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Alchemical_Hydra_(serpentine).png",
+    "original": "https://oldschool.runescape.wiki/images/Alchemical_Hydra_%28serpentine%29.png?925dd",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Alchemical_Hydra_%28serpentine%29.png/72px-Alchemical_Hydra_%28serpentine%29.png?925dd",
+    "sha256": "42063b743fdaa4a9a0f6ca9fc419a2c443c58700263d953e216e5504b4a85379",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-04T15:04:29Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Alchemical Hydra (serpentine)",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Ankou",
+    "key": "ankou",
+    "resource": "ankou.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Ankou.png",
+    "original": "https://oldschool.runescape.wiki/images/Ankou.png?efca0",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Ankou.png/31px-Ankou.png?efca0",
+    "sha256": "997f81bfbb4b6152da33376c3dc8b941c47815b958ab80b7cad7e5f42fead52b",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-01-20T09:20:07Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Ankou",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Aquanites",
+    "key": "aquanites",
+    "resource": "aquanites.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Aquanite.png",
+    "original": "https://oldschool.runescape.wiki/images/Aquanite.png?938d6",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Aquanite.png/80px-Aquanite.png?938d6",
+    "sha256": "ac645ff6e3902902bf33b9026d44d5f172517dfe686667d89b0a2ac8492ff3ca",
+    "metadata": {
+      "DateTime": {
+        "value": "2025-11-19T20:13:08Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Aquanite",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Araxxor",
+    "key": "araxxor",
+    "resource": "araxxor.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Araxxor.png",
+    "original": "https://oldschool.runescape.wiki/images/Araxxor.png?35d2e",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Araxxor.png/80px-Araxxor.png?35d2e",
+    "sha256": "2ba6ce4273de5b037b67d82ac9f7eda35b3167e54e1ca7c5b94736113820ac11",
+    "metadata": {
+      "DateTime": {
+        "value": "2024-08-28T09:48:05Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Araxxor",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Araxytes",
+    "key": "araxytes",
+    "resource": "araxytes.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Araxyte_(lv_96).png",
+    "original": "https://oldschool.runescape.wiki/images/Araxyte_%28lv_96%29.png?0a762",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Araxyte_%28lv_96%29.png/80px-Araxyte_%28lv_96%29.png?0a762",
+    "sha256": "5351dfd6eddc2c25b83480b20a6734b4dfdf5d93a809c01af6eb97b9314508aa",
+    "metadata": {
+      "DateTime": {
+        "value": "2024-08-28T09:48:06Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Araxyte (lv 96)",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Aviansie",
+    "key": "aviansie",
+    "resource": "aviansie.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Aviansie_(level_69).png",
+    "original": "https://oldschool.runescape.wiki/images/Aviansie_%28level_69%29.png?be08b",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Aviansie_%28level_69%29.png/71px-Aviansie_%28level_69%29.png?be08b",
+    "sha256": "7c8bc06368309d29be4a7c52f6a6cd4196237ea03473ecb034c98481f1b3232d",
+    "metadata": {
+      "DateTime": {
+        "value": "2022-01-16T17:52:27Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Aviansie (level 69)",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Bandits",
+    "key": "bandits",
+    "resource": "bandits.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Bandit.png",
+    "original": "https://oldschool.runescape.wiki/images/Bandit.png?4ee9f",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Bandit.png/35px-Bandit.png?4ee9f",
+    "sha256": "ac4a661f9467492c7267a64122e14898b867e8cab3c3ea2cc49bd500ed2537e5",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-06-06T13:39:47Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Bandit",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Banshees",
+    "key": "banshees",
+    "resource": "banshees.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Banshee.png",
+    "original": "https://oldschool.runescape.wiki/images/Banshee.png?5f883",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Banshee.png/45px-Banshee.png?5f883",
+    "sha256": "1ba80f127aec431dae73586713f16d69990dc06fed1f2083d18c1601a464cc65",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-06-12T18:47:21Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Banshee",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Barrows",
+    "key": "barrows",
+    "resource": "barrows.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Dharok_the_Wretched.png",
+    "original": "https://oldschool.runescape.wiki/images/Dharok_the_Wretched.png?33092",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Dharok_the_Wretched.png/30px-Dharok_the_Wretched.png?33092",
+    "sha256": "7137842c3f490605bbe397132d002cd863238b61c9f5e8d80e341860cbcca924",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-01-19T06:19:17Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Dharok the Wretched",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Basilisk",
+    "key": "basilisk",
+    "resource": "basilisk.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Basilisk.png",
+    "original": "https://oldschool.runescape.wiki/images/Basilisk.png?37a42",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Basilisk.png/80px-Basilisk.png?37a42",
+    "sha256": "b6fe5a16d37f2d227cb91c3a89cead9d65ed8b1c10fba4e47991fd784b4940c1",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-06-16T15:36:27Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Basilisk",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Bats",
+    "key": "bats",
+    "resource": "bats.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Bat.png",
+    "original": "https://oldschool.runescape.wiki/images/Bat.png?9c98d",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Bat.png/80px-Bat.png?9c98d",
+    "sha256": "f9b019809692b42a2d0d04a60a44b559afbf5d84ba75ae4b89fca7e5ca8c1743",
+    "metadata": {
+      "DateTime": {
+        "value": "2020-08-02T07:47:57Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Bat",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Bears",
+    "key": "bears",
+    "resource": "bears.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Grizzly_bear_(level_21).png",
+    "original": "https://oldschool.runescape.wiki/images/Grizzly_bear_%28level_21%29.png?5c286",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Grizzly_bear_%28level_21%29.png/80px-Grizzly_bear_%28level_21%29.png?5c286",
+    "sha256": "b80855d71c3c887dedbefff2765bfda346ebe8b7c2d05130637885a09f50653c",
+    "metadata": {
+      "DateTime": {
+        "value": "2020-12-02T04:27:00Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Grizzly bear (level 21)",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Birds",
+    "key": "birds",
+    "resource": "birds.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Chicken_(1).png",
+    "original": "https://oldschool.runescape.wiki/images/Chicken_%281%29.png?a7258",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Chicken_%281%29.png/59px-Chicken_%281%29.png?a7258",
+    "sha256": "e9376390d3f6cde911872426423b7dc0777a53656aad0b68077a31d69ddf52c6",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-06-22T14:05:48Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Chicken (1)",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Black demons",
+    "key": "blackdemons",
+    "resource": "blackdemons.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Black_demon.png",
+    "original": "https://oldschool.runescape.wiki/images/Black_demon.png?5ecf8",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Black_demon.png/63px-Black_demon.png?5ecf8",
+    "sha256": "a64d62fa9e587efa91764ed3c4c41ff3b1789629ce81ca1bc6d73b376eaa7503",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-29T04:52:15Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Black demon",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Black dragons",
+    "key": "blackdragons",
+    "resource": "blackdragons.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Black_dragon.png",
+    "original": "https://oldschool.runescape.wiki/images/Black_dragon.png?b8574",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Black_dragon.png/80px-Black_dragon.png?b8574",
+    "sha256": "b9f6b9d6e2a52d8b87c690ef9a5305bba56405f6e6162c984ad9c43cdb63e465",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T01:08:47Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Black dragon",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Black knights",
+    "key": "blackknights",
+    "resource": "blackknights.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Black_Knight_(male).png",
+    "original": "https://oldschool.runescape.wiki/images/Black_Knight_%28male%29.png?822e1",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Black_Knight_%28male%29.png/32px-Black_Knight_%28male%29.png?822e1",
+    "sha256": "6a8e7947e5e7c3d2179fc0e364fe20c10db23521c9b7dd6eabfdc355b9c9067e",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-06-22T13:17:31Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Black Knight (male)",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Bloodveld",
+    "key": "bloodveld",
+    "resource": "bloodveld.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Bloodveld.png",
+    "original": "https://oldschool.runescape.wiki/images/Bloodveld.png?adc61",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Bloodveld.png/80px-Bloodveld.png?adc61",
+    "sha256": "883119acacd2b06d7dd23b813fa5b567bb0c0f7d5a1fb95162ad85860c3fd71e",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-06-18T15:37:18Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Bloodveld",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Blue dragons",
+    "key": "bluedragons",
+    "resource": "bluedragons.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Blue_dragon.png",
+    "original": "https://oldschool.runescape.wiki/images/Blue_dragon.png?1f705",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Blue_dragon.png/80px-Blue_dragon.png?1f705",
+    "sha256": "68b7cea0df37836a1edd3ffe80eee6cd429d287a7fd13810e9954f4eb19aea50",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T01:22:01Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Blue dragon",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Brine rats",
+    "key": "brinerats",
+    "resource": "brinerats.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Brine_rat.png",
+    "original": "https://oldschool.runescape.wiki/images/Brine_rat.png?58670",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Brine_rat.png/80px-Brine_rat.png?58670",
+    "sha256": "b02c88a2b59f4dd7d843487f1b83dd1d05db37ba2606e55f7f6ffd8943d49220",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T01:21:53Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Brine rat",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Callisto",
+    "key": "callisto",
+    "resource": "callisto.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Callisto.png",
+    "original": "https://oldschool.runescape.wiki/images/Callisto.png?bfba7",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Callisto.png/80px-Callisto.png?bfba7",
+    "sha256": "42475b473c01ee4f168fd0550b45981dfed1f1cdc8dac4154037e269f6bd97a9",
+    "metadata": {
+      "DateTime": {
+        "value": "2023-01-25T10:49:05Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Callisto",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Catablepon",
+    "key": "catablepon",
+    "resource": "catablepon.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Catablepon.png",
+    "original": "https://oldschool.runescape.wiki/images/Catablepon.png?a482e",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Catablepon.png/80px-Catablepon.png?a482e",
+    "sha256": "630c81a36078a2110ffbccae8d5a79c6c3eb8a86050b429c63db62efebcbbe92",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T01:21:55Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Catablepon",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Cave bugs",
+    "key": "cavebugs",
+    "resource": "cavebugs.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Cave_bug_(level_6).png",
+    "original": "https://oldschool.runescape.wiki/images/Cave_bug_%28level_6%29.png?a482e",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Cave_bug_%28level_6%29.png/80px-Cave_bug_%28level_6%29.png?a482e",
+    "sha256": "943659af5c01394cb62fc8707000424e41bbd2e7638e98bbb1360b5693f4b1a8",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T01:21:55Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Cave bug (level 6)",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Cave crawlers",
+    "key": "cavecrawlers",
+    "resource": "cavecrawlers.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Cave_crawler_(1).png",
+    "original": "https://oldschool.runescape.wiki/images/Cave_crawler_%281%29.png?47f4c",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Cave_crawler_%281%29.png/80px-Cave_crawler_%281%29.png?47f4c",
+    "sha256": "ce25c8db307e85f4d53873d7f9bbebbde94fd0e9a43e09b69d08d237b254c6c9",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T01:21:56Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Cave crawler (1)",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Cave horrors",
+    "key": "cavehorrors",
+    "resource": "cavehorrors.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Cave_horror_(1).png",
+    "original": "https://oldschool.runescape.wiki/images/Cave_horror_%281%29.png?a57e4",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Cave_horror_%281%29.png/51px-Cave_horror_%281%29.png?a57e4",
+    "sha256": "89322485bd98adf5e9b1f2d80f28931812151d39ee271f220b4938d018dd3024",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-06-22T13:44:40Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Cave horror (1)",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Cave kraken",
+    "key": "cavekraken",
+    "resource": "cavekraken.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Cave_kraken.png",
+    "original": "https://oldschool.runescape.wiki/images/Cave_kraken.png?4612a",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Cave_kraken.png/80px-Cave_kraken.png?4612a",
+    "sha256": "17a9227d191a4e11acf3ebc50accb64556055e98c23c234cc5f7dadcb52ba031",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-27T22:22:23Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Cave kraken",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Cave slime",
+    "key": "caveslime",
+    "resource": "caveslime.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Cave_slime.png",
+    "original": "https://oldschool.runescape.wiki/images/Cave_slime.png?21448",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Cave_slime.png/80px-Cave_slime.png?21448",
+    "sha256": "73f857463c9ee5a31bdd9c8252fa759ec0ad1a80c1d107283e684f58a4245e11",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-06-22T13:50:47Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Cave slime",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Cerberus",
+    "key": "cerberus",
+    "resource": "cerberus.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Cerberus.png",
+    "original": "https://oldschool.runescape.wiki/images/Cerberus.png?47f4c",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Cerberus.png/80px-Cerberus.png?47f4c",
+    "sha256": "6c5f1f64ffe34f274f70e656bd0460cfc4f6b2fcb5c6744017b2efe2c8ae8c81",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T01:21:56Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Cerberus",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Chaos druids",
+    "key": "chaosdruids",
+    "resource": "chaosdruids.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Chaos_druid.png",
+    "original": "https://oldschool.runescape.wiki/images/Chaos_druid.png?2557e",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Chaos_druid.png/32px-Chaos_druid.png?2557e",
+    "sha256": "5ccdfee1a08bd895504cbf860c867e0b0b0efef34f6f41501394e2c91ca8ca2b",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-06-22T13:56:14Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Chaos druid",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Chaos Elemental",
+    "key": "chaoselemental",
+    "resource": "chaoselemental.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Chaos_Elemental.png",
+    "original": "https://oldschool.runescape.wiki/images/Chaos_Elemental.png?c170c",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Chaos_Elemental.png/80px-Chaos_Elemental.png?c170c",
+    "sha256": "8ebad18b19ba6e696766cbdfc63f41e0070a28395f9b6ad5539c89df19db9860",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-06-22T13:53:32Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Chaos Elemental",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Chaos Fanatic",
+    "key": "chaosfanatic",
+    "resource": "chaosfanatic.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Chaos_Fanatic.png",
+    "original": "https://oldschool.runescape.wiki/images/Chaos_Fanatic.png?8871d",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Chaos_Fanatic.png/45px-Chaos_Fanatic.png?8871d",
+    "sha256": "20cb2d38ecc2b1143e1f800da86b06d866a10635e8ee8529eaab7fa768dc7eb7",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-06-22T13:55:45Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Chaos Fanatic",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Cockatrice",
+    "key": "cockatrice",
+    "resource": "cockatrice.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Cockatrice.png",
+    "original": "https://oldschool.runescape.wiki/images/Cockatrice.png?6339a",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Cockatrice.png/80px-Cockatrice.png?6339a",
+    "sha256": "e3f954af5b6e8a4cdb405995a3b4f8ed6a3608153b338a5d159490494e63923d",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-06-12T17:52:22Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Cockatrice",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Commander Zilyana",
+    "key": "commanderzilyana",
+    "resource": "commanderzilyana.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Commander_Zilyana.png",
+    "original": "https://oldschool.runescape.wiki/images/Commander_Zilyana.png?c5eaa",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Commander_Zilyana.png/47px-Commander_Zilyana.png?c5eaa",
+    "sha256": "e093d4c67ce77a18c03d24d2709c82ada13da0811c6a431038cc1a079b2f2bd1",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-06-22T14:22:37Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Commander Zilyana",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Cows",
+    "key": "cows",
+    "resource": "cows.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Cow_(1).png",
+    "original": "https://oldschool.runescape.wiki/images/Cow_%281%29.png?52ebb",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Cow_%281%29.png/80px-Cow_%281%29.png?52ebb",
+    "sha256": "67d2b304f479aae4633dbe5e55d38fd134d1442350270385cc42bcc162ac34a8",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T01:21:57Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Cow (1)",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Crabs",
+    "key": "crabs",
+    "resource": "crabs.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Rock_crab_(exposed).png",
+    "original": "https://oldschool.runescape.wiki/images/Rock_crab_%28exposed%29.png?7d2f4",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Rock_crab_%28exposed%29.png/80px-Rock_crab_%28exposed%29.png?7d2f4",
+    "sha256": "fd88e998f7264c1d0bf5b130681e21d1d0bb71c931e0502fc67b74eba12bfe65",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-01-26T17:15:55Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Rock crab (exposed)",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Crawling Hands",
+    "key": "crawlinghands",
+    "resource": "crawlinghands.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Crawling_Hand.png",
+    "original": "https://oldschool.runescape.wiki/images/Crawling_Hand.png?24f75",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Crawling_Hand.png/80px-Crawling_Hand.png?24f75",
+    "sha256": "a815682bdf8daa2afaddbdb0c874d2c508f3dd080fe3a491e2a88dc04f139516",
+    "metadata": {
+      "DateTime": {
+        "value": "2018-03-12T02:26:32Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Crawling Hand",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Crazy Archaeologist",
+    "key": "crazyarchaeologist",
+    "resource": "crazyarchaeologist.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Crazy_archaeologist.png",
+    "original": "https://oldschool.runescape.wiki/images/Crazy_archaeologist.png?78fa1",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Crazy_archaeologist.png/27px-Crazy_archaeologist.png?78fa1",
+    "sha256": "cbbd54c9303cb2b5792bd089b7465758fc3d8435cc8d5c1a391f0afebd11bc4c",
+    "metadata": {
+      "DateTime": {
+        "value": "2026-09-07T00:51:17Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Crazy archaeologist",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Crocodiles",
+    "key": "crocodiles",
+    "resource": "crocodiles.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Crocodile.png",
+    "original": "https://oldschool.runescape.wiki/images/Crocodile.png?4b72e",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Crocodile.png/80px-Crocodile.png?4b72e",
+    "sha256": "f9efa0f881dd5a4d6477f2e687f3520c87027b6aeee4d160959dae13b0059c0c",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T01:21:58Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Crocodile",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Custodian stalker",
+    "key": "custodianstalker",
+    "resource": "custodianstalker.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Elder_custodian_stalker.png",
+    "original": "https://oldschool.runescape.wiki/images/Elder_custodian_stalker.png?af790",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Elder_custodian_stalker.png/30px-Elder_custodian_stalker.png?af790",
+    "sha256": "657149922dcbc90930cb4dec8483ed705194edd7f15498df04091257a296a701",
+    "metadata": {
+      "DateTime": {
+        "value": "2025-07-29T19:39:07Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Elder custodian stalker",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Dagannoth",
+    "key": "dagannoth",
+    "resource": "dagannoth.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Dagannoth.png",
+    "original": "https://oldschool.runescape.wiki/images/Dagannoth.png?81f00",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Dagannoth.png/72px-Dagannoth.png?81f00",
+    "sha256": "74b9af28492c4a6c2c8db5fc371ba602d2320b3ac1eaf9b15a91100409c78b47",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T01:28:18Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Dagannoth",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Dagannoth Kings",
+    "key": "dagannothkings",
+    "resource": "dagannothkings.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Dagannoth_Rex.png",
+    "original": "https://oldschool.runescape.wiki/images/Dagannoth_Rex.png?a99a9",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Dagannoth_Rex.png/70px-Dagannoth_Rex.png?a99a9",
+    "sha256": "6ebc01c4fc5a0f2d30bbcd364971224b1911861a0ac107e7d2d0b59025cc8ee1",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T01:22:00Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Dagannoth Rex",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Dark beasts",
+    "key": "darkbeasts",
+    "resource": "darkbeasts.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Dark_beast.png",
+    "original": "https://oldschool.runescape.wiki/images/Dark_beast.png?81f00",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Dark_beast.png/80px-Dark_beast.png?81f00",
+    "sha256": "1e89261f747d25ff9989ce093ad593ca8ce8f559e2073c3c13e3c8ed0aa78bc9",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T01:28:18Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Dark beast",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Dark warriors",
+    "key": "darkwarriors",
+    "resource": "darkwarriors.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Dark_warrior.png",
+    "original": "https://oldschool.runescape.wiki/images/Dark_warrior.png?386d1",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Dark_warrior.png/36px-Dark_warrior.png?386d1",
+    "sha256": "0653071601ea413689062e29ee9a917a95720f681d8fa57429ef6919fb65a022",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-01-26T16:35:00Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Dark warrior",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Dogs",
+    "key": "dogs",
+    "resource": "dogs.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Dog.png",
+    "original": "https://oldschool.runescape.wiki/images/Dog.png?a690e",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Dog.png/80px-Dog.png?a690e",
+    "sha256": "9cacf7f0398a7180d2f342714e972fcd1298c3af2e804bb9698a227fd612c187",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T01:28:21Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Dog",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Drakes",
+    "key": "drakes",
+    "resource": "drakes.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Drake.png",
+    "original": "https://oldschool.runescape.wiki/images/Drake.png?289eb",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Drake.png/80px-Drake.png?289eb",
+    "sha256": "f0dd8d0caa059509813043096c87e0ca2ae04fa79a84dc39cf412988a9b41c7f",
+    "metadata": {
+      "DateTime": {
+        "value": "2020-07-23T12:45:14Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Drake",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Duke Sucellus",
+    "key": "dukesucellus",
+    "resource": "dukesucellus.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Duke_Sucellus.png",
+    "original": "https://oldschool.runescape.wiki/images/Duke_Sucellus.png?d588a",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Duke_Sucellus.png/72px-Duke_Sucellus.png?d588a",
+    "sha256": "fc6d7c87b58d980ac638267831f40cdc293a486f85d1113f03a31443d58e11b9",
+    "metadata": {
+      "DateTime": {
+        "value": "2023-07-26T13:35:16Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Duke Sucellus",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Dust devils",
+    "key": "dustdevils",
+    "resource": "dustdevils.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Dust_devil.png",
+    "original": "https://oldschool.runescape.wiki/images/Dust_devil.png?4b2c4",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Dust_devil.png/42px-Dust_devil.png?4b2c4",
+    "sha256": "17d54137576af6e06119d3671631dbb5a3b0e65eb8be8d6d588d2cb62e1b7b83",
+    "metadata": {
+      "DateTime": {
+        "value": "2020-10-23T18:05:01Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Dust devil",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Dwarves",
+    "key": "dwarves",
+    "resource": "dwarves.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Dwarf.png",
+    "original": "https://oldschool.runescape.wiki/images/Dwarf.png?e1ad7",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Dwarf.png/40px-Dwarf.png?e1ad7",
+    "sha256": "b391a1c9994670bdd09b3bb77c22ea5bcd2d6a58a10f03649057e6a62c7a2a5a",
+    "metadata": {
+      "DateTime": {
+        "value": "2025-12-19T20:56:41Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Dwarf",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Earth warriors",
+    "key": "earthwarriors",
+    "resource": "earthwarriors.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Earth_warrior.png",
+    "original": "https://oldschool.runescape.wiki/images/Earth_warrior.png?b1e4e",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Earth_warrior.png/32px-Earth_warrior.png?b1e4e",
+    "sha256": "9ad491d8057c1c24addfc8795ee30e9b324366719334c4c7851051c3ee9e0a87",
+    "metadata": {
+      "DateTime": {
+        "value": "2021-09-12T06:37:32Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Earth warrior",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Elves",
+    "key": "elves",
+    "resource": "elves.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Elf_Warrior_(1).png",
+    "original": "https://oldschool.runescape.wiki/images/Elf_Warrior_%281%29.png?7a1ed",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Elf_Warrior_%281%29.png/33px-Elf_Warrior_%281%29.png?7a1ed",
+    "sha256": "ee72430493c99d674dbe2725a3f33a96339cc6c5620e7f49e604c5e525e1fd37",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-07-27T02:32:05Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Elf Warrior (1)",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Ents",
+    "key": "ents",
+    "resource": "ents.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Ent_(lv_86).png",
+    "original": "https://oldschool.runescape.wiki/images/Ent_%28lv_86%29.png?35924",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Ent_%28lv_86%29.png/48px-Ent_%28lv_86%29.png?35924",
+    "sha256": "9e3da4f94f114882c1ce8b040be3b03beec27a0da31d087d7cdf52faf2a03746",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-01-21T22:50:29Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Ent (lv 86)",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Fever spiders",
+    "key": "feverspiders",
+    "resource": "feverspiders.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Fever_spider.png",
+    "original": "https://oldschool.runescape.wiki/images/Fever_spider.png?4bb46",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Fever_spider.png/80px-Fever_spider.png?4bb46",
+    "sha256": "3445d06cf39589802c4314252b16cf088e07a523692588a90969f3e6e6499529",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-02-02T18:47:27Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Fever spider",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Fire giants",
+    "key": "firegiants",
+    "resource": "firegiants.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Fire_giant.png",
+    "original": "https://oldschool.runescape.wiki/images/Fire_giant.png?30592",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Fire_giant.png/31px-Fire_giant.png?30592",
+    "sha256": "2e366846226306dc6b56766f1bb6faf80610ce431aae7d5320ffa77eaa5b35b2",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-01-22T02:45:03Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Fire giant",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Flesh Crawlers",
+    "key": "fleshcrawlers",
+    "resource": "fleshcrawlers.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Flesh_Crawler.png",
+    "original": "https://oldschool.runescape.wiki/images/Flesh_Crawler.png?42348",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Flesh_Crawler.png/80px-Flesh_Crawler.png?42348",
+    "sha256": "8c1ab6c6f35d88a4435057409c4df095b96009b0bd93aeb52d86f977a4b51f82",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-01-26T16:00:17Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Flesh Crawler",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Fossil Island Wyverns",
+    "key": "fossilislandwyverns",
+    "resource": "fossilislandwyverns.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Ancient_Wyvern.png",
+    "original": "https://oldschool.runescape.wiki/images/Ancient_Wyvern.png?d7e5d",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Ancient_Wyvern.png/56px-Ancient_Wyvern.png?d7e5d",
+    "sha256": "becf8d1d790b304ab7010b1866dc552df2d5e49204dd57b482706611537f73dc",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T01:08:39Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Ancient Wyvern",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Frost dragons",
+    "key": "frostdragons",
+    "resource": "frostdragons.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Frost_dragon.png",
+    "original": "https://oldschool.runescape.wiki/images/Frost_dragon.png?90765",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Frost_dragon.png/80px-Frost_dragon.png?90765",
+    "sha256": "421af848178a391640da2f9262603cfce5e69d8f37a87652264cbfab8c371add",
+    "metadata": {
+      "DateTime": {
+        "value": "2025-11-20T19:29:09Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Frost dragon",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Gargoyles",
+    "key": "gargoyles",
+    "resource": "gargoyles.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Gargoyle.png",
+    "original": "https://oldschool.runescape.wiki/images/Gargoyle.png?b7dd7",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Gargoyle.png/80px-Gargoyle.png?b7dd7",
+    "sha256": "62ae37aafa2dae96acd401838ab6b24be4181a73f5e500d15323f2019d38425e",
+    "metadata": {
+      "DateTime": {
+        "value": "2016-03-11T04:04:08Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Gargoyle",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "General Graardor",
+    "key": "generalgraardor",
+    "resource": "generalgraardor.png",
+    "source": "https://oldschool.runescape.wiki/w/File:General_Graardor.png",
+    "original": "https://oldschool.runescape.wiki/images/General_Graardor.png?4dd90",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/General_Graardor.png/67px-General_Graardor.png?4dd90",
+    "sha256": "ccef927bc8e1b18391010523aea939d0acfdeb3aecf4ef66867797fd379f1b02",
+    "metadata": {
+      "DateTime": {
+        "value": "2018-11-21T06:50:06Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "General Graardor",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Ghosts",
+    "key": "ghosts",
+    "resource": "ghosts.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Ghost.png",
+    "original": "https://oldschool.runescape.wiki/images/Ghost.png?997b9",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Ghost.png/40px-Ghost.png?997b9",
+    "sha256": "82600e95b464680319db7745ac79462f5b890cfc94ba2332b23d98d91dc6ff11",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-01-29T15:26:55Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Ghost",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Ghouls",
+    "key": "ghouls",
+    "resource": "ghouls.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Ghoul.png",
+    "original": "https://oldschool.runescape.wiki/images/Ghoul.png?790e1",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Ghoul.png/28px-Ghoul.png?790e1",
+    "sha256": "386f53d6ae0e37b1c378de45f764215963d7b0dbe68c96abfc01d82280746445",
+    "metadata": {
+      "DateTime": {
+        "value": "2024-01-02T07:55:36Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Ghoul",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Giant Mole",
+    "key": "giantmole",
+    "resource": "giantmole.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Giant_Mole.png",
+    "original": "https://oldschool.runescape.wiki/images/Giant_Mole.png?3f58a",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Giant_Mole.png/80px-Giant_Mole.png?3f58a",
+    "sha256": "56c1e45b30faa8f7cddf58653f015042d41f254c5842c1d5b3d4894ce9c31f35",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T01:28:28Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Giant Mole",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Goblins",
+    "key": "goblins",
+    "resource": "goblins.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Goblin.png",
+    "original": "https://oldschool.runescape.wiki/images/Goblin.png?3c3d8",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Goblin.png/55px-Goblin.png?3c3d8",
+    "sha256": "cae0b1ee13e630850b57066c6e390cca98fa62401817eca721d22c6407a00cfe",
+    "metadata": {
+      "DateTime": {
+        "value": "2025-07-27T10:25:15Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Goblin",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Greater demons",
+    "key": "greaterdemons",
+    "resource": "greaterdemons.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Greater_demon.png",
+    "original": "https://oldschool.runescape.wiki/images/Greater_demon.png?f293e",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Greater_demon.png/63px-Greater_demon.png?f293e",
+    "sha256": "c8034170fcb42d591704fe2a31fecac011e9d5c8d9d5d6c90f91b6142ea40481",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-29T04:52:17Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Greater demon",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Green dragons",
+    "key": "greendragons",
+    "resource": "greendragons.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Green_dragon.png",
+    "original": "https://oldschool.runescape.wiki/images/Green_dragon.png?4657a",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Green_dragon.png/80px-Green_dragon.png?4657a",
+    "sha256": "e07a90cf780646d2c9aa5bf293b74c332699e11770df30a8624f2e578734bcd8",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T01:28:29Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Green dragon",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Grotesque Guardians",
+    "key": "grotesqueguardians",
+    "resource": "grotesqueguardians.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Dusk.png",
+    "original": "https://oldschool.runescape.wiki/images/Dusk.png?2d6f0",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Dusk.png/50px-Dusk.png?2d6f0",
+    "sha256": "4c5c83b6748eddab07f29c5265de581c35bf0d8c04e84fff9377cfabd7819780",
+    "metadata": {
+      "DateTime": {
+        "value": "2024-12-04T08:01:13Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Dusk",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Gryphons",
+    "key": "gryphons",
+    "resource": "gryphons.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Gryphon.png",
+    "original": "https://oldschool.runescape.wiki/images/Gryphon.png?74d42",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Gryphon.png/80px-Gryphon.png?74d42",
+    "sha256": "be7ade6ba6a6d1257a1740f6656c82d81e6b97b8f6e0f6612d49a2ee6238f0a2",
+    "metadata": {
+      "DateTime": {
+        "value": "2025-11-19T16:09:26Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Gryphon",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Harpie Bug Swarms",
+    "key": "harpiebugswarms",
+    "resource": "harpiebugswarms.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Harpie_Bug_Swarm.png",
+    "original": "https://oldschool.runescape.wiki/images/Harpie_Bug_Swarm.png?09fce",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Harpie_Bug_Swarm.png/80px-Harpie_Bug_Swarm.png?09fce",
+    "sha256": "f771cb2e2fea22330e2004a278d687f0ab77275b5e1fe404f3646caf7af33d00",
+    "metadata": {
+      "DateTime": {
+        "value": "2020-11-13T00:50:02Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Harpie Bug Swarm",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Hellhounds",
+    "key": "hellhounds",
+    "resource": "hellhounds.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Hellhound.png",
+    "original": "https://oldschool.runescape.wiki/images/Hellhound.png?a089e",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Hellhound.png/78px-Hellhound.png?a089e",
+    "sha256": "d057b873dc9ccf70cb512c7da242c63fe05fa29690ec944624ef6185ea38f697",
+    "metadata": {
+      "DateTime": {
+        "value": "2020-10-23T17:56:43Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Hellhound",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Hill Giants",
+    "key": "hillgiants",
+    "resource": "hillgiants.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Hill_Giant.png",
+    "original": "https://oldschool.runescape.wiki/images/Hill_Giant.png?d162a",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Hill_Giant.png/38px-Hill_Giant.png?d162a",
+    "sha256": "cf50ac1c0e038be69efa4417db016ff354c213a0ce6bb58839dc2dfe8b3c3d9b",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T01:33:52Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Hill Giant",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Hobgoblins",
+    "key": "hobgoblins",
+    "resource": "hobgoblins.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Hobgoblin.png",
+    "original": "https://oldschool.runescape.wiki/images/Hobgoblin.png?b3da9",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Hobgoblin.png/45px-Hobgoblin.png?b3da9",
+    "sha256": "9bb192d9e12ce907a150ddae796a8df2d56b0397895cefc299201dfeb6c26676",
+    "metadata": {
+      "DateTime": {
+        "value": "2024-09-28T22:28:07Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Hobgoblin",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Hydras",
+    "key": "hydras",
+    "resource": "hydras.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Hydra.png",
+    "original": "https://oldschool.runescape.wiki/images/Hydra.png?660ce",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Hydra.png/45px-Hydra.png?660ce",
+    "sha256": "17f6addf4f8afa3b5018c4933436d49cf47555b79dd7389e295d9c2adcbae283",
+    "metadata": {
+      "DateTime": {
+        "value": "2021-07-14T12:18:39Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Hydra",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Ice giants",
+    "key": "icegiants",
+    "resource": "icegiants.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Ice_giant.png",
+    "original": "https://oldschool.runescape.wiki/images/Ice_giant.png?34e06",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Ice_giant.png/42px-Ice_giant.png?34e06",
+    "sha256": "2c145ab5926b1a0a820ec2d5e78999b14f4a00134044d3b02a79e0a27bbdc58d",
+    "metadata": {
+      "DateTime": {
+        "value": "2024-09-29T08:39:40Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Ice giant",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Ice warriors",
+    "key": "icewarriors",
+    "resource": "icewarriors.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Ice_warrior.png",
+    "original": "https://oldschool.runescape.wiki/images/Ice_warrior.png?88525",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Ice_warrior.png/29px-Ice_warrior.png?88525",
+    "sha256": "769199456decb36db9d3127c92ecb1726eb474f3290add73f762daeccd7d1c12",
+    "metadata": {
+      "DateTime": {
+        "value": "2021-10-30T13:47:07Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Ice warrior",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Icefiends",
+    "key": "icefiends",
+    "resource": "icefiends.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Icefiend.png",
+    "original": "https://oldschool.runescape.wiki/images/Icefiend.png?b8975",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Icefiend.png/27px-Icefiend.png?b8975",
+    "sha256": "cbd809bf3afadd11bde710e371c49eeab845e397a35bace820122c9f0f4ecd49",
+    "metadata": {
+      "DateTime": {
+        "value": "2023-04-30T04:19:54Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Icefiend",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Infernal Mages",
+    "key": "infernalmages",
+    "resource": "infernalmages.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Infernal_Mage.png",
+    "original": "https://oldschool.runescape.wiki/images/Infernal_Mage.png?f3e68",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Infernal_Mage.png/35px-Infernal_Mage.png?f3e68",
+    "sha256": "6d20abf1b245f066703083a20d5575f7889fa4dfc08fe03e653deb30ed16c493",
+    "metadata": {
+      "DateTime": {
+        "value": "2017-08-01T22:30:56Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Infernal Mage",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Jellies",
+    "key": "jellies",
+    "resource": "jellies.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Jelly.png",
+    "original": "https://oldschool.runescape.wiki/images/Jelly.png?7a847",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Jelly.png/80px-Jelly.png?7a847",
+    "sha256": "2f8726fd28ba1c19756060e7ba5aff021be9c5c984f0dcf6a7cee73663f61744",
+    "metadata": {
+      "DateTime": {
+        "value": "2023-08-14T03:25:27Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Jelly",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Jungle horrors",
+    "key": "junglehorrors",
+    "resource": "junglehorrors.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Jungle_horror.png",
+    "original": "https://oldschool.runescape.wiki/images/Jungle_horror.png?a0d6e",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Jungle_horror.png/58px-Jungle_horror.png?a0d6e",
+    "sha256": "28a132bff7a0bb08e9b61b87a880fdfe38a36b6dff3bebcfec53dd68771e5ba6",
+    "metadata": {
+      "DateTime": {
+        "value": "2022-10-03T02:29:48Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Jungle horror",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Kalphite Queen",
+    "key": "kalphitequeen",
+    "resource": "kalphitequeen.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Kalphite_Queen.png",
+    "original": "https://oldschool.runescape.wiki/images/Kalphite_Queen.png?a4955",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Kalphite_Queen.png/80px-Kalphite_Queen.png?a4955",
+    "sha256": "ff8d29062ef0ab3a7dc49c901c8d4389bd47140c02b2f50230a8e7c928da0b0e",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-27T22:22:26Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Kalphite Queen",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Kalphites",
+    "key": "kalphites",
+    "resource": "kalphites.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Kalphite_Worker.png",
+    "original": "https://oldschool.runescape.wiki/images/Kalphite_Worker.png?28448",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Kalphite_Worker.png/80px-Kalphite_Worker.png?28448",
+    "sha256": "6e19426e62363207d0f2186183ab0c361ae50ad06aefc4083931d0eafca8bb7e",
+    "metadata": {
+      "DateTime": {
+        "value": "2020-10-23T18:21:48Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Kalphite Worker",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Killerwatts",
+    "key": "killerwatts",
+    "resource": "killerwatts.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Killerwatt.png",
+    "original": "https://oldschool.runescape.wiki/images/Killerwatt.png?c18c8",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Killerwatt.png/73px-Killerwatt.png?c18c8",
+    "sha256": "035e1a8baa06ea8c034fc338e58558d5b2a2773d092c38699c9f8295a34427c4",
+    "metadata": {
+      "DateTime": {
+        "value": "2024-02-22T01:44:34Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Killerwatt",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "King Black Dragon",
+    "key": "kingblackdragon",
+    "resource": "kingblackdragon.png",
+    "source": "https://oldschool.runescape.wiki/w/File:King_Black_Dragon.png",
+    "original": "https://oldschool.runescape.wiki/images/King_Black_Dragon.png?d25f0",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/King_Black_Dragon.png/80px-King_Black_Dragon.png?d25f0",
+    "sha256": "6cdd2135a6988582ce7db870138bc15c5dfe5073e3d15c29f65934b57689293a",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T01:33:55Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "King Black Dragon",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Kraken",
+    "key": "kraken",
+    "resource": "kraken.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Kraken.png",
+    "original": "https://oldschool.runescape.wiki/images/Kraken.png?a4955",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Kraken.png/80px-Kraken.png?a4955",
+    "sha256": "92cf6f9242c3ce6266f4de508db9faf86a14734a7f69a754c06c71ad2694ad3f",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-27T22:22:26Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Kraken",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Kreearra",
+    "key": "kreearra",
+    "resource": "kreearra.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Kree%27arra.png",
+    "original": "https://oldschool.runescape.wiki/images/Kree%27arra.png?ba75c",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Kree%27arra.png/75px-Kree%27arra.png?ba75c",
+    "sha256": "dbcc89f0a1633dedfe3b08783daf9a7e37094348c012854a6cac189368efc0d1",
+    "metadata": {
+      "DateTime": {
+        "value": "2022-01-16T18:10:51Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Kree'arra",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Kril Tsutsaroth",
+    "key": "kriltsutsaroth",
+    "resource": "kriltsutsaroth.png",
+    "source": "https://oldschool.runescape.wiki/w/File:K%27ril_Tsutsaroth.png",
+    "original": "https://oldschool.runescape.wiki/images/K%27ril_Tsutsaroth.png?73bda",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/K%27ril_Tsutsaroth.png/73px-K%27ril_Tsutsaroth.png?73bda",
+    "sha256": "b9c1287b3629b76a629bc7df82b0db98664e86b3605a956d590baebcb8eb1921",
+    "metadata": {
+      "DateTime": {
+        "value": "2021-08-30T07:49:42Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "K'ril Tsutsaroth",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Kurask",
+    "key": "kurask",
+    "resource": "kurask.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Kurask.png",
+    "original": "https://oldschool.runescape.wiki/images/Kurask.png?e9f94",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Kurask.png/80px-Kurask.png?e9f94",
+    "sha256": "81b33f9b45808dbac83a0bab2c59586effb67f4985277e238f4a61240b831568",
+    "metadata": {
+      "DateTime": {
+        "value": "2021-08-09T03:12:12Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Kurask",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Lava dragons",
+    "key": "lavadragons",
+    "resource": "lavadragons.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Lava_dragon.png",
+    "original": "https://oldschool.runescape.wiki/images/Lava_dragon.png?799e1",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Lava_dragon.png/80px-Lava_dragon.png?799e1",
+    "sha256": "ec9f0360dcc45eb9fc69ccac5d382b3b44d9b037bf1ffac84c418441f337d66c",
+    "metadata": {
+      "DateTime": {
+        "value": "2024-02-07T12:12:41Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Lava dragon",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Lesser demons",
+    "key": "lesserdemons",
+    "resource": "lesserdemons.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Lesser_demon.png",
+    "original": "https://oldschool.runescape.wiki/images/Lesser_demon.png?65f08",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Lesser_demon.png/39px-Lesser_demon.png?65f08",
+    "sha256": "cedfe72ea3891c1077dbd9fe6e9886663dc387743ae4886f4c434ae48e6f9419",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-29T04:52:12Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Lesser demon",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Lesser naguas",
+    "key": "lessernaguas",
+    "resource": "lessernaguas.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Sulphur_Nagua.png",
+    "original": "https://oldschool.runescape.wiki/images/Sulphur_Nagua.png?3f876",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Sulphur_Nagua.png/30px-Sulphur_Nagua.png?3f876",
+    "sha256": "d5f8db3e5e550e395e8819d9a2f7052983ca97cb2a3d13735f19dbfd0a13bcdb",
+    "metadata": {
+      "DateTime": {
+        "value": "2024-03-30T06:25:33Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Sulphur Nagua",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Lizardmen",
+    "key": "lizardmen",
+    "resource": "lizardmen.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Lizardman_(level_53).png",
+    "original": "https://oldschool.runescape.wiki/images/Lizardman_%28level_53%29.png?71082",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Lizardman_%28level_53%29.png/57px-Lizardman_%28level_53%29.png?71082",
+    "sha256": "c029c3100103b411b385d81cf598776b536a03ed6ab9ac6f31c9976b81a452af",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-06-24T16:10:46Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Lizardman (level 53)",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Lizards",
+    "key": "lizards",
+    "resource": "lizards.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Lizard.png",
+    "original": "https://oldschool.runescape.wiki/images/Lizard.png?1a045",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Lizard.png/80px-Lizard.png?1a045",
+    "sha256": "f21d20e3dac9088eb8a60ddf4e6ca6330df61f41f86fbc2526eb53fa1e5d7d1b",
+    "metadata": {
+      "DateTime": {
+        "value": "2022-09-25T03:43:42Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Lizard",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Maggot King",
+    "key": "maggotking",
+    "resource": "maggotking.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Maggot_King.png",
+    "original": "https://oldschool.runescape.wiki/images/Maggot_King.png?a6790",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Maggot_King.png/80px-Maggot_King.png?a6790",
+    "sha256": "404e461b38135f47d9f4fb981e7778672407ccf8c20bc2a4abff875d311c6b09",
+    "metadata": {
+      "DateTime": {
+        "value": "2026-06-30T19:05:49Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Maggot King",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Magic axes",
+    "key": "magicaxes",
+    "resource": "magicaxes.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Magic_axe.png",
+    "original": "https://oldschool.runescape.wiki/images/Magic_axe.png?956ac",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Magic_axe.png/80px-Magic_axe.png?956ac",
+    "sha256": "ff51b66ecf4c5c76fd1452f37cafa9f097f1a6760959da47f63a225a8b39bf3c",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T01:33:59Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Magic axe",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Mammoths",
+    "key": "mammoths",
+    "resource": "mammoths.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Mammoth.png",
+    "original": "https://oldschool.runescape.wiki/images/Mammoth.png?956ac",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Mammoth.png/80px-Mammoth.png?956ac",
+    "sha256": "064f9a1f2b4a9dad58927f61673ce6c8c2f253686757de244f8c1a73bc821385",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T01:33:59Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Mammoth",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Metal dragons",
+    "key": "metaldragons",
+    "resource": "metaldragons.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Iron_dragon.png",
+    "original": "https://oldschool.runescape.wiki/images/Iron_dragon.png?5b7f9",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Iron_dragon.png/80px-Iron_dragon.png?5b7f9",
+    "sha256": "268ecb4698c1e3086b1295581b1170e28c7879eb28db68305cb8200c85ef9d79",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T01:33:53Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Iron dragon",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Minions of Scabaras",
+    "key": "minionsofscabaras",
+    "resource": "minionsofscabaras.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Locust_rider_(ranged).png",
+    "original": "https://oldschool.runescape.wiki/images/Locust_rider_%28ranged%29.png?46392",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Locust_rider_%28ranged%29.png/80px-Locust_rider_%28ranged%29.png?46392",
+    "sha256": "cae8491e44d08e610afa7d6bd35c78f109045dc05e84218c633fbe5aeb7963fa",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T01:33:58Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Locust rider (ranged)",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Minotaurs",
+    "key": "minotaurs",
+    "resource": "minotaurs.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Minotaur.png",
+    "original": "https://oldschool.runescape.wiki/images/Minotaur.png?65d6a",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Minotaur.png/48px-Minotaur.png?65d6a",
+    "sha256": "40d95c1f81cec2a4790ff5be2c141891757107835a55f611cd00aab1df138c07",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-01-20T09:13:14Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Minotaur",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Mogres",
+    "key": "mogres",
+    "resource": "mogres.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Mogre.png",
+    "original": "https://oldschool.runescape.wiki/images/Mogre.png?94ffa",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Mogre.png/45px-Mogre.png?94ffa",
+    "sha256": "824660f4d0fb6739bd388e1f3ac044f3da0708edcbbff9e443852be9c0f97670",
+    "metadata": {
+      "DateTime": {
+        "value": "2020-05-21T20:52:03Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Mogre",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Molanisk",
+    "key": "molanisk",
+    "resource": "molanisk.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Molanisk.png",
+    "original": "https://oldschool.runescape.wiki/images/Molanisk.png?3a65a",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Molanisk.png/80px-Molanisk.png?3a65a",
+    "sha256": "64cad5343cb9ad9b58d1f06c3b23746abedd5ce2a5e0020675c52a5819f1ae33",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T01:34:00Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Molanisk",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Monkey",
+    "key": "monkey",
+    "resource": "monkey.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Monkey.png",
+    "original": "https://oldschool.runescape.wiki/images/Monkey.png?3df98",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Monkey.png/43px-Monkey.png?3df98",
+    "sha256": "7a92bcec1aa1d993a94c2d28ba3bf8ec321ede6cefa217bd2d108b63821cc755",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-02-13T09:50:33Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Monkey",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Moss giants",
+    "key": "mossgiants",
+    "resource": "mossgiants.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Moss_giant.png",
+    "original": "https://oldschool.runescape.wiki/images/Moss_giant.png?3c6c6",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Moss_giant.png/49px-Moss_giant.png?3c6c6",
+    "sha256": "2ef69a19402a894e024bff69807a04cf9fbaabce4b264eba2af348816fa0d095",
+    "metadata": {
+      "DateTime": {
+        "value": "2016-11-30T15:21:52Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Moss giant",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Mutated Zygomites",
+    "key": "mutatedzygomites",
+    "resource": "mutatedzygomites.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Zygomite_(level_74).png",
+    "original": "https://oldschool.runescape.wiki/images/Zygomite_%28level_74%29.png?ea620",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Zygomite_%28level_74%29.png/62px-Zygomite_%28level_74%29.png?ea620",
+    "sha256": "337f9da45090d82783e92a0bb8a08f795303aceb8fa35c2d73341f71d8fc8bd9",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-23T20:49:11Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Zygomite (level 74)",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Nechryael",
+    "key": "nechryael",
+    "resource": "nechryael.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Nechryael.png",
+    "original": "https://oldschool.runescape.wiki/images/Nechryael.png?d80e7",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Nechryael.png/37px-Nechryael.png?d80e7",
+    "sha256": "d5c49ed0bd9eb7adf682b947674f49bb0226a3f235c36d4ce4b7824dbb1f784e",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-01-19T16:48:15Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Nechryael",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Ogres",
+    "key": "ogres",
+    "resource": "ogres.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Ogre.png",
+    "original": "https://oldschool.runescape.wiki/images/Ogre.png?78692",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Ogre.png/39px-Ogre.png?78692",
+    "sha256": "66d15edbfe75ef651f36174fbfecec34d30f070784e24a90f0bd4af10652bf84",
+    "metadata": {
+      "DateTime": {
+        "value": "2018-11-08T02:28:15Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Ogre",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Otherworldly beings",
+    "key": "otherworldlybeings",
+    "resource": "otherworldlybeings.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Otherworldly_being.png",
+    "original": "https://oldschool.runescape.wiki/images/Otherworldly_being.png?659cc",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Otherworldly_being.png/31px-Otherworldly_being.png?659cc",
+    "sha256": "e169abd5bac2d0e73d827a9b124fd7d92c873dbdd564353c0f0208e305818c59",
+    "metadata": {
+      "DateTime": {
+        "value": "2021-05-08T11:45:30Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Otherworldly being",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Phantom Muspah",
+    "key": "phantommuspah",
+    "resource": "phantommuspah.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Phantom_Muspah_(ranged).png",
+    "original": "https://oldschool.runescape.wiki/images/Phantom_Muspah_%28ranged%29.png?9cf6a",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Phantom_Muspah_%28ranged%29.png/79px-Phantom_Muspah_%28ranged%29.png?9cf6a",
+    "sha256": "8cbc766c98c0f4a0e8b8103649ed352266008d917a83f1872517a164608c251e",
+    "metadata": {
+      "DateTime": {
+        "value": "2023-01-11T11:39:13Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Phantom Muspah (ranged)",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Pirates",
+    "key": "pirates",
+    "resource": "pirates.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Pirate_(Brimhaven).png",
+    "original": "https://oldschool.runescape.wiki/images/Pirate_%28Brimhaven%29.png?094f1",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Pirate_%28Brimhaven%29.png/34px-Pirate_%28Brimhaven%29.png?094f1",
+    "sha256": "8502f100ee79957dfde897ab6106de1cd686223beaa4ecfdd7bd55b9d8c3fa21",
+    "metadata": {
+      "DateTime": {
+        "value": "2021-07-03T15:56:53Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Pirate (Brimhaven)",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Pyrefiends",
+    "key": "pyrefiends",
+    "resource": "pyrefiends.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Pyrefiend.png",
+    "original": "https://oldschool.runescape.wiki/images/Pyrefiend.png?404b3",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Pyrefiend.png/27px-Pyrefiend.png?404b3",
+    "sha256": "0fa0876da7fd5b6f918e7fae74e997a04e2c05adb266e1c90bdee8c8b536780f",
+    "metadata": {
+      "DateTime": {
+        "value": "2023-04-30T04:23:31Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Pyrefiend",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Rats",
+    "key": "rats",
+    "resource": "rats.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Rat.png",
+    "original": "https://oldschool.runescape.wiki/images/Rat.png?c17cb",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Rat.png/80px-Rat.png?c17cb",
+    "sha256": "9c2eb743375541a8d6a5330d6a2d0835a06c1a1a6595c9c83ae60f5aec5aac5a",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T01:46:04Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Rat",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Red dragons",
+    "key": "reddragons",
+    "resource": "reddragons.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Red_dragon.png",
+    "original": "https://oldschool.runescape.wiki/images/Red_dragon.png?f0a8a",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Red_dragon.png/80px-Red_dragon.png?f0a8a",
+    "sha256": "e135a9aad26af2c6265b0495af2646be1c3427ca13277f117a9590e5fa73b7a9",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T01:46:08Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Red dragon",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Revenants",
+    "key": "revenants",
+    "resource": "revenants.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Revenant_dragon.png",
+    "original": "https://oldschool.runescape.wiki/images/Revenant_dragon.png?81747",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Revenant_dragon.png/80px-Revenant_dragon.png?81747",
+    "sha256": "bcf656e9a0b24458798e80b2ca74dd3e609ebd93ec6ab963d7c547e654f58963",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T01:50:12Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Revenant dragon",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Rockslugs",
+    "key": "rockslugs",
+    "resource": "rockslugs.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Rockslug.png",
+    "original": "https://oldschool.runescape.wiki/images/Rockslug.png?2fd77",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Rockslug.png/80px-Rockslug.png?2fd77",
+    "sha256": "2ee9c5cbe91a96297c979b9f88ceb106a7f7e495a174000b0028c667eeb4ccab",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T01:51:12Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Rockslug",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Rogues",
+    "key": "rogues",
+    "resource": "rogues.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Rogue.png",
+    "original": "https://oldschool.runescape.wiki/images/Rogue.png?16b49",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Rogue.png/31px-Rogue.png?16b49",
+    "sha256": "313d9ab18f670f42f9373f5380f2062895ee0d59cf8236100bed2cc09e18d841",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-01-26T16:18:35Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Rogue",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Sarachnis",
+    "key": "sarachnis",
+    "resource": "sarachnis.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Sarachnis.png",
+    "original": "https://oldschool.runescape.wiki/images/Sarachnis.png?8f040",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Sarachnis.png/80px-Sarachnis.png?8f040",
+    "sha256": "8a300727bb0fa28220933eec18a59f7b83072ed526773fd254827f9b0825705f",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-07-04T11:44:19Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Sarachnis",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Scorpia",
+    "key": "scorpia",
+    "resource": "scorpia.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Scorpia.png",
+    "original": "https://oldschool.runescape.wiki/images/Scorpia.png?517c9",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Scorpia.png/80px-Scorpia.png?517c9",
+    "sha256": "2ecb1c67e89f900a00542a23e5db633049b9e18b2d2d75b15e06677f332e5888",
+    "metadata": {
+      "DateTime": {
+        "value": "2018-11-09T03:56:38Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Scorpia",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Scorpions",
+    "key": "scorpions",
+    "resource": "scorpions.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Scorpion.png",
+    "original": "https://oldschool.runescape.wiki/images/Scorpion.png?79d06",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Scorpion.png/80px-Scorpion.png?79d06",
+    "sha256": "1b766ab497925b86c8495aeb27c3858895afd084c8aeb0e279831974bd7d4b44",
+    "metadata": {
+      "DateTime": {
+        "value": "2016-11-29T12:40:08Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Scorpion",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Sea snakes",
+    "key": "seasnakes",
+    "resource": "seasnakes.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Sea_Snake_Young.png",
+    "original": "https://oldschool.runescape.wiki/images/Sea_Snake_Young.png?00361",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Sea_Snake_Young.png/80px-Sea_Snake_Young.png?00361",
+    "sha256": "b00a1e98a842386ce8bba81e657baaaa8f8eaea6eaaec767afb676286665adde",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T01:57:29Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Sea Snake Young",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Shades",
+    "key": "shades",
+    "resource": "shades.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Loar_Shade.png",
+    "original": "https://oldschool.runescape.wiki/images/Loar_Shade.png?ef0cc",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Loar_Shade.png/31px-Loar_Shade.png?ef0cc",
+    "sha256": "f66795a1405de1f7a612ecf961a3dd9f0c3070dd6294e858006b6108fa644d16",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-01-29T06:01:43Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Loar Shade",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Shadow warriors",
+    "key": "shadowwarriors",
+    "resource": "shadowwarriors.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Shadow_warrior.png",
+    "original": "https://oldschool.runescape.wiki/images/Shadow_warrior.png?e2c7d",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Shadow_warrior.png/28px-Shadow_warrior.png?e2c7d",
+    "sha256": "1c391876b71bed31bd891b5bfc0b16f07ba984b0285489a291aa132ab71bdbdb",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-01-20T09:17:12Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Shadow warrior",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Shellbane gryphon",
+    "key": "shellbanegryphon",
+    "resource": "shellbanegryphon.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Shellbane_gryphon.png",
+    "original": "https://oldschool.runescape.wiki/images/Shellbane_gryphon.png?bc76e",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Shellbane_gryphon.png/80px-Shellbane_gryphon.png?bc76e",
+    "sha256": "502dc19a08bf54b6858f15517fcdd4e3e969a60907274c25b344769619b21d2e",
+    "metadata": {
+      "DateTime": {
+        "value": "2025-11-19T16:11:43Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Shellbane gryphon",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Skeletal Wyverns",
+    "key": "skeletalwyverns",
+    "resource": "skeletalwyverns.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Skeletal_Wyvern.png",
+    "original": "https://oldschool.runescape.wiki/images/Skeletal_Wyvern.png?6d52e",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Skeletal_Wyvern.png/80px-Skeletal_Wyvern.png?6d52e",
+    "sha256": "115d404b29af785ffdd516c948cfe7e6ab2badff98857bee381f44f89e28aa3e",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T02:05:35Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Skeletal Wyvern",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Skeletons",
+    "key": "skeletons",
+    "resource": "skeletons.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Skeleton_(level_21,_1).png",
+    "original": "https://oldschool.runescape.wiki/images/Skeleton_%28level_21%2C_1%29.png?5ef64",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Skeleton_%28level_21%2C_1%29.png/34px-Skeleton_%28level_21%2C_1%29.png?5ef64",
+    "sha256": "4761056e83dc866f603b3f730cc416a0db99c56fd4e01d3fbae10ed58ef4afb2",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-01-29T20:29:38Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Skeleton (level 21, 1)",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Smoke devils",
+    "key": "smokedevils",
+    "resource": "smokedevils.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Smoke_devil.png",
+    "original": "https://oldschool.runescape.wiki/images/Smoke_devil.png?cba55",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Smoke_devil.png/62px-Smoke_devil.png?cba55",
+    "sha256": "81bffbfb94e9507e4f155cef7d0d1da12d45574f3272a9d5c10c14b17d5e276a",
+    "metadata": {
+      "DateTime": {
+        "value": "2021-09-29T14:19:54Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Smoke devil",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Spiders",
+    "key": "spiders",
+    "resource": "spiders.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Spider.png",
+    "original": "https://oldschool.runescape.wiki/images/Spider.png?f1788",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Spider.png/80px-Spider.png?f1788",
+    "sha256": "d472be44698805079739ac756366d821e1b26111a0cdc13179f91ebc7c63f52e",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-02-02T18:43:59Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Spider",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Spiritual creatures",
+    "key": "spiritualcreatures",
+    "resource": "spiritualcreatures.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Spiritual_mage_(Zamorak).png",
+    "original": "https://oldschool.runescape.wiki/images/Spiritual_mage_%28Zamorak%29.png?b48cd",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Spiritual_mage_%28Zamorak%29.png/45px-Spiritual_mage_%28Zamorak%29.png?b48cd",
+    "sha256": "9701deec42cfbc30c638a8fbd50c0bfd8810a92530ec3dd457fb98c291de13bf",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-01-29T06:01:45Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Spiritual mage (Zamorak)",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Suqah",
+    "key": "suqah",
+    "resource": "suqah.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Suqah_(1).png",
+    "original": "https://oldschool.runescape.wiki/images/Suqah_%281%29.png?f22aa",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Suqah_%281%29.png/57px-Suqah_%281%29.png?f22aa",
+    "sha256": "1c5470d6b4886cf91369ecc666f610bff60c5725e25b830371e9e5d8cf2883ed",
+    "metadata": {
+      "DateTime": {
+        "value": "2023-11-09T12:30:39Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Suqah (1)",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Terror dogs",
+    "key": "terrordogs",
+    "resource": "terrordogs.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Terror_dog_(level_100).png",
+    "original": "https://oldschool.runescape.wiki/images/Terror_dog_%28level_100%29.png?535ad",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Terror_dog_%28level_100%29.png/80px-Terror_dog_%28level_100%29.png?535ad",
+    "sha256": "d5fa39696068f0743b81a2b02beed96e55e4769474e7b033e9e641e1996e15ce",
+    "metadata": {
+      "DateTime": {
+        "value": "2020-08-10T02:22:08Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Terror dog (level 100)",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "The Leviathan",
+    "key": "theleviathan",
+    "resource": "theleviathan.png",
+    "source": "https://oldschool.runescape.wiki/w/File:The_Leviathan.png",
+    "original": "https://oldschool.runescape.wiki/images/The_Leviathan.png?d588a",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/The_Leviathan.png/66px-The_Leviathan.png?d588a",
+    "sha256": "6e2460d0040ab4cea93e8267271de88a969ac944fc7a0cd5c34e2eeb28dad567",
+    "metadata": {
+      "DateTime": {
+        "value": "2023-07-26T13:35:16Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "The Leviathan",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "The Whisperer",
+    "key": "thewhisperer",
+    "resource": "thewhisperer.png",
+    "source": "https://oldschool.runescape.wiki/w/File:The_Whisperer.png",
+    "original": "https://oldschool.runescape.wiki/images/The_Whisperer.png?aedab",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/The_Whisperer.png/31px-The_Whisperer.png?aedab",
+    "sha256": "2eccca9aa2a146587f5f9a025248758c720acbc1d5c9db1dadc3167c1133d66b",
+    "metadata": {
+      "DateTime": {
+        "value": "2023-08-10T18:49:38Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "The Whisperer",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Thermonuclear Smoke Devil",
+    "key": "thermonuclearsmokedevil",
+    "resource": "thermonuclearsmokedevil.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Thermonuclear_smoke_devil.png",
+    "original": "https://oldschool.runescape.wiki/images/Thermonuclear_smoke_devil.png?de858",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Thermonuclear_smoke_devil.png/64px-Thermonuclear_smoke_devil.png?de858",
+    "sha256": "887d20e6277f84846a0543e60bc2cab893d7c4ab40f14756f3123cc1c5877dab",
+    "metadata": {
+      "DateTime": {
+        "value": "2021-09-29T09:44:57Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Thermonuclear smoke devil",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Trolls",
+    "key": "trolls",
+    "resource": "trolls.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Troll.png",
+    "original": "https://oldschool.runescape.wiki/images/Troll.png?fc3f1",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Troll.png/34px-Troll.png?fc3f1",
+    "sha256": "fb1711a94e71f8506b0cc28707153fa0f014920242bcfdd9c9f0c95dd6efe7e0",
+    "metadata": {
+      "DateTime": {
+        "value": "2020-05-19T00:19:52Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Troll",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Turoth",
+    "key": "turoth",
+    "resource": "turoth.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Turoth_(lv_83).png",
+    "original": "https://oldschool.runescape.wiki/images/Turoth_%28lv_83%29.png?96f06",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Turoth_%28lv_83%29.png/80px-Turoth_%28lv_83%29.png?96f06",
+    "sha256": "9719d934a3579f8ab5dfd3e05d0ea929f5f6060eb1d50210873b58ed655be5ee",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T02:18:10Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Turoth (lv 83)",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "TzHaar",
+    "key": "tzhaar",
+    "resource": "tzhaar.png",
+    "source": "https://oldschool.runescape.wiki/w/File:TzHaar-Xil_(sword).png",
+    "original": "https://oldschool.runescape.wiki/images/TzHaar-Xil_%28sword%29.png?43cb7",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/TzHaar-Xil_%28sword%29.png/65px-TzHaar-Xil_%28sword%29.png?43cb7",
+    "sha256": "f3a05bce176e13c707aaab29bd877a0be7fb2cf6495f838977ae02f668c4ff91",
+    "metadata": {
+      "DateTime": {
+        "value": "2017-08-09T05:44:45Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "TzHaar-Xil (sword)",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Vampyres",
+    "key": "vampyres",
+    "resource": "vampyres.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Vyrelady.png",
+    "original": "https://oldschool.runescape.wiki/images/Vyrelady.png?ce470",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Vyrelady.png/43px-Vyrelady.png?ce470",
+    "sha256": "ebd1b204c91b5b51b11872887a1e9652c75d219b4126601dac6cc7277e1275a1",
+    "metadata": {
+      "DateTime": {
+        "value": "2020-06-04T12:15:25Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Vyrelady",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Vardorvis",
+    "key": "vardorvis",
+    "resource": "vardorvis.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Vardorvis.png",
+    "original": "https://oldschool.runescape.wiki/images/Vardorvis.png?48af8",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Vardorvis.png/44px-Vardorvis.png?48af8",
+    "sha256": "efe9c8620c5cf94e37764813f58f9912791d90be31eb328cede2f26cbbc246a6",
+    "metadata": {
+      "DateTime": {
+        "value": "2023-08-06T05:04:18Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Vardorvis",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Venenatis",
+    "key": "venenatis",
+    "resource": "venenatis.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Venenatis.png",
+    "original": "https://oldschool.runescape.wiki/images/Venenatis.png?13693",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Venenatis.png/80px-Venenatis.png?13693",
+    "sha256": "a7c33b60d4857e41be2a751f397ad93e53b32542b4c3168d4857989f36e18bc7",
+    "metadata": {
+      "DateTime": {
+        "value": "2023-01-25T10:49:07Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Spindel",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Vetion",
+    "key": "vetion",
+    "resource": "vetion.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Vet%27ion.png",
+    "original": "https://oldschool.runescape.wiki/images/Vet%27ion.png?8695f",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Vet%27ion.png/43px-Vet%27ion.png?8695f",
+    "sha256": "9c2027c6ada2e9af3d6e41b6d2466c09987e590545f2a4b27a97329f41c6a7d7",
+    "metadata": {
+      "DateTime": {
+        "value": "2023-01-25T10:49:10Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Vet'ion",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Vorkath",
+    "key": "vorkath",
+    "resource": "vorkath.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Vorkath.png",
+    "original": "https://oldschool.runescape.wiki/images/Vorkath.png?1ce3f",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Vorkath.png/80px-Vorkath.png?1ce3f",
+    "sha256": "3ab219f69f3d4c139411056b3476f4a5d14413126e710a6b2fac8054a3b855c9",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T02:18:15Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Vorkath",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Wall beasts",
+    "key": "wallbeasts",
+    "resource": "wallbeasts.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Wall_beast.png",
+    "original": "https://oldschool.runescape.wiki/images/Wall_beast.png?1a7bf",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Wall_beast.png/43px-Wall_beast.png?1a7bf",
+    "sha256": "bc59a3c430bf5c484a99f5186685a7e305f3f7dd4af6a637eb5e4092100e97cf",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-03-07T08:13:33Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Wall beast",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Warped Creatures",
+    "key": "warpedcreatures",
+    "resource": "warpedcreatures.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Warped_Terrorbird_(lv_96).png",
+    "original": "https://oldschool.runescape.wiki/images/Warped_Terrorbird_%28lv_96%29.png?a5219",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Warped_Terrorbird_%28lv_96%29.png/59px-Warped_Terrorbird_%28lv_96%29.png?a5219",
+    "sha256": "e164448e734630f016dd9593bd553e462c2c4f9c92283cd765027232842bf4cf",
+    "metadata": {
+      "DateTime": {
+        "value": "2023-09-12T21:42:25Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Warped Terrorbird (lv 96)",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Waterfiend",
+    "key": "waterfiend",
+    "resource": "waterfiend.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Waterfiend.png",
+    "original": "https://oldschool.runescape.wiki/images/Waterfiend.png?3dfda",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Waterfiend.png/27px-Waterfiend.png?3dfda",
+    "sha256": "24ce1844add94ac662a1407446fceb5396bfd74e95c74065175caf5c683f7138",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-03-17T03:32:05Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Waterfiend",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Werewolves",
+    "key": "werewolves",
+    "resource": "werewolves.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Werewolf_(Boris).png",
+    "original": "https://oldschool.runescape.wiki/images/Werewolf_%28Boris%29.png?552f3",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Werewolf_%28Boris%29.png/52px-Werewolf_%28Boris%29.png?552f3",
+    "sha256": "69719569c4e61c8fe679060e83ac13e15d177a771fb48cd9193e4735c2717121",
+    "metadata": {
+      "DateTime": {
+        "value": "2023-02-03T10:14:41Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Werewolf (Boris)",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Wolves",
+    "key": "wolves",
+    "resource": "wolves.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Wolf.png",
+    "original": "https://oldschool.runescape.wiki/images/Wolf.png?86998",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Wolf.png/80px-Wolf.png?86998",
+    "sha256": "41612138843ef4820b6e7b40ddde566e8fcc7520b0c34bd2ccf3f96d14d652e7",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T02:25:35Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Wolf",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Wyrms",
+    "key": "wyrms",
+    "resource": "wyrms.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Wyrm.png",
+    "original": "https://oldschool.runescape.wiki/images/Wyrm.png?1d696",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Wyrm.png/80px-Wyrm.png?1d696",
+    "sha256": "4b348d4bc1faaa36743f3aea7c4a4ad2821239d2e7e8e5670c02a077801fc103",
+    "metadata": {
+      "DateTime": {
+        "value": "2024-05-24T21:29:37Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Wyrm",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Zombies",
+    "key": "zombies",
+    "resource": "zombies.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Zombie_(Level_13).png",
+    "original": "https://oldschool.runescape.wiki/images/Zombie_%28Level_13%29.png?d5c22",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Zombie_%28Level_13%29.png/29px-Zombie_%28Level_13%29.png?d5c22",
+    "sha256": "406b53ab83ff9529bece76121bde342526526d92063667b715c08fa79b3bcf62",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-02-12T09:11:35Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Zombie (Level 13)",
+        "source": "mediawiki-metadata"
+      }
+    }
+  },
+  {
+    "task": "Zulrah",
+    "key": "zulrah",
+    "resource": "zulrah.png",
+    "source": "https://oldschool.runescape.wiki/w/File:Zulrah_(serpentine).png",
+    "original": "https://oldschool.runescape.wiki/images/Zulrah_%28serpentine%29.png?29a54",
+    "thumbnail": "https://oldschool.runescape.wiki/images/thumb/Zulrah_%28serpentine%29.png/72px-Zulrah_%28serpentine%29.png?29a54",
+    "sha256": "c2b4bd85037262fc4c23ade57d6e50b020511dd4548513d132e2039ce0024389",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-05-14T02:25:40Z",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Zulrah (serpentine)",
+        "source": "mediawiki-metadata"
+      }
+    }
+  }
+]

@@ -27,7 +27,7 @@ tasks.register('run', JavaExec) {
 }
 
 group = 'com.slayertaskodds'
-version = '1.0.0'
+version = '1.6.0'
 
 if (project.hasProperty('devBuildDir')) {
     layout.buildDirectory.set(file(project.property('devBuildDir')))

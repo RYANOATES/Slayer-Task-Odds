@@ -14,22 +14,30 @@ public interface SlayerOddsConfig extends Config
 	String notifications = "notifications";
 	@ConfigItem(keyName = "postSyncChatMessages", name = "Post sync messages in chat", description = "Show a chat confirmation and the synced block slots when a Slayer master's block list is synchronized", section = SlayerOddsConfig.notifications, position = 1)
 	default boolean postSyncChatMessages() { return true; }
+	@ConfigSection(name = "Side panel", description = "Master odds display and explanation tooltips", position = 2, closedByDefault = false)
+	String display = "display";
+	@ConfigItem(keyName = "hideZeroChanceMasters", name = "Hide 0.00% masters", description = "Hide masters whose displayed chance rounds to 0.00% in the side panel", section = SlayerOddsConfig.display, position = 1)
+	default boolean hideZeroChanceMasters() { return false; }
+	@ConfigItem(keyName = "showOddsTooltips", name = "Show explanation tooltips", description = "Show task availability reasons and weight calculations when hovering over master cards", section = SlayerOddsConfig.display, position = 2)
+	default boolean showOddsTooltips() { return true; }
+	@ConfigItem(keyName = "routeToBestMaster", name = "Route to best master", description = "When the selected task's best master changes, ask Shortest Path to route to that Slayer master", section = SlayerOddsConfig.display, position = 3)
+	default boolean routeToBestMaster() { return false; }
 
-	@ConfigSection(name = "Turael / Aya", description = "Turael / Aya's blocked tasks", position = 2, closedByDefault = true)
+	@ConfigSection(name = "Turael / Aya", description = "Turael / Aya's blocked tasks", position = 3, closedByDefault = true)
 	String turael = "turael";
-	@ConfigSection(name = "Krystilia", description = "Krystilia's blocked tasks", position = 3, closedByDefault = true)
+	@ConfigSection(name = "Krystilia", description = "Krystilia's blocked tasks", position = 4, closedByDefault = true)
 	String krystilia = "krystilia";
-	@ConfigSection(name = "Mazchna / Achtryn", description = "Mazchna / Achtryn's blocked tasks", position = 4, closedByDefault = true)
+	@ConfigSection(name = "Mazchna / Achtryn", description = "Mazchna / Achtryn's blocked tasks", position = 5, closedByDefault = true)
 	String mazchna = "mazchna";
-	@ConfigSection(name = "Vannaka", description = "Vannaka's blocked tasks", position = 5, closedByDefault = true)
+	@ConfigSection(name = "Vannaka", description = "Vannaka's blocked tasks", position = 6, closedByDefault = true)
 	String vannaka = "vannaka";
-	@ConfigSection(name = "Chaeldar", description = "Chaeldar's blocked tasks", position = 6, closedByDefault = true)
+	@ConfigSection(name = "Chaeldar", description = "Chaeldar's blocked tasks", position = 7, closedByDefault = true)
 	String chaeldar = "chaeldar";
-	@ConfigSection(name = "Konar quo Maten", description = "Konar quo Maten's blocked tasks", position = 7, closedByDefault = true)
+	@ConfigSection(name = "Konar quo Maten", description = "Konar quo Maten's blocked tasks", position = 8, closedByDefault = true)
 	String konar = "konar";
-	@ConfigSection(name = "Nieve / Steve", description = "Nieve / Steve's blocked tasks", position = 8, closedByDefault = true)
+	@ConfigSection(name = "Nieve / Steve", description = "Nieve / Steve's blocked tasks", position = 9, closedByDefault = true)
 	String nieve = "nieve";
-	@ConfigSection(name = "Duradel / Kuradal", description = "Duradel / Kuradal's blocked tasks", position = 9, closedByDefault = true)
+	@ConfigSection(name = "Duradel / Kuradal", description = "Duradel / Kuradal's blocked tasks", position = 10, closedByDefault = true)
 	String duradel = "duradel";
 
 	@ConfigItem(keyName = "turaelBlock1", name = "Block 1", description = "Blocked task slot 1", section = SlayerOddsConfig.turael, position = 1)

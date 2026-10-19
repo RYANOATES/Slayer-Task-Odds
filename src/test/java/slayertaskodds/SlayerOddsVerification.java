@@ -58,8 +58,65 @@ public final class SlayerOddsVerification
             for (SlayerTask task : table)
                 require(SlayerTaskChoice.fromStoredValue(task.name) != null, "Missing dropdown choice: " + task.name);
         require(SlayerOdds.blocks("Aviansie", "AVIANSIES").size() == 1, "Legacy/config aliases");
+        verifyAvailabilityExplanations(tables);
         verifySync();
         System.out.println("PASS: " + comparisons + " Lua probability comparisons across " + fixtures.size() + " account scenarios; block sync and config checks passed.");
+    }
+
+    private static void verifyAvailabilityExplanations(Map<SlayerMaster, List<SlayerTask>> tables)
+    {
+        PlayerState noRequirementsMet = new PlayerState();
+        SlayerOdds.Result requirements = SlayerOdds.calculate(tables.get(SlayerMaster.TURAEL),
+            "Banshees", Collections.emptySet(), noRequirementsMet);
+        require(requirements.chance() == 0 && requirements.explanation().startsWith("Requirements not met:"),
+            "Explain missing task requirements");
+
+        SlayerOdds.Result blocked = SlayerOdds.calculate(tables.get(SlayerMaster.NIEVE),
+            "Abyssal demons", SlayerOdds.blocks("Abyssal demons"), noRequirementsMet);
+        require(blocked.chance() == 0 && blocked.explanation().contains("Blocked"), "Explain blocked tasks");
+
+        boolean foundNeverAssigned = false;
+        for (SlayerMaster master : SlayerMaster.values())
+        {
+            for (String monster : TaskData.monsters(tables))
+            {
+                if (!containsTask(tables.get(master), monster))
+                {
+                    SlayerOdds.Result never = SlayerOdds.calculate(tables.get(master), monster,
+                        Collections.emptySet(), noRequirementsMet);
+                    require(never.chance() == 0 && never.explanation().contains("never assigns"),
+                        "Explain tasks not assigned by a master");
+                    foundNeverAssigned = true;
+                    break;
+                }
+            }
+            if (foundNeverAssigned) break;
+        }
+        require(foundNeverAssigned, "Find task/master pair with no assignment");
+
+        boolean foundBlockedParent = false;
+        for (SlayerMaster master : SlayerMaster.values())
+        {
+            for (SlayerTask task : tables.get(master))
+            {
+                if (task.subtasks != null && !task.subtasks.isEmpty())
+                {
+                    String child = task.subtasks.get(0).name;
+                    SlayerOdds.Result nested = SlayerOdds.calculate(tables.get(master), child,
+                        SlayerOdds.blocks(task.name), new PlayerState());
+                    if (nested.explanation().contains("Blocked")) foundBlockedParent = true;
+                }
+            }
+        }
+        require(foundBlockedParent, "Parent block explains unavailable subtasks");
+    }
+
+    private static boolean containsTask(List<SlayerTask> tasks, String monster)
+    {
+        for (SlayerTask task : tasks)
+            if (SlayerTaskChoice.identity(task.name).equals(SlayerTaskChoice.identity(monster))
+                || task.subtasks != null && containsTask(task.subtasks, monster)) return true;
+        return false;
     }
 
     private static void verifySync()
