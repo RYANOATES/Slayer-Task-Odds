@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.6.1 - 2026-10-19
+
+- Corrected task odds to exclude the player's current Slayer assignment from the next-task roll, including immediately after completing it. This matches the in-game task list, where the current task is shown at 0.0% and locked until a different task is assigned.
+
 ## 1.6.0 - 2026-10-19
 
 ### Added

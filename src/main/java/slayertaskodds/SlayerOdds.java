@@ -16,7 +16,8 @@ final class SlayerOdds
         int total = 0, target = 0, count = 0;
         for (SlayerTask task : tasks)
         {
-            if (blocked.contains(SlayerTaskChoice.identity(task.name)) || !state.eligible(task)) continue;
+            if (blocked.contains(SlayerTaskChoice.identity(task.name)) || state.isCurrentTask(task.name)
+                || !state.eligible(task)) continue;
             int weight = state.weight(task);
             total += weight;
             count++;
@@ -26,7 +27,8 @@ final class SlayerOdds
         String formula = target + " / " + total + " weight";
         for (SlayerTask task : tasks)
         {
-            if (task.subtasks == null || !state.eligible(task) || blocked.contains(SlayerTaskChoice.identity(task.name))) continue;
+            if (task.subtasks == null || !state.eligible(task) || state.isCurrentTask(task.name)
+                || blocked.contains(SlayerTaskChoice.identity(task.name))) continue;
             Result sub = calculate(task.subtasks, monster, blocked, state);
             if (total > 0 && sub.chance() > 0)
             {
@@ -45,6 +47,8 @@ final class SlayerOdds
     private static String unavailableReason(Iterable<SlayerTask> tasks, String monster,
         Set<String> blocked, PlayerState state)
     {
+        if (state.isCurrentTask(monster))
+            return "Your current task cannot be assigned again until you receive a different task.";
         Availability availability = new Availability();
         inspect(tasks, monster, blocked, state, new ArrayList<>(), false, availability);
         if (!availability.found) return "This master never assigns this task.";

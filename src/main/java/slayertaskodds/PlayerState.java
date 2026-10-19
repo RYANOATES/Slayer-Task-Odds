@@ -12,6 +12,13 @@ final class PlayerState
     final Set<String> quests = new HashSet<>();
     final Set<String> unlocks = new HashSet<>();
     final Set<String> other = new HashSet<>();
+    String currentTask;
+
+    boolean isCurrentTask(String taskName)
+    {
+        return currentTask != null
+            && SlayerTaskChoice.identity(currentTask).equals(SlayerTaskChoice.identity(taskName));
+    }
 
     boolean eligible(SlayerTask task)
     {

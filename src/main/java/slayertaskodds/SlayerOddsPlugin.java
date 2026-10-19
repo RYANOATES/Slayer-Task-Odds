@@ -351,7 +351,8 @@ public class SlayerOddsPlugin extends Plugin
                 ranked.add(new MasterOdds(master, SlayerOdds.calculate(tasks.get(master), selectedMonster,
                     SlayerOdds.blocks(blocks.toArray(new String[0])), state)));
         }
-        int fingerprint = Objects.hash(state.stats, state.quests, state.unlocks, state.other, allBlocks, selectedMonster,
+        int fingerprint = Objects.hash(state.stats, state.quests, state.unlocks, state.other, state.currentTask,
+            allBlocks, selectedMonster,
             detected, lastSyncedMaster, lastSyncedAt, lastFailure, syncing, config.hideZeroChanceMasters(),
             config.showOddsTooltips(), config.routeToBestMaster());
         if (lastRender != null && lastRender == fingerprint) return;

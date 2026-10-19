@@ -11,11 +11,13 @@ import net.runelite.api.InventoryID;
 import net.runelite.api.Item;
 import net.runelite.api.ItemContainer;
 import net.runelite.api.ItemID;
-import net.runelite.client.config.ConfigManager;
 import net.runelite.api.Quest;
 import net.runelite.api.QuestState;
 import net.runelite.api.Skill;
+import net.runelite.api.gameval.DBTableID;
 import net.runelite.api.gameval.VarbitID;
+import net.runelite.api.gameval.VarPlayerID;
+import net.runelite.client.config.ConfigManager;
 
 final class PlayerStateReader
 {
@@ -41,6 +43,7 @@ final class PlayerStateReader
     static PlayerState read(Client client, ConfigManager configManager, Map<SlayerMaster, List<SlayerTask>> tables)
     {
         PlayerState state = new PlayerState();
+        state.currentTask = currentTask(client);
         for (Skill skill : Skill.values())
             if (skill != Skill.OVERALL) state.stats.put(skill.getName(), client.getRealSkillLevel(skill));
         state.stats.put("Combat", client.getLocalPlayer().getCombatLevel());
@@ -80,6 +83,23 @@ final class PlayerStateReader
         state.checks.put("Firemaking at least 33", state.stats.getOrDefault("Firemaking", 0) >= 33);
         state.checks.put("Magic at least 50", state.stats.getOrDefault("Magic", 0) >= 50);
         return state;
+    }
+
+    private static String currentTask(Client client)
+    {
+        // Keep reading SLAYER_TARGET when SLAYER_COUNT reaches zero: the game
+        // still treats the completed assignment as current until another task is assigned.
+        int taskId = client.getVarpValue(VarPlayerID.SLAYER_TARGET);
+        if (taskId <= 0) return null;
+
+        // The game uses task ID 98 for the grouped Bosses assignment.
+        if (taskId == 98) return "Bosses";
+
+        List<Integer> rows = client.getDBRowsByValue(DBTableID.SlayerTask.ID,
+            DBTableID.SlayerTask.COL_ID, 0, taskId);
+        if (rows == null || rows.isEmpty()) return null;
+        Object[] names = client.getDBTableField(rows.get(0), DBTableID.SlayerTask.COL_NAME_UPPERCASE, 0);
+        return names == null || names.length == 0 ? null : String.valueOf(names[0]);
     }
 
     private static boolean containsKey(ItemContainer container)
