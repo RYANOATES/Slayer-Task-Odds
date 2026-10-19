@@ -13,6 +13,7 @@ final class PlayerState
     final Set<String> unlocks = new HashSet<>();
     final Set<String> other = new HashSet<>();
     String currentTask;
+    boolean slayerCapePerkActive;
 
     boolean isCurrentTask(String taskName)
     {

@@ -352,6 +352,7 @@ public class SlayerOddsPlugin extends Plugin
                     SlayerOdds.blocks(blocks.toArray(new String[0])), state)));
         }
         int fingerprint = Objects.hash(state.stats, state.quests, state.unlocks, state.other, state.currentTask,
+            state.slayerCapePerkActive,
             allBlocks, selectedMonster,
             detected, lastSyncedMaster, lastSyncedAt, lastFailure, syncing, config.hideZeroChanceMasters(),
             config.showOddsTooltips(), config.routeToBestMaster());

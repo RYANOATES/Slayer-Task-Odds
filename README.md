@@ -15,7 +15,7 @@ the available masters for the task you select.
 | Feature | What it does |
 | --- | --- |
 | Master rankings | Orders masters by assignment chance, with odds shown to two decimal places. |
-| Account requirements | Uses your levels, quest progress, unlocks and detected access conditions. |
+| Account requirements | Uses your levels, quest progress, unlocks, detected access conditions, and Slayer cape perk status. |
 | Separate block lists | Saves each master's blocks and supports manual edits for planning. |
 | Zero odds explanations | Hover a master card to see whether a task is blocked, has unmet requirements, or is never assigned. |
 | Zero odds display | Shows a brief reason on each 0.00% card, with an option to collapse masters whose displayed odds round to 0.00%. Expand them using the panel’s Show 0.00% masters button. |
@@ -64,6 +64,11 @@ The percentage is the chance that a master assigns the selected task, based on
 the task weights that apply to your account and that master’s saved block list.
 Boss-task odds also account for the eligible boss subtable. The result is a
 probability, not a promise about the next assignment.
+When a Slayer cape is worn or in your inventory and your previous task is
+available from that master and is not blocked, the calculator includes the
+cape's 10% repeat chance and scales the normal weighted task chances to the
+remaining 90%. The cape status and perk explanation appear in **Account
+requirements**.
 
 Under **Side panel** in Plugin Configuration, enable **Route to best master** to
 send the highest ranked master's location to the [Shortest Path plugin](https://github.com/Skretzo/shortest-path).

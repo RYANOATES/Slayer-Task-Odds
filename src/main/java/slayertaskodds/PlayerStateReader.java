@@ -44,6 +44,8 @@ final class PlayerStateReader
     {
         PlayerState state = new PlayerState();
         state.currentTask = currentTask(client);
+        state.slayerCapePerkActive = containsSlayerCape(client.getItemContainer(InventoryID.INVENTORY))
+            || containsSlayerCape(client.getItemContainer(InventoryID.EQUIPMENT));
         for (Skill skill : Skill.values())
             if (skill != Skill.OVERALL) state.stats.put(skill.getName(), client.getRealSkillLevel(skill));
         state.stats.put("Combat", client.getLocalPlayer().getCombatLevel());
@@ -106,6 +108,14 @@ final class PlayerStateReader
     {
         if (container == null) return false;
         for (Item item : container.getItems()) if (item.getId() == ItemID.BRITTLE_KEY) return true;
+        return false;
+    }
+
+    private static boolean containsSlayerCape(ItemContainer container)
+    {
+        if (container == null) return false;
+        for (Item item : container.getItems())
+            if (item.getId() == ItemID.SLAYER_CAPE || item.getId() == ItemID.SLAYER_CAPET) return true;
         return false;
     }
 

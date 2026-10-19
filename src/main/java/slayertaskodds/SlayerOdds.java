@@ -13,6 +13,23 @@ final class SlayerOdds
 
     static Result calculate(Iterable<SlayerTask> tasks, String monster, Set<String> blocked, PlayerState state)
     {
+        Result weighted = calculateWeighted(tasks, monster, blocked, state);
+        if (!state.slayerCapePerkActive || state.currentTask == null
+            || !isAvailable(tasks, state.currentTask, blocked, state))
+            return weighted;
+
+        if (state.isCurrentTask(monster))
+            return new Result(weighted.targetWeight, weighted.totalWeight, weighted.count, 0.10,
+                "10% Slayer cape repeat", "The Slayer cape gives a 10% chance to repeat your previous task.");
+
+        return new Result(weighted.targetWeight, weighted.totalWeight, weighted.count,
+            weighted.chance() * 0.90, weighted.formula() + " x 90%",
+            "The Slayer cape reserves 10% for repeating your previous task; this is the normal weighted chance.");
+    }
+
+    private static Result calculateWeighted(Iterable<SlayerTask> tasks, String monster,
+        Set<String> blocked, PlayerState state)
+    {
         int total = 0, target = 0, count = 0;
         for (SlayerTask task : tasks)
         {
@@ -29,7 +46,7 @@ final class SlayerOdds
         {
             if (task.subtasks == null || !state.eligible(task) || state.isCurrentTask(task.name)
                 || blocked.contains(SlayerTaskChoice.identity(task.name))) continue;
-            Result sub = calculate(task.subtasks, monster, blocked, state);
+            Result sub = calculateWeighted(task.subtasks, monster, blocked, state);
             if (total > 0 && sub.chance() > 0)
             {
                 probability += (double) state.weight(task) / total * sub.chance();
@@ -42,6 +59,28 @@ final class SlayerOdds
                 ? "This task is available, but its chance is below 0.005% and rounds to 0.00%."
                 : "This task is available from this master.";
         return new Result(target, total, count, probability, formula, explanation);
+    }
+
+    private static boolean isAvailable(Iterable<SlayerTask> tasks, String monster,
+        Set<String> blocked, PlayerState state)
+    {
+        return isAvailable(tasks, monster, blocked, state, false, true);
+    }
+
+    private static boolean isAvailable(Iterable<SlayerTask> tasks, String monster,
+        Set<String> blocked, PlayerState state, boolean blockedParent, boolean eligibleParent)
+    {
+        for (SlayerTask task : tasks)
+        {
+            boolean blockedHere = blockedParent || blocked.contains(SlayerTaskChoice.identity(task.name));
+            boolean eligibleHere = eligibleParent && state.eligible(task);
+            if (SlayerTaskChoice.identity(task.name).equals(SlayerTaskChoice.identity(monster)))
+                return !blockedHere && eligibleHere;
+            if (task.subtasks != null && isAvailable(task.subtasks, monster, blocked, state,
+                blockedHere, eligibleHere))
+                return true;
+        }
+        return false;
     }
 
     private static String unavailableReason(Iterable<SlayerTask> tasks, String monster,

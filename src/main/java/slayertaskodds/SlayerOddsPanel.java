@@ -396,7 +396,8 @@ final class SlayerOddsPanel extends PluginPanel
 
     private void updateRequirements(PlayerState state)
     {
-        String snapshot = new TreeMap<>(state.stats) + "|" + new TreeMap<>(state.checks);
+        String snapshot = new TreeMap<>(state.stats) + "|" + new TreeMap<>(state.checks)
+            + "|slayerCapePerk=" + state.slayerCapePerkActive;
         if (snapshot.equals(lastRequirementsSnapshot)) return;
         lastRequirementsSnapshot = snapshot;
         requirements.removeAll();
@@ -432,6 +433,42 @@ final class SlayerOddsPanel extends PluginPanel
                 requirementCheck(levels, check.getKey(), check.getValue());
         sizeRequirementCard(levels);
         requirements.add(levels);
+        requirements.add(Box.createVerticalStrut(8));
+
+        JPanel capePerk = requirementCard();
+        JLabel capeHeading = new JLabel("SLAYER CAPE PERK", SwingConstants.CENTER);
+        capeHeading.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 12));
+        capeHeading.setForeground(ACCENT);
+        capeHeading.setAlignmentX(CENTER_ALIGNMENT);
+        capePerk.add(capeHeading);
+        capePerk.add(Box.createVerticalStrut(5));
+
+        JLabel capeStatusIcon = new JLabel(state.slayerCapePerkActive ? "✓" : "✕", SwingConstants.CENTER);
+        capeStatusIcon.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 13));
+        capeStatusIcon.setForeground(state.slayerCapePerkActive
+            ? new Color(145, 211, 154) : new Color(217, 149, 149));
+        capeStatusIcon.setAlignmentX(CENTER_ALIGNMENT);
+        capePerk.add(capeStatusIcon);
+
+        String capeStatus = state.slayerCapePerkActive
+            ? "10% previous-task repeat chance active"
+            : "Keep a Slayer cape in your inventory or wear it for a 10% previous-task repeat chance";
+        JLabel capeStatusLabel = new JLabel("<html><div style='width:140px;text-align:center'>"
+            + escapeHtml(capeStatus) + "</div></html>", SwingConstants.CENTER);
+        capeStatusLabel.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 12));
+        capeStatusLabel.setForeground(new Color(246, 230, 198));
+        capeStatusLabel.setAlignmentX(CENTER_ALIGNMENT);
+        capeStatusLabel.setToolTipText(capeStatus);
+        capePerk.add(capeStatusLabel);
+
+        JLabel capeNote = new JLabel("<html><div style='width:140px;text-align:center'>When the previous task is available from a master and not blocked, its odds include the cape repeat chance.</div></html>", SwingConstants.CENTER);
+        capeNote.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 11));
+        capeNote.setForeground(MUTED);
+        capeNote.setAlignmentX(CENTER_ALIGNMENT);
+        capePerk.add(Box.createVerticalStrut(4));
+        capePerk.add(capeNote);
+        sizeRequirementCard(capePerk);
+        requirements.add(capePerk);
         requirements.add(Box.createVerticalStrut(8));
 
         List<Map.Entry<String, Boolean>> questChecks = new ArrayList<>();

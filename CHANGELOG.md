@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.6.2 - 2026-10-19
+
+- Added Slayer cape perk detection for the cape in inventory or equipment, with a 10% previous-task repeat chance reflected in task odds and Account requirements.
+
 ## 1.6.1 - 2026-10-19
 
 - Corrected task odds to exclude the player's current Slayer assignment from the next-task roll, including immediately after completing it. This matches the in-game task list, where the current task is shown at 0.0% and locked until a different task is assigned.
