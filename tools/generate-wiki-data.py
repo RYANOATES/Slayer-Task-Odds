@@ -23,7 +23,7 @@ library = lua.execute((REF / 'wiki-library.lua').read_text())
 modules['Module:Slayer_task_library'] = library
 modules['Module:Paramtest'] = lua.table()
 calculator = lua.execute((REF / 'wiki-calculator.lua').read_text())
-MASTER_NAMES = ['Turael', 'Krystilia', 'Mazchna', 'Vannaka', 'Chaeldar', 'Konar', 'Nieve', 'Duradel']
+MASTER_NAMES = ['Turael', 'Krystilia', 'Mazchna', 'Vannaka', 'Chaeldar', 'Konar', 'Nieve', 'Duradel', 'Mortimer']
 
 
 def name(task_id, task):

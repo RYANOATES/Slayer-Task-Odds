@@ -13,7 +13,13 @@ final class PlayerState
     final Set<String> unlocks = new HashSet<>();
     final Set<String> other = new HashSet<>();
     String currentTask;
+    SlayerMaster previousTaskMaster;
     boolean slayerCapePerkActive;
+    boolean mortimerAccess;
+    boolean morytaniaAccess;
+    boolean slayerCompletionObserved;
+    int mortimerTasksCompleted;
+    int mortimerChoices = 2;
 
     boolean isCurrentTask(String taskName)
     {

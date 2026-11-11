@@ -44,6 +44,17 @@ final class PlayerStateReader
     {
         PlayerState state = new PlayerState();
         state.currentTask = currentTask(client);
+        state.previousTaskMaster = SlayerMaster.byGameId(client.getVarbitValue(VarbitID.SLAYER_MASTER));
+        state.mortimerTasksCompleted = client.getVarpValue(VarPlayerID.SLAYER_MORTIMER_TASKS_COMPLETED);
+        state.mortimerChoices = state.mortimerTasksCompleted >= 50 ? 3 : 2;
+        state.mortimerAccess = client.getVarbitValue(VarbitID.FFG_MORTIMER_INTRO) > 0
+            || Quest.FALLEN_FROM_GRACE.getState(client) == QuestState.FINISHED;
+        state.morytaniaAccess = client.getVarbitValue(VarbitID.MORYTANIA_VISITED) > 0
+            || Quest.PRIEST_IN_PERIL.getState(client) == QuestState.FINISHED;
+        state.slayerCompletionObserved = client.getVarbitValue(VarbitID.SLAYER_TASKS_COMPLETED) > 0
+            || client.getVarbitValue(VarbitID.SLAYER_WILDERNESS_TASKS_COMPLETED) > 0
+            || state.mortimerTasksCompleted > 0;
+        state.checks.put("Mortimer access", state.mortimerAccess);
         state.slayerCapePerkActive = containsSlayerCape(client.getItemContainer(InventoryID.INVENTORY))
             || containsSlayerCape(client.getItemContainer(InventoryID.EQUIPMENT));
         for (Skill skill : Skill.values())
@@ -51,6 +62,8 @@ final class PlayerStateReader
         state.stats.put("Combat", client.getLocalPlayer().getCombatLevel());
         Set<String> requiredQuests = new HashSet<>();
         for (List<SlayerTask> tasks : tables.values()) collectQuests(tasks, requiredQuests);
+        requiredQuests.add("Shilo Village");
+        requiredQuests.add("Lost City");
         for (String name : requiredQuests)
         {
             Quest quest = quest(name);

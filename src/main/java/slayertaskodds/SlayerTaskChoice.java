@@ -124,6 +124,7 @@ public enum SlayerTaskChoice
 	TUROTH("Turoth"),
 	TZHAAR("TzHaar"),
 	VAMPYRES("Vampyres"),
+	VENATORS("Venators"),
 	WALL_BEASTS("Wall beasts"),
 	WARPED_CREATURES("Warped creatures"),
 	WATERFIENDS("Waterfiends"),

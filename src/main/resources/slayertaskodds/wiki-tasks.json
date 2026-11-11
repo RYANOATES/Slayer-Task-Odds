@@ -1297,8 +1297,8 @@
       "weight": 12,
       "stats": {
         "Slayer": 87,
-        "Combat": 80,
-        "Magic": 50
+        "Magic": 50,
+        "Combat": 80
       },
       "quests": []
     },
@@ -1954,8 +1954,8 @@
       "weight": 9,
       "stats": {
         "Slayer": 87,
-        "Combat": 80,
-        "Magic": 50
+        "Magic": 50,
+        "Combat": 80
       },
       "quests": []
     },
@@ -2609,8 +2609,8 @@
       "weight": 6,
       "stats": {
         "Slayer": 87,
-        "Combat": 80,
-        "Magic": 50
+        "Magic": 50,
+        "Combat": 80
       },
       "quests": []
     },
@@ -2699,8 +2699,8 @@
       "name": "Frost dragons",
       "weight": 5,
       "stats": {
-        "Combat": 85,
-        "Sailing": 87
+        "Sailing": 87,
+        "Combat": 85
       },
       "quests": [],
       "bonusUnlock": "Chance of Heavy Frost",
@@ -3301,8 +3301,8 @@
       "weight": 9,
       "stats": {
         "Slayer": 87,
-        "Combat": 80,
-        "Magic": 50
+        "Magic": 50,
+        "Combat": 80
       },
       "quests": []
     },
@@ -3580,6 +3580,290 @@
     {
       "name": "Wyrms",
       "weight": 8,
+      "stats": {
+        "Slayer": 62
+      },
+      "quests": []
+    }
+  ],
+  "MORTIMER": [
+    {
+      "name": "Aberrant spectres",
+      "weight": 10,
+      "stats": {
+        "Slayer": 60,
+        "Combat": 65
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Abyssal demons",
+      "weight": 8,
+      "stats": {
+        "Slayer": 85,
+        "Combat": 85
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Aquanites",
+      "weight": 10,
+      "stats": {
+        "Slayer": 78
+      },
+      "quests": []
+    },
+    {
+      "name": "Araxytes",
+      "weight": 8,
+      "stats": {
+        "Slayer": 92
+      },
+      "quests": []
+    },
+    {
+      "name": "Banshees",
+      "weight": 10,
+      "stats": {
+        "Slayer": 15,
+        "Combat": 20
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Basilisk",
+      "weight": 10,
+      "stats": {
+        "Slayer": 40,
+        "Defence": 20,
+        "Combat": 40
+      },
+      "quests": []
+    },
+    {
+      "name": "Bloodveld",
+      "weight": 8,
+      "stats": {
+        "Slayer": 50,
+        "Combat": 50
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Cave crawlers",
+      "weight": 10,
+      "stats": {
+        "Slayer": 10,
+        "Combat": 10
+      },
+      "quests": []
+    },
+    {
+      "name": "Cave horrors",
+      "weight": 10,
+      "stats": {
+        "Slayer": 58,
+        "Combat": 85
+      },
+      "quests": [
+        "Cabin Fever"
+      ]
+    },
+    {
+      "name": "Cockatrice",
+      "weight": 10,
+      "stats": {
+        "Slayer": 25,
+        "Defence": 20,
+        "Combat": 25
+      },
+      "quests": []
+    },
+    {
+      "name": "Crawling Hands",
+      "weight": 10,
+      "stats": {
+        "Slayer": 5
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Custodian stalker",
+      "weight": 8,
+      "stats": {
+        "Slayer": 54
+      },
+      "quests": [
+        "Shadows of Custodia"
+      ]
+    },
+    {
+      "name": "Dark beasts",
+      "weight": 10,
+      "stats": {
+        "Slayer": 90,
+        "Combat": 90
+      },
+      "quests": [
+        "Mournings End Part II"
+      ]
+    },
+    {
+      "name": "Drakes",
+      "weight": 10,
+      "stats": {
+        "Slayer": 84
+      },
+      "quests": []
+    },
+    {
+      "name": "Dust devils",
+      "weight": 8,
+      "stats": {
+        "Slayer": 65,
+        "Combat": 70
+      },
+      "quests": [
+        "Desert Treasure"
+      ]
+    },
+    {
+      "name": "Gargoyles",
+      "weight": 10,
+      "stats": {
+        "Slayer": 75,
+        "Combat": 80
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Gryphons",
+      "weight": 10,
+      "stats": {
+        "Slayer": 51,
+        "Sailing": 45
+      },
+      "quests": [
+        "Troubled Tortugans"
+      ]
+    },
+    {
+      "name": "Hydras",
+      "weight": 10,
+      "stats": {
+        "Slayer": 95
+      },
+      "quests": []
+    },
+    {
+      "name": "Infernal Mages",
+      "weight": 10,
+      "stats": {
+        "Slayer": 45,
+        "Combat": 40
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Jellies",
+      "weight": 10,
+      "stats": {
+        "Slayer": 52,
+        "Combat": 57
+      },
+      "quests": []
+    },
+    {
+      "name": "Kurask",
+      "weight": 10,
+      "stats": {
+        "Slayer": 70,
+        "Combat": 65
+      },
+      "quests": []
+    },
+    {
+      "name": "Nechryael",
+      "weight": 8,
+      "stats": {
+        "Slayer": 80,
+        "Combat": 85
+      },
+      "quests": [
+        "Priest in Peril"
+      ]
+    },
+    {
+      "name": "Pyrefiends",
+      "weight": 10,
+      "stats": {
+        "Slayer": 30,
+        "Combat": 25
+      },
+      "quests": []
+    },
+    {
+      "name": "Rockslugs",
+      "weight": 10,
+      "stats": {
+        "Slayer": 20,
+        "Combat": 20
+      },
+      "quests": []
+    },
+    {
+      "name": "Smoke devils",
+      "weight": 8,
+      "stats": {
+        "Slayer": 93,
+        "Combat": 85
+      },
+      "quests": []
+    },
+    {
+      "name": "Turoth",
+      "weight": 10,
+      "stats": {
+        "Slayer": 55,
+        "Combat": 60
+      },
+      "quests": []
+    },
+    {
+      "name": "Venators",
+      "weight": 10,
+      "stats": {
+        "Slayer": 74
+      },
+      "quests": [
+        "The Blood Moon Rises"
+      ]
+    },
+    {
+      "name": "Warped Creatures",
+      "weight": 10,
+      "stats": {
+        "Slayer": 56
+      },
+      "quests": []
+    },
+    {
+      "name": "Wyrms",
+      "weight": 10,
       "stats": {
         "Slayer": 62
       },

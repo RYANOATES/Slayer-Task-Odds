@@ -1,127 +1,61 @@
-![Slayer Task Odds — find your best Slayer master](docs/images/banner.svg)
+![Slayer Task Odds](docs/images/banner.svg)
 
-<p align="center">
-  <a href="https://runelite.net/plugin-hub">RuneLite Plugin Hub</a> ·
-  <a href="#install">Install</a> ·
-  <a href="#use-the-panel">Panel guide</a> ·
-  <a href="CHANGELOG.md">Version changes</a> ·
-  <a href="https://github.com/RYANOATES/Slayer-Task-Odds/issues">Report an issue</a>
-</p>
+Compare the chance of getting a Slayer task from each master. Odds use your account's levels, quests, unlocks, previous task and saved block lists.
 
-Compare your chance of receiving a Slayer task from each master. Slayer Task Odds
-uses your account’s levels, quest progress, unlocks, and saved block lists to rank
-the available masters for the task you select.
+## What's new in 2.0
 
-| Feature | What it does |
-| --- | --- |
-| Master rankings | Orders masters by assignment chance, with odds shown to two decimal places. |
-| Account requirements | Uses your levels, quest progress, unlocks, detected access conditions, and Slayer cape perk status. |
-| Separate block lists | Saves each master's blocks and supports manual edits for planning. |
-| Zero odds explanations | Hover a master card to see whether a task is blocked, has unmet requirements, or is never assigned. |
-| Zero odds display | Shows a brief reason on each 0.00% card, with an option to collapse masters whose displayed odds round to 0.00%. Expand them using the panel’s Show 0.00% masters button. |
-| Route to best master | Optional setting sends the highest ranked Slayer master's location to the Shortest Path plugin when your selected task or top master changes. |
-| Sync status | Shows the last master successfully synced and the date and time. |
-| Monster portraits | Includes 147 local portraits; grouped tasks use a representative creature. |
-| Local calculations | Bundles task data and images, with no external account-data requests. |
+| | |
+| :-- | :-- |
+| **Added Mortimer and task modifiers** | Compare the chance of a task appearing among his choices, then expand the modifier breakdown for unlocks, proposed ranges and estimated odds. |
+| **Character-specific block lists** | Block lists are saved per character. Sync a master's list from their task screen or edit it in the panel. |
+| **Clearer odds and requirements** | Check account requirements, hover for explanations and see which masters have old or unconfirmed blocks. |
+| **New panel themes and colours** | Choose from Legacy, Scroll and Fractured Archive, with parchment or maroon and gold options for Legacy and Scroll. |
+| **Choose masters and routes** | Select which masters to compare and optionally route to the best one with Shortest Path. |
+
+## Five looks, one calculator
+
+**Legacy** brings back the familiar cards. **Scroll** gives the panel a weathered-paper look. Both come in maroon and gold or parchment. **Fractured Archive** has its own layout, vault seal and green palette.
+
+![Five side-by-side panels: Legacy maroon, Legacy parchment, Scroll maroon, Scroll parchment and Fractured Archive](docs/images/theme-comparison.png)
+
+The previews use illustrative account data. In **Side panel** settings, select **Panel Theme** and, for Legacy or Scroll, **Theme Colours**. Fractured Archive has its own fixed colours.
 
 ## Install
 
-In RuneLite, open the **Plugin Hub**, search for **Slayer Task Odds**, and install
-it. Open its gold scales and red skull icon in the sidebar to use the panel.
+In RuneLite, open the **Plugin Hub**, search for **Slayer Task Odds** and install it. Open the scales icon in the sidebar.
 
-## Use the panel
+## Use
 
-![Quick start: sync your blocks, choose a task, compare the odds](docs/images/quick-start.svg)
+1. Choose a task to see each master's odds, ranked from highest to lowest.
+2. Open a master's **Slayer rewards → Tasks** screen to sync their blocks. You can also edit them under **Saved block lists**.
+3. Expand **Account requirements** to check the levels, quests, unlocks and access used in the calculation. Hover over a result for its explanation.
 
-1. Choose a monster from the **Slayer Task** dropdown. The panel starts with a
-   selection prompt, so routing waits until you choose a task.
-2. Compare the masters, ranked from the highest assignment chance to the lowest.
-3. Open **Account requirements** to see which levels, quests, unlocks, or access
-   checks affect your eligible task pool.
+The panel can hide masters at 0.00%, show their reasons on request, and post block-sync confirmations, failures and reminders to chat. These options are in the plugin settings.
 
-The burgundy-and-gold panel shows a portrait for the selected task. Grouped
-assignments use a representative creature. Portraits are bundled with the plugin
-and work without image downloads; task chances display to two decimal places.
+Each master's blocks affect that master's odds. Until a list is confirmed for your character, its result is marked approximate; imported or older saved blocks remain in use, while an empty list is assumed if none exists.
 
-<p align="center">
-  <img src="docs/images/panel-preview.png" width="234" alt="Burgundy-and-gold Slayer Task Odds panel showing an abyssal demon portrait, ranked Slayer masters and expandable account and block-list controls.">
-</p>
+Use **Enable/Disable Masters** to choose which masters appear in the comparison and can be selected for automatic routing. All are enabled by default.
 
-*Preview rendered from the latest source with illustrative task weights and odds.
-Your account's results will differ. The Plugin Hub version may lag behind the
-source preview until the next release is approved.*
+## Mortimer and task modifiers
 
-| Panel element | How to use it |
-| --- | --- |
-| Slayer task | Choose the assignment or boss you want to compare. |
-| Portrait | Identify the selected task visually; the generic Boss entry uses the plugin icon. |
-| Master cards | The highest-ranked master is highlighted in gold. Each card shows odds, weight information and eligible task count. |
-| 0.00% tooltip | Hover the card to learn whether the task is blocked, which requirements are missing, or if the master never assigns it. Tiny chances that round to 0.00% are identified as available. |
-| Saved block list | Open the rewards screen for a master to inspect or edit that master's saved blocks. |
-| Account requirements | Expand to review the account checks used by the calculator. |
+![Mortimer's task choice odds and expandable task modifier breakdown](docs/images/mortimer-overview.svg)
 
-The percentage is the chance that a master assigns the selected task, based on
-the task weights that apply to your account and that master’s saved block list.
-Boss-task odds also account for the eligible boss subtable. The result is a
-probability, not a promise about the next assignment.
-When a Slayer cape is worn or in your inventory and your previous task is
-available from that master and is not blocked, the calculator includes the
-cape's 10% repeat chance and scales the normal weighted task chances to the
-remaining 90%. The cape status and perk explanation appear in **Account
-requirements**.
+Mortimer's percentage is the chance of a task appearing among his offered choices. His separate block list and completed-task count are included. Expand **Task modifiers** beneath Mortimer to see unlocks, proposed effect ranges and estimated chances of a task appearing with each applicable modifier. The estimates assume solo offers and equally likely applicable modifiers; cape repeats are separate. Enable or disable Mortimer under **Enable/Disable Masters**. Under Side panel, **Collapsible Mortimer section** controls whether he has a collapsible header; when disabled, his card stays visible without the header. **Show Mortimer task modifiers** controls the breakdown.
 
-Under **Side panel** in Plugin Configuration, enable **Route to best master** to
-send the highest ranked master's location to the [Shortest Path plugin](https://github.com/Skretzo/shortest-path).
-The route follows your selected task's best master, not a monster location. If
-another plugin or a manual map click changes the Shortest Path destination,
-Slayer Task Odds waits until you select another task or the top master changes
-before requesting a new route. This option is off by default.
-Turning it off stops new route requests; clear an existing route in Shortest
-Path if you no longer want it displayed.
+**How the estimates work:** We built the Mortimer calculator for this plugin using published task weights and a weighted selection model. The maths has been tested against that model, but the game's exact selection process has not been independently confirmed, so treat the displayed chances as estimates. Modifier calculations assume applicable unlocked modifiers are equally likely; the ranges are based on [Jagex's proposed values](https://secure.runescape.com/m=news/meet-mortimer-your-newest-slayer-master?oldschool=1) and may differ from the live game. We welcome reports of differences.
 
-## Keep your block lists current
+### Routing
 
-Open **Slayer rewards > Tasks** or the Slayer task-list screen while logged in.
-The plugin detects the selected master and syncs its six regular block slots and
-diary slot. It only updates the saved list after it has read and verified all
-seven slots.
+Enable **Route to best master** under **General** to send the highest-odds eligible master's location to the [Shortest Path plugin](https://github.com/Skretzo/shortest-path). **Route to Mortimer** is a separate option and is off by default. Visit Mortimer once with the plugin enabled to save his location.
 
-Use **Saved block list** in the panel or the master sections in Plugin
-Configuration to review or edit saved blocks. This also lets you compare planned
-block lists. Lists are kept separately for each Slayer master.
+## Data and credits
 
-By default, a successful sync posts a confirmation and each slot in chat. To
-silence those success messages, turn off **Post sync messages in chat** under
-**Notifications** in Plugin Configuration. Sync failures are still reported.
-The panel also shows the last successfully synced master and timestamp, including
-after restarting RuneLite.
+Odds are calculated locally using bundled task data based on the [OSRS Wiki Slayer task weight calculator](https://oldschool.runescape.wiki/w/Calculator:Slayer/Slayer_task_weight). Wiki changes reach the plugin through releases. Monster portraits are bundled with the plugin.
 
-## Calculation and account data
+Developed by Razza98, with AI assistance for parts of the code and graphics. The plugin's features, logic, layout and settings were designed and developed by the author.
 
-Task weights and eligibility rules are based on the [OSRS Wiki Slayer task weight
-calculator](https://oldschool.runescape.wiki/w/Calculator:Slayer/Slayer_task_weight).
-The plugin calculates locally from task data bundled with the plugin and account
-information already available in RuneLite. It does not send your account state to
-an external service.
+The code is licensed under BSD 2-Clause. Wiki data attribution and generation notes are in [tools/wiki-reference/README.md](tools/wiki-reference/README.md), and portrait sources are in [ASSET-NOTICES.md](ASSET-NOTICES.md).
 
-Task weights and requirements are bundled snapshots, updated through plugin
-releases. The plugin does not fetch live calculator changes from the Wiki.
+[Report a bug or suggest an improvement](https://github.com/RYANOATES/Slayer-Task-Odds/issues)
 
-The **Account requirements** section shows the levels, quests, unlocks, and access
-checks used for the selected account. Some access checks depend on information
-RuneLite has observed; if an older item unlock is not detected, open your bank so
-the client can see the relevant item.
-
-## Credits and licensing
-
-The Java plugin code is licensed under the BSD 2-Clause License. The bundled
-Slayer task data is derived from OSRS Wiki content and is covered separately by
-CC BY-NC-SA 3.0. Source references, attribution, and data-generation notes are in
-[`tools/wiki-reference/README.md`](tools/wiki-reference/README.md).
-
-Monster portrait sources and copyright notices are documented in
-[`ASSET-NOTICES.md`](ASSET-NOTICES.md).
-
-## Support
-
-Report a bug or suggest an improvement on the [GitHub issue tracker](https://github.com/RYANOATES/Slayer-Task-Odds/issues).
+For release testing, see the [in-game checklist](docs/release-test-checklist.md).

@@ -57,10 +57,394 @@ public final class SlayerOddsVerification
         for (List<SlayerTask> table : tables.values())
             for (SlayerTask task : table)
                 require(SlayerTaskChoice.fromStoredValue(task.name) != null, "Missing dropdown choice: " + task.name);
+        MonsterImages portraits = new MonsterImages();
+        for (String task : TaskData.monsters(tables))
+        {
+            javax.swing.ImageIcon portrait = portraits.forTask(task);
+            require(portrait != null && portrait.getIconWidth() <= 68 && portrait.getIconHeight() <= 80,
+                "Portrait must fit the panel: " + task);
+        }
         require(SlayerOdds.blocks("Aviansie", "AVIANSIES").size() == 1, "Legacy/config aliases");
+        require(SlayerOddsPlugin.effectiveBlocks(Collections.singletonList("Abyssal demons"), 0, Collections.singletonList(false), false).isEmpty(),
+            "Unsynced blocks with no saved data must not be assumed");
+        require(SlayerOddsPlugin.effectiveBlocks(Collections.singletonList("Abyssal demons"), 0, Collections.singletonList(false), true).size() == 1,
+            "Imported blocks must remain in use while awaiting sync");
+        require(SlayerOddsPlugin.effectiveBlocks(Collections.singletonList("Abyssal demons"), 0, Collections.singletonList(true), false).size() == 1,
+            "Manually entered blocks must apply without a sync");
+        require(SlayerOddsPlugin.effectiveBlocks(Collections.singletonList("Abyssal demons"), 1, Collections.singletonList(false), false).size() == 1,
+            "Synced masters use their saved blocks");
         verifyAvailabilityExplanations(tables);
+        verifyCapeUnavailableExplanation(tables);
+        verifyMortimer(tables);
+        verifyMortimerModifiers(tables);
+        verifyThemeConfigProxy();
+        SlayerOddsConfig defaults = new SlayerOddsConfig() { };
+        require(defaults.panelLayout() == SlayerPanelLayout.CARDS && defaults.panelTheme() == SlayerPanelTheme.MAROON_GOLD,
+            "New settings default to legacy maroon and gold");
+        require(defaults.showMortimerModifiers(), "Mortimer modifier breakdown is enabled by default");
+        require(!defaults.expandMortimer(), "Mortimer is not collapsible by default");
+        for (SlayerMaster master : SlayerMaster.values())
+            require(SlayerOddsPlugin.masterEnabled(defaults, master), "Masters are enabled by default: " + master);
+        SlayerOddsConfig disabled = org.mockito.Mockito.mock(SlayerOddsConfig.class);
+        for (SlayerMaster master : SlayerMaster.values())
+            require(!SlayerOddsPlugin.masterEnabled(disabled, master), "Disabled masters are excluded: " + master);
+        String latestNotes = ReleaseNotes.latest();
+        require(latestNotes.startsWith("## 2.0.0") && latestNotes.contains("### Settings Changes")
+            && latestNotes.contains("### Minor Changes") && !latestNotes.contains("## 1.6.2"),
+            "Popup reads the complete current release from the bundled changelog");
+        verifyPanels();
+        verifyMasterEligibility(tables);
         verifySync();
+        SlayerOddsSimulation.verify();
         System.out.println("PASS: " + comparisons + " Lua probability comparisons across " + fixtures.size() + " account scenarios; block sync and config checks passed.");
+    }
+
+    private static void verifyThemeConfigProxy()
+    {
+        SlayerOddsConfig config = (SlayerOddsConfig) Proxy.newProxyInstance(
+            SlayerOddsConfig.class.getClassLoader(), new Class<?>[] {SlayerOddsConfig.class},
+            (proxy, method, args) -> method.getName().equals("panelLayout")
+                ? SlayerPanelLayout.CARDS : SlayerPanelTheme.MAROON_GOLD);
+        require(config.panelTheme() == SlayerPanelTheme.MAROON_GOLD,
+            "Theme enum must be accessible to RuneLite's config proxy");
+        require(config.panelLayout() == SlayerPanelLayout.CARDS,
+            "Layout enum must be accessible to RuneLite's config proxy");
+    }
+
+    private static void verifyPanels() throws Exception
+    {
+        javax.swing.SwingUtilities.invokeAndWait(() -> {
+            for (SlayerPanelLayout layout : SlayerPanelLayout.values())
+                for (SlayerPanelTheme theme : SlayerPanelTheme.values())
+                {
+                    SlayerOddsPanel panel = new SlayerOddsPanel(value -> { }, (master, slot) -> { }, manual -> { }, theme, layout);
+                    panel.showLoggedOut(null, 0);
+                    require(hasText(panel, "Log in to see task odds."), "Logged-out prompt in " + layout + " / " + theme);
+                    for (int width : new int[] {190, 240, 300})
+                    {
+                        panel.setSize(width, 1200);
+                        layoutAll(panel);
+                        javax.swing.AbstractButton changes = findButton(panel, "What's new");
+                        require(changes != null, "What's new button exists");
+                        int centre = javax.swing.SwingUtilities.convertPoint(changes, changes.getWidth() / 2, 0, panel).x;
+                        require(Math.abs(centre - panel.getWidth() / 2) <= 2,
+                            "What's new must be centred at width " + width + " in " + layout + " / " + theme);
+                    }
+                    try
+                    {
+                        java.lang.reflect.Field syncField = SlayerOddsPanel.class.getDeclaredField("syncStatus");
+                        syncField.setAccessible(true);
+                        javax.swing.JLabel sync = (javax.swing.JLabel) syncField.get(panel);
+                        for (boolean screenOpen : new boolean[] {false, true})
+                        {
+                            panel.showSyncStatus(null, 0, "Not yet synced. Older saved blocks were imported", screenOpen, false);
+                            for (int width : new int[] {190, 240, 300})
+                            {
+                                panel.setSize(width, 1200);
+                                layoutAll(panel);
+                                int centre = javax.swing.SwingUtilities.convertPoint(sync, sync.getWidth() / 2, 0, panel).x;
+                                require(Math.abs(centre - panel.getWidth() / 2) <= 2,
+                                    "Sync status must remain centred at width " + width + " in " + layout + " / " + theme);
+                            }
+                            require(sync.getHorizontalAlignment() == javax.swing.SwingConstants.CENTER,
+                                "Sync status text must be centred");
+                        }
+                    }
+                    catch (ReflectiveOperationException ex) { throw new AssertionError(ex); }
+                    PlayerState state = new PlayerState();
+                    SlayerOdds.Result unavailable = new SlayerOdds.Result(0, 0, 0, 0, "", "Never assigned by this master.");
+                    SlayerOdds.Result offered = new SlayerOdds.Result(1, 10, 10, 0.1, "1 / 10", "Available");
+                    panel.showResults(Collections.singletonList("Abyssal demons"), "Abyssal demons", null,
+                        Arrays.asList(SlayerMaster.NIEVE, SlayerMaster.MORTIMER), Arrays.asList(unavailable, offered),
+                        state, true, true, true, true, true, Collections.emptySet(), Collections.emptySet());
+                    require(hasText(panel, "No masters above 0.00%."), "Mortimer must not hide the empty regular-master message");
+                    panel.setSize(240, 1200);
+                    layoutAll(panel);
+                    javax.swing.JLabel offerNote = findLabel(panel, "Chance among 2 offered tasks");
+                    javax.swing.JLabel hoverNote = findLabel(panel, "Hover for odds breakdown");
+                    javax.swing.JLabel mortimerName = findLabel(panel, "Mortimer");
+                    require(offerNote != null && hoverNote != null && mortimerName != null, "Mortimer labels are present");
+                    int offerX = javax.swing.SwingUtilities.convertPoint(offerNote, 0, 0, panel).x;
+                    int hoverX = javax.swing.SwingUtilities.convertPoint(hoverNote, 0, 0, panel).x;
+                    int nameX = javax.swing.SwingUtilities.convertPoint(mortimerName, 0, 0, panel).x;
+                    require(offerX == hoverX && Math.abs(offerX - nameX) <= 3,
+                        "Mortimer notes must align with each other and the left edge of the master row");
+                    try
+                    {
+                        java.lang.reflect.Field field = SlayerOddsPanel.class.getDeclaredField("modifierToggle");
+                        field.setAccessible(true);
+                        javax.swing.JToggleButton toggle = (javax.swing.JToggleButton) field.get(panel);
+                        require(toggle.isVisible(), "Mortimer task modifier control is visible");
+                        toggle.doClick();
+                        field = SlayerOddsPanel.class.getDeclaredField("modifierDetails");
+                        field.setAccessible(true);
+                        javax.swing.JPanel details = (javax.swing.JPanel) field.get(panel);
+                        require(details.isVisible() && details.getComponentCount() == 11, "Modifier details expand");
+                        panel.showResults(Collections.singletonList("Abyssal demons"), "Abyssal demons", null,
+                            Arrays.asList(SlayerMaster.NIEVE, SlayerMaster.MORTIMER), Arrays.asList(unavailable, offered),
+                            state, true, true, true, true, true, Collections.emptySet(), Collections.emptySet());
+                        require(details.isVisible() && details.getComponentCount() == 11, "Refresh preserves expansion without duplicate rows");
+                        panel.showResults(Collections.singletonList("Abyssal demons"), "Abyssal demons", null,
+                            Arrays.asList(SlayerMaster.NIEVE, SlayerMaster.MORTIMER), Arrays.asList(unavailable, offered),
+                            state, true, true, true, true, false, Collections.emptySet(), Collections.emptySet());
+                        require(!toggle.isVisible() && !details.isVisible(), "Disabling modifier breakdown hides the nested section");
+                        panel.showResults(Collections.singletonList("Abyssal demons"), "Abyssal demons", null,
+                            Arrays.asList(SlayerMaster.NIEVE, SlayerMaster.MORTIMER), Arrays.asList(unavailable, offered),
+                            state, true, true, true, true, true, Collections.emptySet(), Collections.emptySet());
+                        require(toggle.isVisible() && details.isVisible(), "Re-enabling restores the expanded modifier section");
+                        field = SlayerOddsPanel.class.getDeclaredField("mortimerToggle");
+                        field.setAccessible(true);
+                        javax.swing.JToggleButton header = (javax.swing.JToggleButton) field.get(panel);
+                        panel.showResults(Collections.singletonList("Abyssal demons"), "Abyssal demons", null,
+                            Arrays.asList(SlayerMaster.NIEVE, SlayerMaster.MORTIMER), Arrays.asList(unavailable, offered),
+                            state, true, true, true, false, true, Collections.emptySet(), Collections.emptySet());
+                        require(!header.isVisible() && toggle.isVisible() && details.isVisible(),
+                            "Non-collapsible Mortimer hides only its header");
+                        if (layout == SlayerPanelLayout.CARDS)
+                        {
+                            panel.showResults(Collections.singletonList("Abyssal demons"), "Abyssal demons", null,
+                                Arrays.asList(SlayerMaster.NIEVE, SlayerMaster.MORTIMER), Arrays.asList(offered, offered),
+                                state, false, true, true, false, true, Collections.emptySet(), Collections.emptySet());
+                            panel.setSize(240, 1200);
+                            layoutAll(panel);
+                            javax.swing.JLabel regular = findLabel(panel, "Nieve / Steve");
+                            javax.swing.JLabel mortimer = findLabel(panel, "Mortimer");
+                            require(regular != null && mortimer != null, "Both master cards are displayed");
+                            int regularX = javax.swing.SwingUtilities.convertPoint(regular, 0, 0, panel).x;
+                            int mortimerX = javax.swing.SwingUtilities.convertPoint(mortimer, 0, 0, panel).x;
+                            require(regularX == mortimerX, "Legacy Mortimer card must align with regular cards when not collapsible");
+                            panel.showResults(Collections.singletonList("Abyssal demons"), "Abyssal demons", null,
+                                Arrays.asList(SlayerMaster.NIEVE, SlayerMaster.MORTIMER), Arrays.asList(offered, offered),
+                                state, false, true, true, true, true, Collections.emptySet(), Collections.emptySet());
+                            layoutAll(panel);
+                            regular = findLabel(panel, "Nieve / Steve");
+                            mortimer = findLabel(panel, "Mortimer");
+                            regularX = javax.swing.SwingUtilities.convertPoint(regular, 0, 0, panel).x;
+                            mortimerX = javax.swing.SwingUtilities.convertPoint(mortimer, 0, 0, panel).x;
+                            require(mortimerX - regularX == 6, "Collapsible legacy Mortimer card has only the intended small inset");
+                        }
+                        panel.showResults(Collections.singletonList("Abyssal demons"), "Abyssal demons", null,
+                            Arrays.asList(SlayerMaster.NIEVE, SlayerMaster.MORTIMER), Arrays.asList(unavailable, offered),
+                            state, true, true, true, true, true, Collections.emptySet(), Collections.emptySet());
+                        require(header.isVisible() && toggle.isVisible(), "Re-enabling collapsibility restores Mortimer's header");
+                        field = SlayerOddsPanel.class.getDeclaredField("zeroToggle");
+                        field.setAccessible(true);
+                        javax.swing.JToggleButton zeros = (javax.swing.JToggleButton) field.get(panel);
+                        field = SlayerOddsPanel.class.getDeclaredField("explanationHint");
+                        field.setAccessible(true);
+                        javax.swing.JLabel zeroHint = (javax.swing.JLabel) field.get(panel);
+                        require(!zeroHint.isVisible(), "Zero-chance hint is hidden while list is collapsed");
+                        zeros.doClick();
+                        require(zeroHint.isVisible(), "Zero-chance hint appears beneath the expanded list");
+                        zeros.doClick();
+                        require(!zeroHint.isVisible(), "Zero-chance hint hides when list collapses");
+                    }
+                    catch (ReflectiveOperationException ex) { throw new AssertionError(ex); }
+                    panel.showResults(Collections.singletonList("Abyssal demons"), "Abyssal demons", null,
+                        Collections.singletonList(SlayerMaster.NIEVE), Collections.singletonList(offered),
+                        state, false, true, false, true, true, Collections.singleton(SlayerMaster.NIEVE), Collections.emptySet());
+                    require(hasText(panel, "~10.00%"), "Unsynced odds must be marked approximate");
+                    panel.showResults(Collections.singletonList("Abyssal demons"), "Abyssal demons", null,
+                        Arrays.asList(SlayerMaster.NIEVE, SlayerMaster.DURADEL), Arrays.asList(offered, offered),
+                        state, false, true, false, true, true, Collections.singleton(SlayerMaster.NIEVE), Collections.emptySet());
+                    require(hasText(panel, "~10.00%") && hasText(panel, "10.00%"),
+                        "Only the unsynced master should be marked approximate");
+                    panel.setSize(240, 900);
+                    java.awt.image.BufferedImage image = new java.awt.image.BufferedImage(240, 900, java.awt.image.BufferedImage.TYPE_INT_ARGB);
+                    java.awt.Graphics2D graphics = image.createGraphics();
+                    try { panel.doLayout(); panel.printAll(graphics); }
+                    finally { graphics.dispose(); }
+                }
+        });
+    }
+
+    private static boolean hasText(java.awt.Container container, String text)
+    {
+        for (java.awt.Component child : container.getComponents())
+        {
+            if (child instanceof javax.swing.JLabel && text.equals(((javax.swing.JLabel) child).getText())) return true;
+            if (child instanceof java.awt.Container && hasText((java.awt.Container) child, text)) return true;
+        }
+        return false;
+    }
+
+    private static javax.swing.JLabel findLabel(java.awt.Container container, String text)
+    {
+        for (java.awt.Component child : container.getComponents())
+        {
+            if (child instanceof javax.swing.JLabel && text.equals(((javax.swing.JLabel) child).getText())) return (javax.swing.JLabel) child;
+            if (child instanceof java.awt.Container)
+            {
+                javax.swing.JLabel found = findLabel((java.awt.Container) child, text);
+                if (found != null) return found;
+            }
+        }
+        return null;
+    }
+
+    private static javax.swing.AbstractButton findButton(java.awt.Container container, String text)
+    {
+        for (java.awt.Component child : container.getComponents())
+        {
+            if (child instanceof javax.swing.AbstractButton && text.equals(((javax.swing.AbstractButton) child).getText()))
+                return (javax.swing.AbstractButton) child;
+            if (child instanceof java.awt.Container)
+            {
+                javax.swing.AbstractButton found = findButton((java.awt.Container) child, text);
+                if (found != null) return found;
+            }
+        }
+        return null;
+    }
+
+    private static void layoutAll(java.awt.Container container)
+    {
+        container.doLayout();
+        for (java.awt.Component child : container.getComponents())
+            if (child instanceof java.awt.Container) layoutAll((java.awt.Container) child);
+    }
+
+    private static void verifyMasterEligibility(Map<SlayerMaster, List<SlayerTask>> tables)
+    {
+        PlayerState state = new PlayerState();
+        state.stats.put("Combat", 19);
+        state.stats.put("Slayer", 1);
+        SlayerOdds.Result blocked = SlayerOdds.calculateForMaster(SlayerMaster.MAZCHNA,
+            tables.get(SlayerMaster.MAZCHNA), "Bats", Collections.emptySet(), state);
+        require(blocked.chance() == 0 && blocked.explanation().contains("Combat level 20"),
+            "Mazchna requires 20 combat");
+        require(blocked.explanation().contains("Morytania access"), "Mazchna requires Morytania access");
+        state.morytaniaAccess = true;
+        SlayerOdds.Result access = SlayerOdds.calculateForMaster(SlayerMaster.MAZCHNA,
+            tables.get(SlayerMaster.MAZCHNA), "Bats", Collections.emptySet(), state);
+        require(!access.explanation().contains("Morytania access"), "Recorded Morytania access is accepted");
+        SlayerOdds.Result krystilia = SlayerOdds.calculateForMaster(SlayerMaster.KRYSTILIA,
+            tables.get(SlayerMaster.KRYSTILIA), "Bats", Collections.emptySet(), state);
+        require(krystilia.explanation().contains("completion history could not be confirmed"),
+            "A zero streak does not prove that no Slayer task was ever completed");
+        state.slayerCompletionObserved = true;
+        krystilia = SlayerOdds.calculateForMaster(SlayerMaster.KRYSTILIA,
+            tables.get(SlayerMaster.KRYSTILIA), "Bats", Collections.emptySet(), state);
+        require(!krystilia.explanation().contains("completion history could not be confirmed"),
+            "A recorded completion removes the Krystilia reminder");
+        state.stats.put("Combat", 100);
+        state.stats.put("Slayer", 49);
+        SlayerOdds.Result duradel = SlayerOdds.calculateForMaster(SlayerMaster.DURADEL,
+            tables.get(SlayerMaster.DURADEL), "Abyssal demons", Collections.emptySet(), state);
+        require(duradel.chance() == 0 && duradel.explanation().contains("Slayer level 50")
+            && duradel.explanation().contains("Shilo Village"), "Duradel level and quest requirements");
+        SlayerOdds.Result chaeldar = SlayerOdds.calculateForMaster(SlayerMaster.CHAELDAR,
+            tables.get(SlayerMaster.CHAELDAR), "Bats", Collections.emptySet(), state);
+        require(chaeldar.chance() == 0 && chaeldar.explanation().contains("Lost City"),
+            "Chaeldar quest requirement");
+        state.stats.put("Combat", 3);
+        state.stats.put("Slayer", 99);
+        state.quests.add("Shilo Village");
+        SlayerOdds.Result cape = SlayerOdds.calculateForMaster(SlayerMaster.DURADEL,
+            tables.get(SlayerMaster.DURADEL), "Abyssal demons", Collections.emptySet(), state);
+        require(cape.explanation().contains("Show your Slayer cape"),
+            "99 Slayer can bypass the combat requirement by showing the cape");
+        state.mortimerAccess = false;
+        SlayerOdds.Result mortimer = SlayerOdds.calculateForMaster(SlayerMaster.MORTIMER,
+            tables.get(SlayerMaster.MORTIMER), "Abyssal demons", Collections.emptySet(), state);
+        require(mortimer.chance() == 0 && mortimer.explanation().contains("Mortimer access"),
+            "Mortimer access remains required at 99 Slayer");
+    }
+
+    private static void verifyCapeUnavailableExplanation(Map<SlayerMaster, List<SlayerTask>> tables)
+    {
+        PlayerState state = new PlayerState();
+        state.stats.put("Slayer", 99);
+        state.stats.put("Combat", 126);
+        state.quests.add("Shilo Village");
+        state.quests.add("Priest in Peril");
+        state.currentTask = "Abyssal demons";
+        state.slayerCapePerkActive = true;
+        state.previousTaskMaster = SlayerMaster.NIEVE;
+        SlayerOdds.Result repeated = SlayerOdds.calculateForMaster(SlayerMaster.NIEVE,
+            tables.get(SlayerMaster.NIEVE), "Abyssal demons", Collections.emptySet(), state);
+        require(Math.abs(repeated.chance() - 0.10) < 1e-9, "Cape offers a repeat from the previous master");
+        SlayerOdds.Result blockedRepeat = SlayerOdds.calculateForMaster(SlayerMaster.NIEVE,
+            tables.get(SlayerMaster.NIEVE), "Abyssal demons", SlayerOdds.blocks("Abyssal demons"), state);
+        require(blockedRepeat.chance() == 0, "Blocked previous task cannot be repeated using the cape");
+        SlayerOdds.Result otherMaster = SlayerOdds.calculateForMaster(SlayerMaster.DURADEL,
+            tables.get(SlayerMaster.DURADEL), "Abyssal demons", Collections.emptySet(), state);
+        require(otherMaster.chance() == 0, "Cape repeat does not apply to another master");
+        SlayerOdds.Result otherTaskWithCape = SlayerOdds.calculateForMaster(SlayerMaster.DURADEL,
+            tables.get(SlayerMaster.DURADEL), "Greater demons", Collections.emptySet(), state);
+        state.slayerCapePerkActive = false;
+        SlayerOdds.Result otherTaskWithoutCape = SlayerOdds.calculateForMaster(SlayerMaster.DURADEL,
+            tables.get(SlayerMaster.DURADEL), "Greater demons", Collections.emptySet(), state);
+        require(otherTaskWithoutCape.chance() > 0 && Math.abs(otherTaskWithCape.chance() - otherTaskWithoutCape.chance()) < 1e-9,
+            "A different master's other task odds are unaffected by the cape");
+        state.slayerCapePerkActive = true;
+        state.previousTaskMaster = null;
+        SlayerOdds.Result unknown = SlayerOdds.calculateForMaster(SlayerMaster.NIEVE,
+            tables.get(SlayerMaster.NIEVE), "Abyssal demons", Collections.emptySet(), state);
+        require(unknown.chance() == 0, "Unknown previous master does not assume a cape repeat");
+        state.previousTaskMaster = SlayerMaster.NIEVE;
+        SlayerOdds.Result normal = SlayerOdds.calculateForMaster(SlayerMaster.NIEVE,
+            tables.get(SlayerMaster.NIEVE), "Greater demons", Collections.emptySet(), state);
+        state.slayerCapePerkActive = false;
+        SlayerOdds.Result withoutCape = SlayerOdds.calculateForMaster(SlayerMaster.NIEVE,
+            tables.get(SlayerMaster.NIEVE), "Greater demons", Collections.emptySet(), state);
+        require(withoutCape.chance() > 0 && Math.abs(normal.chance() - withoutCape.chance() * .9) < 1e-9,
+            "Same-master cape offer reserves ten percent if accepted");
+        state.slayerCapePerkActive = true;
+        SlayerOdds.Result blocked = SlayerOdds.calculate(tables.get(SlayerMaster.NIEVE), "Greater demons",
+            SlayerOdds.blocks("Greater demons"), state);
+        require(blocked.chance() == 0 && blocked.explanation().startsWith("Blocked"),
+            "Cape repeat must preserve the reason an unrelated task is unavailable");
+    }
+
+    private static void verifyMortimer(Map<SlayerMaster, List<SlayerTask>> tables)
+    {
+        int[] manyWeights = new int[65];
+        Arrays.fill(manyWeights, 1);
+        require(Math.abs(MortimerOdds.chance(1, manyWeights, 2) - 2.0 / 66.0) < 1e-12,
+            "Mortimer selection must handle more than 64 other tasks");
+        require(Math.abs(MortimerOdds.chance(1, new int[] {1, 1}, 2) - 2.0 / 3.0) < 1e-12,
+            "Two distinct weighted offers");
+        require(Math.abs(MortimerOdds.chance(2, new int[] {1, 3}, 2) - (1.0 - (1.0 / 6.0 * 3.0 / 5.0 + 3.0 / 6.0 * 1.0 / 3.0))) < 1e-12,
+            "Unequal weighted offers without replacement");
+        require(MortimerOdds.chance(1, new int[] {1, 1}, 3) > 0.999999999, "Three offers cover three tasks");
+        PlayerState state = new PlayerState();
+        state.stats.put("Slayer", 99);
+        state.stats.put("Combat", 126);
+        state.stats.put("Defence", 99);
+        state.stats.put("Sailing", 99);
+        for (SlayerTask task : tables.get(SlayerMaster.MORTIMER)) state.quests.addAll(task.quests);
+        state.mortimerAccess = true;
+        state.currentTask = "Abyssal demons";
+        SlayerOdds.Result two = SlayerOdds.calculateMortimer(tables.get(SlayerMaster.MORTIMER), "Abyssal demons", Collections.emptySet(), state);
+        state.mortimerChoices = 3;
+        SlayerOdds.Result three = SlayerOdds.calculateMortimer(tables.get(SlayerMaster.MORTIMER), "Abyssal demons", Collections.emptySet(), state);
+        require(two.chance() > 0 && three.chance() > two.chance(), "Current task remains eligible; third choice increases odds");
+        require(SlayerOdds.calculateMortimer(tables.get(SlayerMaster.MORTIMER), "Abyssal demons", SlayerOdds.blocks("Abyssal demons"), state).chance() == 0,
+            "Mortimer block removes task from pool");
+        state.mortimerAccess = false;
+        require(SlayerOdds.calculateMortimer(tables.get(SlayerMaster.MORTIMER), "Abyssal demons", Collections.emptySet(), state).chance() == 0,
+            "Mortimer requires access");
+    }
+
+    private static void verifyMortimerModifiers(Map<SlayerMaster, List<SlayerTask>> tables)
+    {
+        for (SlayerTask task : tables.get(SlayerMaster.MORTIMER))
+            require(MortimerModifiers.breakdown(task.name, 50, 0.13).size() == 5,
+                "Modifier ranges must exist for Mortimer task: " + task.name);
+        List<String> start = MortimerModifiers.breakdown("Abyssal demons", 0, 0.13);
+        require(start.get(0).contains("50.00% modifier") && start.get(0).contains("6.50% task + modifier"),
+            "Initially two equally likely modifiers and conditional joint odds");
+        require(start.get(2).contains("unlocks at 15") && start.get(3).contains("unlocks at 40")
+            && start.get(4).contains("unlocks at 25"), "Modifier unlock thresholds");
+        List<String> full = MortimerModifiers.breakdown("Abyssal demons", 40, 0.13);
+        require(full.get(0).contains("20.00% modifier") && full.get(0).contains("2.60% task + modifier"),
+            "Five modifiers: 13% task chance times 20% modifier chance");
+        List<String> noClues = MortimerModifiers.breakdown("Cave crawlers", 50, 0.13);
+        require(noClues.get(2).contains("not available") && noClues.get(0).contains("25.00% modifier"),
+            "Tasks without clues use the four applicable modifiers");
+        require(MortimerModifiers.breakdown("Ankou", 50, 0.13).isEmpty(),
+            "Non-Mortimer tasks do not show a modifier breakdown");
     }
 
     private static void verifyAvailabilityExplanations(Map<SlayerMaster, List<SlayerTask>> tables)
@@ -142,7 +526,8 @@ public final class SlayerOddsVerification
         require(seen.contains(VarbitID.SLAYER_BLOCKED_NIEVE_DIARY), "Read diary slot");
         seen.clear();
         for (SlayerMaster master : SlayerMaster.values()) BlockSync.read(client, master);
-        require(seen.size() == 56, "Distinct per-master block varbits");
+        require(seen.size() == 58, "Distinct per-master block varbits, including Mortimer's two");
+        require(BlockSync.read(client, SlayerMaster.MORTIMER).size() == 2, "Mortimer has two block slots");
         Client unavailable = (Client) Proxy.newProxyInstance(Client.class.getClassLoader(), new Class<?>[] {Client.class}, (proxy, method, args) -> {
             if (method.getName().equals("getVarbitValue")) return 42;
             if (method.getName().equals("getDBRowsByValue")) return Collections.emptyList();
@@ -154,7 +539,7 @@ public final class SlayerOddsVerification
         require(failed, "Unavailable task data must fail instead of clearing blocks");
         require(SlayerMaster.byGameId(6) == SlayerMaster.NIEVE && SlayerMaster.byGameId(3) == SlayerMaster.VANNAKA && SlayerMaster.byGameId(0) == null, "Master mapping");
         long slotsConfigured = Arrays.stream(SlayerOddsConfig.class.getDeclaredMethods()).filter(m -> m.getName().matches(".*Block[1-7]")).count();
-        require(slotsConfigured == 56, "Seven config slots for eight masters");
+        require(slotsConfigured == 58, "Seven config slots for eight masters and two for Mortimer");
     }
 
     private static void require(boolean condition, String message)

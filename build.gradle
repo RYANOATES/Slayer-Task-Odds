@@ -11,12 +11,13 @@ repositories {
     mavenCentral()
 }
 
-def runeLiteVersion = 'latest.release'
+def runeLiteVersion = '1.13.6'
 
 dependencies {
     compileOnly group: 'net.runelite', name: 'client', version: runeLiteVersion
     testImplementation group: 'net.runelite', name: 'client', version: runeLiteVersion
     testImplementation group: 'net.runelite', name: 'jshell', version: runeLiteVersion
+    testImplementation 'org.mockito:mockito-core:4.11.0'
 }
 
 tasks.register('run', JavaExec) {
@@ -27,7 +28,7 @@ tasks.register('run', JavaExec) {
 }
 
 group = 'com.slayertaskodds'
-version = '1.6.2'
+version = '2.0.0'
 
 if (project.hasProperty('devBuildDir')) {
     layout.buildDirectory.set(file(project.property('devBuildDir')))
@@ -36,6 +37,10 @@ if (project.hasProperty('devBuildDir')) {
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
     options.release.set(11)
+}
+
+processResources {
+    from('CHANGELOG.md') { into 'slayertaskodds' }
 }
 
 

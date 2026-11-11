@@ -13,7 +13,8 @@ enum SlayerMaster
 	CHAELDAR("Chaeldar", "chaeldar", 2445, 4431),
 	KONAR("Konar quo Maten", "konar", 1308, 3786),
 	NIEVE("Nieve / Steve", "nieve", 2432, 3424),
-	DURADEL("Duradel / Kuradal", "duradel", 2869, 2982);
+	DURADEL("Duradel / Kuradal", "duradel", 2869, 2982),
+	MORTIMER("Mortimer", "mortimer", -1, -1);
 
 	final String displayName;
 	final String key;
@@ -23,7 +24,7 @@ enum SlayerMaster
 	{
 		this.displayName = displayName;
 		this.key = key;
-		this.destination = new WorldPoint(x, y, 0);
+		this.destination = x < 0 ? null : new WorldPoint(x, y, 0);
 	}
 
 	static SlayerMaster byGameId(int id)
@@ -38,9 +39,12 @@ enum SlayerMaster
             case 6: return NIEVE;
             case 7: return KRYSTILIA;
             case 8: return KONAR;
+            case 10: return MORTIMER;
             default: return null;
         }
     }
+
+    int blockSlots() { return this == MORTIMER ? 2 : 7; }
 
     static SlayerMaster byKey(String key)
 	{
