@@ -509,6 +509,13 @@ final class SlayerOddsPanel extends PluginPanel
             arrangeLegacyLayout(title, taskInfo, taskRow, assignment, explanationHint, syncRow, routeHint);
         else if (archiveTheme)
             arrangeArchiveLayout(title, emblem, taskInfo, taskRow, assignment, syncRow, routeHint);
+        JLabel themeIntro = new JLabel("Change theme in plugin settings", SwingConstants.CENTER);
+        themeIntro.setFont(pageFont(Font.PLAIN, 10));
+        themeIntro.setForeground(MUTED);
+        themeIntro.setAlignmentX(CENTER_ALIGNMENT);
+        themeIntro.setBorder(BorderFactory.createEmptyBorder(2, 0, 6, 0));
+        themeIntro.setMaximumSize(new Dimension(Integer.MAX_VALUE, themeIntro.getPreferredSize().height));
+        add(themeIntro, 0);
         JLabel themeHint = new JLabel(archiveTheme ? "<html><center>Theme: Fractured Archive<br>Change in Side panel settings</center></html>" : cardLayout ? "<html><center>Theme: Legacy · "
             + (maroonTheme ? "Maroon and gold" : "Parchment")
             + "<br>Change in plugin settings → Side panel</center></html>"
@@ -947,7 +954,9 @@ final class SlayerOddsPanel extends PluginPanel
         }
         else if (!cardLayout && parchment != null)
         {
-            graphics.drawImage(parchment, 0, 0, getWidth(), getHeight(), null);
+            // Trim the bright source-image edge so it does not stretch into a band at the top.
+            graphics.drawImage(parchment, 0, 0, getWidth(), getHeight(),
+                0, Math.min(5, parchment.getHeight() - 1), parchment.getWidth(), parchment.getHeight(), null);
             if (maroonTheme)
             {
                 graphics.setColor(new Color(43, 1, 15, 232));
