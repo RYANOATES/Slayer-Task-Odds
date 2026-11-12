@@ -790,16 +790,12 @@ final class SlayerOddsPanel extends PluginPanel
         JPanel content = new JPanel(new BorderLayout(0, 10));
         content.setBackground(BACKGROUND);
         content.setBorder(BorderFactory.createEmptyBorder(14, 16, 14, 16));
-        JLabel highlights = new JLabel("<html><b>Slayer Task Odds 2.0.0</b><br><br>"
-            + "• Added Mortimer and his task modifier breakdown<br>"
-            + "• Character-specific block lists and clearer sync status<br>"
-            + "• Per-master warnings for old or unconfirmed blocks<br>"
-            + "• Master access and account requirement checks<br>"
-            + "• Three panel themes, including the Fractured Archive<br>"
-            + "• Parchment or maroon and gold for Legacy and Scroll<br>"
-            + "• Mortimer task-choice odds and optional routing<br>"
-            + "• More reliable syncing and automatic retries<br>"
-            + "• Clearer layouts, portraits and performance improvements</html>");
+        JLabel highlights = new JLabel("<html><b>Slayer Task Odds 2.0.1</b><br><br>"
+            + "• Fixed full release notes in the Plugin Hub version<br>"
+            + "• Fixed the Fractured Archive footer alignment<br>"
+            + "• Fixed the 0.00% masters section after settings change<br>"
+            + "• Reduced the parchment texture size for the Plugin Hub<br>"
+            + "• Added a theme-settings hint at the top of the panel</html>");
         highlights.setForeground(INK);
         highlights.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 13));
         content.add(highlights, BorderLayout.NORTH);
@@ -854,6 +850,16 @@ final class SlayerOddsPanel extends PluginPanel
         lastMortimerExpandPreference = previous.lastMortimerExpandPreference;
         displayedTask = previous.displayedTask;
         previouslyHiding = previous.previouslyHiding;
+    }
+
+    void collapseZeroChanceMasters()
+    {
+        zeroToggle.setSelected(false);
+        zeroList.setVisible(false);
+        explanationHint.setVisible(false);
+        updateZeroToggle();
+        revalidate();
+        repaint();
     }
 
     private javax.swing.Icon scalesIcon()
@@ -1761,6 +1767,8 @@ final class SlayerOddsPanel extends PluginPanel
             resultList.add(empty);
         }
 
+        if (zeroList.getComponentCount() == 0)
+            zeroToggle.setSelected(false);
         zeroToggle.setVisible(hideZeroChanceMasters && zeroList.getComponentCount() > 0);
         zeroList.setVisible(zeroToggle.isVisible() && zeroToggle.isSelected());
         explanationHint.setVisible(zeroList.isVisible() && showOddsTooltips);

@@ -95,8 +95,8 @@ public final class SlayerOddsVerification
             require(bundled != null && sourceNotes.equals(new String(bundled.readAllBytes(), java.nio.charset.StandardCharsets.UTF_8).replace("\r\n", "\n")),
                 "Packaged changelog must match the published changelog");
         }
-        require(latestNotes.startsWith("## 2.0.0") && latestNotes.contains("### Settings Changes")
-            && latestNotes.contains("### Minor Changes") && !latestNotes.contains("## 1.6.2"),
+        require(latestNotes.startsWith("## 2.0.1") && latestNotes.contains("### Bug Fixes")
+            && latestNotes.contains("### Minor Changes") && !latestNotes.contains("## 2.0.0"),
             "Popup reads the complete current release from the bundled changelog");
         verifyPanels();
         verifyMasterEligibility(tables);
@@ -252,8 +252,33 @@ public final class SlayerOddsVerification
                         require(!zeroHint.isVisible(), "Zero-chance hint is hidden while list is collapsed");
                         zeros.doClick();
                         require(zeroHint.isVisible(), "Zero-chance hint appears beneath the expanded list");
+                        panel.showResults(Collections.singletonList("Abyssal demons"), "Abyssal demons", null,
+                            Arrays.asList(SlayerMaster.NIEVE, SlayerMaster.MORTIMER), Arrays.asList(unavailable, offered),
+                            state, true, true, true, true, true, Collections.emptySet(), Collections.emptySet());
+                        require(zeros.isSelected() && zeroHint.isVisible(), "Ordinary refresh preserves an expanded zero-chance list");
+                        panel.showResults(Collections.singletonList("Abyssal demons"), "Abyssal demons", null,
+                            Collections.singletonList(SlayerMaster.MORTIMER), Collections.singletonList(offered),
+                            state, true, true, true, true, true, Collections.emptySet(), Collections.emptySet());
+                        require(!zeros.isVisible() && !zeros.isSelected(), "Removing all zero-chance masters clears the expanded state");
+                        panel.showResults(Collections.singletonList("Abyssal demons"), "Abyssal demons", null,
+                            Arrays.asList(SlayerMaster.NIEVE, SlayerMaster.MORTIMER), Arrays.asList(unavailable, offered),
+                            state, true, true, true, true, true, Collections.emptySet(), Collections.emptySet());
+                        require(zeros.isVisible() && !zeros.isSelected() && !zeroHint.isVisible(),
+                            "Re-enabling a zero-chance master restores the collapsed section");
+                        zeros.doClick();
+                        panel.collapseZeroChanceMasters();
+                        require(!zeros.isSelected() && !zeroHint.isVisible(), "Changing the hide setting collapses the section");
+                        zeros.doClick();
                         zeros.doClick();
                         require(!zeroHint.isVisible(), "Zero-chance hint hides when list collapses");
+                        panel.showResults(Collections.singletonList("Abyssal demons"), "Abyssal demons", null,
+                            Arrays.asList(SlayerMaster.NIEVE, SlayerMaster.MORTIMER), Arrays.asList(unavailable, offered),
+                            state, false, true, true, true, true, Collections.emptySet(), Collections.emptySet());
+                        require(!zeros.isVisible(), "Disabling hide-zero displays regular zero-chance masters directly");
+                        panel.showResults(Collections.singletonList("Abyssal demons"), "Abyssal demons", null,
+                            Arrays.asList(SlayerMaster.NIEVE, SlayerMaster.MORTIMER), Arrays.asList(unavailable, offered),
+                            state, true, true, true, true, true, Collections.emptySet(), Collections.emptySet());
+                        require(zeros.isVisible() && !zeros.isSelected(), "Re-enabling hide-zero starts collapsed");
                     }
                     catch (ReflectiveOperationException ex) { throw new AssertionError(ex); }
                     panel.showResults(Collections.singletonList("Abyssal demons"), "Abyssal demons", null,

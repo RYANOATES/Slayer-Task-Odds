@@ -226,6 +226,13 @@ public class SlayerOddsPlugin extends Plugin
                 SwingUtilities.invokeLater(() -> { if (running) createPanel(); });
                 return;
             }
+            if ("hideZeroChanceMasters".equals(event.getKey()))
+            {
+                SlayerOddsPanel target = panel;
+                if (target != null) SwingUtilities.invokeLater(() -> {
+                    if (running && panel == target) target.collapseZeroChanceMasters();
+                });
+            }
             if ("routeToBestMaster".equals(event.getKey()) && !config.routeToBestMaster())
             {
                 resetRouteSelection();

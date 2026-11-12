@@ -1,5 +1,18 @@
 # Changelog
 
+## 2.0.1 - 2026-11-12
+
+### Bug Fixes
+
+- Fixed the full changelist appearing blank in the Plugin Hub version by including the release notes in the packaged plugin.
+- Fixed the Fractured Archive theme's “Click me!” hint appearing on a separate line from “What's new”.
+- Fixed the 0.00% masters section remaining expanded when its masters were disabled and re-enabled, or the hide setting was switched off and on.
+- Reduced the parchment texture's decoded size to address a Plugin Hub oversized-image build error, and trimmed its bright top edge.
+
+### Minor Changes
+
+- Added a small hint at the top of the panel explaining where to change themes.
+
 ## 2.0.0 - 2026-11-11
 
 ### Main Updates
