@@ -559,7 +559,7 @@ final class SlayerOddsPanel extends PluginPanel
         clickHint.setFont(pageFont(Font.PLAIN, 10));
         clickHint.setForeground(MUTED);
         clickHint.setIconTextGap(3);
-        JPanel changesRow = new JPanel(new BorderLayout());
+        JPanel changesRow = new JPanel(archiveTheme ? new java.awt.FlowLayout(java.awt.FlowLayout.CENTER, 2, 0) : new BorderLayout());
         changesRow.setOpaque(false);
         changesRow.setAlignmentX(CENTER_ALIGNMENT);
         JPanel balance = new JPanel();
@@ -567,9 +567,8 @@ final class SlayerOddsPanel extends PluginPanel
         balance.setPreferredSize(clickHint.getPreferredSize());
         if (archiveTheme)
         {
-            clickHint.setHorizontalAlignment(SwingConstants.CENTER);
-            changesRow.add(changes, BorderLayout.CENTER);
-            changesRow.add(clickHint, BorderLayout.SOUTH);
+            changesRow.add(changes);
+            changesRow.add(clickHint);
         }
         else
         {
@@ -577,8 +576,7 @@ final class SlayerOddsPanel extends PluginPanel
             changesRow.add(changes, BorderLayout.CENTER);
             changesRow.add(clickHint, BorderLayout.EAST);
         }
-        changesRow.setMaximumSize(new Dimension(Integer.MAX_VALUE, changes.getPreferredSize().height
-            + (archiveTheme ? clickHint.getPreferredSize().height : 0)));
+        changesRow.setMaximumSize(new Dimension(Integer.MAX_VALUE, changes.getPreferredSize().height));
         add(changesRow);
     }
 
@@ -816,6 +814,7 @@ final class SlayerOddsPanel extends PluginPanel
             if (line.startsWith("### ")) html.append("<br><b>").append(clean.substring(4)).append("</b><br>");
             else if (line.startsWith("## ")) html.append("<b>").append(clean.substring(3)).append("</b><br>");
             else if (line.startsWith("- ")) html.append("&#8226; ").append(clean.substring(2)).append("<br><br>");
+            else if (!line.trim().isEmpty()) html.append(clean).append("<br>");
         }
         html.append("</body></html>");
         javax.swing.JEditorPane full = new javax.swing.JEditorPane("text/html", html.toString());

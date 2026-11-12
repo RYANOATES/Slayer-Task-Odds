@@ -39,10 +39,6 @@ tasks.withType(JavaCompile).configureEach {
     options.release.set(11)
 }
 
-processResources {
-    from('CHANGELOG.md') { into 'slayertaskodds' }
-}
-
 
 
 

@@ -89,6 +89,12 @@ public final class SlayerOddsVerification
         for (SlayerMaster master : SlayerMaster.values())
             require(!SlayerOddsPlugin.masterEnabled(disabled, master), "Disabled masters are excluded: " + master);
         String latestNotes = ReleaseNotes.latest();
+        String sourceNotes = java.nio.file.Files.readString(java.nio.file.Path.of("CHANGELOG.md"), java.nio.charset.StandardCharsets.UTF_8).replace("\r\n", "\n");
+        try (java.io.InputStream bundled = ReleaseNotes.class.getResourceAsStream("/slayertaskodds/CHANGELOG.md"))
+        {
+            require(bundled != null && sourceNotes.equals(new String(bundled.readAllBytes(), java.nio.charset.StandardCharsets.UTF_8).replace("\r\n", "\n")),
+                "Packaged changelog must match the published changelog");
+        }
         require(latestNotes.startsWith("## 2.0.0") && latestNotes.contains("### Settings Changes")
             && latestNotes.contains("### Minor Changes") && !latestNotes.contains("## 1.6.2"),
             "Popup reads the complete current release from the bundled changelog");
@@ -127,7 +133,17 @@ public final class SlayerOddsVerification
                         javax.swing.AbstractButton changes = findButton(panel, "What's new");
                         require(changes != null, "What's new button exists");
                         int centre = javax.swing.SwingUtilities.convertPoint(changes, changes.getWidth() / 2, 0, panel).x;
-                        require(Math.abs(centre - panel.getWidth() / 2) <= 2,
+                        if (layout == SlayerPanelLayout.ARCHIVE)
+                        {
+                            javax.swing.JLabel hint = findLabel(panel, "Click me!");
+                            require(hint != null && Math.abs((hint.getY() + hint.getHeight() / 2)
+                                - (changes.getY() + changes.getHeight() / 2)) <= 1
+                                && hint.getX() >= changes.getX() + changes.getWidth()
+                                && hint.getWidth() >= hint.getPreferredSize().width
+                                && changes.getWidth() >= changes.getPreferredSize().width,
+                                "Archive release button and hint must fit on the same line at width " + width);
+                        }
+                        else require(Math.abs(centre - panel.getWidth() / 2) <= 2,
                             "What's new must be centred at width " + width + " in " + layout + " / " + theme);
                     }
                     try
